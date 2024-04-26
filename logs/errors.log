@@ -1,0 +1,3 @@
+[11:37:15] [plugins/mysql] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[11:37:15] [plugins/mysql] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:121)
+[11:37:15] [plugins/mysql] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:121)

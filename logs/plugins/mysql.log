@@ -1,0 +1,298 @@
+[18:05:41] [ERROR] mysql_format: invalid connection handle '0' (../src/systems/auth/auth.pwn:134)
+[18:05:41] [ERROR] mysql_tquery: invalid connection handle '0' (../src/systems/auth/auth.pwn:141)
+[19:21:55] [ERROR] mysql_connect_file: handle error: syntax error in connection file (line: "password =") (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:130)
+[19:21:55] [ERROR] mysql_set_charset: invalid connection handle '0' (../src/core/database/database.pwn:6 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:130)
+[19:21:55] [ERROR] mysql_errno: invalid connection handle '0' (../src/core/database/database.pwn:10 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:130)
+[19:21:55] [ERROR] mysql_errno: invalid connection handle '0' (../src/core/database/database.pwn:10 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:130)
+[19:21:55] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[19:22:18] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:130)
+[19:22:18] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[19:22:29] [ERROR] mysql_tquery: callback error: callback "DB__IsCheckAccount" does not exist (../src/systems/auth/auth.pwn:141)
+[19:26:11] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:130)
+[19:26:11] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[19:26:38] [ERROR] mysql_tquery: callback error: callback "DB__IsCheckAccount" does not exist (../src/systems/auth/auth.pwn:141)
+[19:27:44] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:130)
+[19:27:44] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[19:28:15] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[19:28:15] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.804 milliseconds
+[19:28:15] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[19:28:15] [INFO] Callback successfully executed.
+[19:28:20] [INFO] Callback 'DB__CreateAccountDone' set up for delayed execution.
+[19:28:20] [INFO] query "INSERT INTO `accounts` (`name`, `password`) VALUES ('Stas_Wilson', 'tjob345stas')" successfully executed within 2.412 milliseconds
+[19:28:20] [INFO] Executing callback 'DB__CreateAccountDone' with 1 parameter...
+[19:28:20] [INFO] Callback successfully executed.
+[19:32:06] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:130)
+[19:32:06] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[19:32:11] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[19:32:11] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.502 milliseconds
+[19:32:11] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[19:32:11] [INFO] Callback successfully executed.
+[19:32:21] [INFO] Callback 'DB__CreateAccountDone' set up for delayed execution.
+[19:32:21] [INFO] query "INSERT INTO `accounts` (`name`, `password`) VALUES ('Stas_Wilson', 'qwerty')" successfully executed within 1.351 milliseconds
+[19:32:21] [INFO] Executing callback 'DB__CreateAccountDone' with 1 parameter...
+[19:32:21] [INFO] Callback successfully executed.
+[19:33:45] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[19:33:45] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.479 milliseconds
+[19:33:45] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[19:33:45] [INFO] Callback successfully executed.
+[19:33:54] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[19:33:54] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.452 milliseconds
+[19:33:54] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[19:33:54] [INFO] Callback successfully executed.
+[21:53:35] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:130)
+[21:53:35] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[21:54:07] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[21:54:07] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 5.685 milliseconds
+[21:54:07] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[21:54:07] [INFO] Callback successfully executed.
+[21:54:11] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[21:54:11] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'zmnation0'" successfully executed within 1.797 milliseconds
+[21:54:11] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[21:54:11] [INFO] Callback successfully executed.
+[21:55:15] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:130)
+[21:55:15] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[21:55:31] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[21:55:31] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.533 milliseconds
+[21:55:31] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[21:55:31] [INFO] Callback successfully executed.
+[21:55:37] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[21:55:37] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.681 milliseconds
+[21:55:37] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[21:55:37] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[21:55:37] [INFO] Callback successfully executed.
+[21:55:37] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 2.160 milliseconds
+[21:55:37] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[21:55:37] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:103)
+[21:55:37] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:103)
+[21:55:37] [INFO] Callback successfully executed.
+[10:36:27] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\test\pawno\include\sscanf2.inc:1065)
+[10:36:27] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[10:36:55] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[10:36:55] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.671 milliseconds
+[10:36:55] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[10:36:55] [INFO] Callback successfully executed.
+[10:37:01] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[10:37:01] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.435 milliseconds
+[10:37:01] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[10:37:01] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[10:37:01] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[10:37:01] [INFO] Callback successfully executed.
+[10:37:01] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.501 milliseconds
+[10:37:01] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[10:37:01] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:106)
+[10:37:01] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:106)
+[10:37:01] [INFO] Callback successfully executed.
+[10:41:04] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\test\pawno\include\sscanf2.inc:1065)
+[10:41:04] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[10:41:18] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[10:41:18] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.627 milliseconds
+[10:41:18] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[10:41:18] [INFO] Callback successfully executed.
+[10:41:23] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[10:41:23] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.444 milliseconds
+[10:41:23] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[10:41:23] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[10:41:23] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[10:41:23] [INFO] Callback successfully executed.
+[10:41:23] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.395 milliseconds
+[10:41:23] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[10:41:23] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:106)
+[10:41:23] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:106)
+[10:41:23] [INFO] Callback successfully executed.
+[10:42:48] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\test\pawno\include\sscanf2.inc:1065)
+[10:42:48] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[10:43:02] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[10:43:02] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.475 milliseconds
+[10:43:02] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[10:43:02] [INFO] Callback successfully executed.
+[10:43:04] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[10:43:04] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'wqerty'" successfully executed within 0.429 milliseconds
+[10:43:04] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[10:43:04] [INFO] Callback successfully executed.
+[10:43:06] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[10:43:06] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.451 milliseconds
+[10:43:06] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[10:43:06] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[10:43:06] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[10:43:06] [INFO] Callback successfully executed.
+[10:43:06] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.411 milliseconds
+[10:43:06] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[10:43:06] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:106)
+[10:43:06] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:106)
+[10:43:06] [INFO] Callback successfully executed.
+[10:47:50] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\test\pawno\include\sscanf2.inc:1065)
+[10:47:50] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[10:48:06] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[10:48:06] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.560 milliseconds
+[10:48:06] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[10:48:06] [INFO] Callback successfully executed.
+[10:48:09] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[10:48:09] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'zmnation0'" successfully executed within 0.425 milliseconds
+[10:48:09] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[10:48:09] [INFO] Callback successfully executed.
+[10:48:11] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[10:48:11] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.442 milliseconds
+[10:48:11] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[10:48:11] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[10:48:11] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[10:48:11] [INFO] Callback successfully executed.
+[10:48:11] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.511 milliseconds
+[10:48:11] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[10:48:11] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:106)
+[10:48:11] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:106)
+[10:48:11] [INFO] Callback successfully executed.
+[10:53:43] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\test\pawno\include\sscanf2.inc:1065)
+[10:53:43] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[10:53:57] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[10:53:57] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.525 milliseconds
+[10:53:57] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[10:53:57] [INFO] Callback successfully executed.
+[10:54:00] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[10:54:00] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.476 milliseconds
+[10:54:00] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[10:54:00] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[10:54:00] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[10:54:00] [INFO] Callback successfully executed.
+[10:54:00] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.464 milliseconds
+[10:54:00] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[10:54:00] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:106)
+[10:54:00] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:106)
+[10:54:00] [INFO] Callback successfully executed.
+[10:58:14] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\test\pawno\include\sscanf2.inc:1065)
+[10:58:14] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[10:58:18] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\test\pawno\include\sscanf2.inc:1065)
+[10:58:18] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[10:58:33] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[10:58:33] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.487 milliseconds
+[10:58:33] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[10:58:33] [INFO] Callback successfully executed.
+[10:58:35] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[10:58:35] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.433 milliseconds
+[10:58:35] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[10:58:35] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[10:58:35] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[10:58:35] [INFO] Callback successfully executed.
+[10:58:35] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.402 milliseconds
+[10:58:35] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[10:58:35] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:106)
+[10:58:35] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:106)
+[10:58:35] [INFO] Callback successfully executed.
+[11:00:12] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\test\pawno\include\sscanf2.inc:1065)
+[11:00:12] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[11:00:27] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[11:00:27] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.500 milliseconds
+[11:00:27] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[11:00:27] [INFO] Callback successfully executed.
+[11:00:29] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[11:00:29] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.450 milliseconds
+[11:00:29] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[11:00:29] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[11:00:29] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[11:00:29] [INFO] Callback successfully executed.
+[11:00:29] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.373 milliseconds
+[11:00:29] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[11:00:29] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:106)
+[11:00:29] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:106)
+[11:00:29] [INFO] Callback successfully executed.
+[11:03:45] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\test\pawno\include\sscanf2.inc:1065)
+[11:03:45] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[11:04:00] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[11:04:00] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.469 milliseconds
+[11:04:00] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[11:04:00] [INFO] Callback successfully executed.
+[11:04:03] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[11:04:03] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.481 milliseconds
+[11:04:03] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[11:04:03] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[11:04:03] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[11:04:03] [INFO] Callback successfully executed.
+[11:04:03] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.396 milliseconds
+[11:04:03] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[11:04:03] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:121)
+[11:04:03] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:121)
+[11:04:03] [INFO] Callback successfully executed.
+[11:12:58] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\test\pawno\include\sscanf2.inc:1065)
+[11:12:58] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[11:13:13] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[11:13:13] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.570 milliseconds
+[11:13:13] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[11:13:13] [INFO] Callback successfully executed.
+[11:13:15] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[11:13:15] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.437 milliseconds
+[11:13:15] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[11:13:15] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[11:13:15] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[11:13:15] [INFO] Callback successfully executed.
+[11:13:15] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.410 milliseconds
+[11:13:15] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[11:13:15] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:121)
+[11:13:15] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:121)
+[11:13:15] [INFO] Callback successfully executed.
+[11:18:57] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\test\pawno\include\sscanf2.inc:1065)
+[11:18:57] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[11:19:14] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[11:19:14] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.541 milliseconds
+[11:19:14] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[11:19:14] [INFO] Callback successfully executed.
+[11:19:16] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[11:19:16] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.466 milliseconds
+[11:19:16] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[11:19:16] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[11:19:16] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[11:19:16] [INFO] Callback successfully executed.
+[11:19:16] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.460 milliseconds
+[11:19:16] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[11:19:16] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:121)
+[11:19:16] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:121)
+[11:19:16] [INFO] Callback successfully executed.
+[11:23:15] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\test\pawno\include\sscanf2.inc:1065)
+[11:23:15] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[11:23:31] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[11:23:31] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.504 milliseconds
+[11:23:31] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[11:23:31] [INFO] Callback successfully executed.
+[11:23:33] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[11:23:33] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.428 milliseconds
+[11:23:33] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[11:23:33] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[11:23:33] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[11:23:33] [INFO] Callback successfully executed.
+[11:23:33] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.442 milliseconds
+[11:23:33] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[11:23:33] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:121)
+[11:23:33] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:121)
+[11:23:33] [INFO] Callback successfully executed.
+[11:32:37] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\test\pawno\include\sscanf2.inc:1065)
+[11:32:37] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[11:32:51] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[11:32:51] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.532 milliseconds
+[11:32:51] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[11:32:51] [INFO] Callback successfully executed.
+[11:33:10] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[11:33:10] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.475 milliseconds
+[11:33:10] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[11:33:10] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[11:33:10] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[11:33:10] [INFO] Callback successfully executed.
+[11:33:10] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.437 milliseconds
+[11:33:10] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[11:33:10] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:121)
+[11:33:10] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:121)
+[11:33:10] [INFO] Callback successfully executed.
+[11:35:52] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\test\pawno\include\sscanf2.inc:1065)
+[11:35:52] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[11:36:07] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[11:36:07] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.559 milliseconds
+[11:36:07] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[11:36:07] [INFO] Callback successfully executed.
+[11:37:15] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[11:37:15] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.487 milliseconds
+[11:37:15] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[11:37:15] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[11:37:15] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[11:37:15] [INFO] Callback successfully executed.
+[11:37:15] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.767 milliseconds
+[11:37:15] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[11:37:15] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:121)
+[11:37:15] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:121)
+[11:37:15] [INFO] Callback successfully executed.
