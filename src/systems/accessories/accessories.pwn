@@ -70,20 +70,6 @@ stock SetPlayerAttachedObjectEx(playerid, a_index, a_modelid, a_boneid, Float: a
         GetPlayerAccSlot(playerid, acc_slot, E_PA_MATCOLOR_2)
     );
 
-    printf("%d %d %d %f %f %f %f %f %f %f %f %f %d %d",         GetPlayerAccSlot(playerid, acc_slot, E_PA_SLOT),
-        GetPlayerAccSlot(playerid, acc_slot, E_PA_MODEL),
-        GetPlayerAccSlot(playerid, acc_slot, E_PA_BONE),
-        GetPlayerAccSlot(playerid, acc_slot, E_PA_OFFSET_X),
-        GetPlayerAccSlot(playerid, acc_slot, E_PA_OFFSET_Y),
-        GetPlayerAccSlot(playerid, acc_slot, E_PA_OFFSET_Z),
-        GetPlayerAccSlot(playerid, acc_slot, E_PA_ROT_X),
-        GetPlayerAccSlot(playerid, acc_slot, E_PA_ROT_Y),
-        GetPlayerAccSlot(playerid, acc_slot, E_PA_ROT_Z),
-        GetPlayerAccSlot(playerid, acc_slot, E_PA_SCALE_X),
-        GetPlayerAccSlot(playerid, acc_slot, E_PA_SCALE_Y),
-        GetPlayerAccSlot(playerid, acc_slot, E_PA_SCALE_Z),
-        GetPlayerAccSlot(playerid, acc_slot, E_PA_MATCOLOR_1),
-        GetPlayerAccSlot(playerid, acc_slot, E_PA_MATCOLOR_2));
     return 1;
 }
 
@@ -674,8 +660,6 @@ DialogResponse:D_GIVE_ACCESSORY(playerid, response, listitem, inputtext[])
         model = g_accessories[accessory_item_id][E_ACC_MODEL];
     
     g_player_data[to_player][PLAYER_ACCESSORY][slot_index] = model;
-
-    printf("slot_index %d", slot_index);
     
     Accessories:SetPlayerAttached(to_player, model, slot_index);
 
