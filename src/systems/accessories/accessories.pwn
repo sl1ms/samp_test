@@ -77,7 +77,7 @@ stock Accessories:LoadPlayerData(playerid)
 {
     new acs_query[128];
 
-    mysql_format(mysql, acs_query, sizeof acs_query, "SELECT * FROM `accessories` WHERE `account_id` = '%d'", GetPlayerData(playerid, PLAYER_ID));
+    mysql_format(mysql, acs_query, sizeof acs_query, "SELECT * FROM "DB_ACCESSORIES" WHERE `account_id` = '%d'", GetPlayerData(playerid, PLAYER_ID));
 
     mysql_tquery(mysql, acs_query, DatabaseText(Database:LoadPlayerAccessory), "d", playerid);
     return 1;
@@ -188,19 +188,20 @@ stock Accessories:SetPlayerAttached(playerid, model, accessory_slot = INVALID_AC
     return slot;
 }
 
-public: Accessories:InsertData(playerid, accessory_slot, inventory_slot)
+public: Accessories:InsertAccessoryData(playerid, accessory_slot, slot)
 {
     new sql_id = cache_insert_id();
 
     if(sql_id != INVALID_ACC_INDEX)
     {
+        new   
+            accessory_item_id = GetPVarInt(playerid, #SELECT_ACCESSORY_ITEM);
+
+        g_player_data[playerid][PLAYER_ACCESSORY][slot] = accessory_item_id;
         g_player_accessory[playerid][accessory_slot][E_PA_USED] = true;
         g_player_accessory[playerid][accessory_slot][E_PA_SQL_ID] = sql_id;
 
-
         SendClientMessage(playerid, -1, "Вы успешно надели аксессуар.");
-        Accessories:Update(playerid);
-
     }
     return 1;
 }
@@ -212,7 +213,6 @@ stock Accessories:UnAttachAcc(playerid, accessory_slot)
     if(model == 0)
         return 0;
 
-
     if(IsPlayerAttachedObjectSlotUsed(playerid, accessory_slot))
         RemovePlayerAttachedObject(playerid, accessory_slot);
 
@@ -220,7 +220,7 @@ stock Accessories:UnAttachAcc(playerid, accessory_slot)
     format
     (
         query, sizeof query,
-        "DELETE FROM `accessories` WHERE `account_id` = '%i' AND `id` = '%i'",
+        "DELETE FROM "DB_ACCESSORIES" WHERE `account_id` = '%i' AND `id` = '%i'",
         GetPlayerData(playerid, PLAYER_ID), GetPlayerAccSlot(playerid, accessory_slot, E_PA_SQL_ID)
     );
     mysql_tquery(mysql, query);
@@ -245,13 +245,12 @@ stock Accessories:Save(playerid, bool: is_disconnect = false)
         format
         (
             query, sizeof(query),
-            "UPDATE `accessories` SET \
+            "UPDATE "DB_ACCESSORIES" SET \
             `slot` = '%i',\
             `model` = '%i',\
             `extra` = '%i',\
             `bone` = '%i',\
             `category` = '%i',\
-            `w_slot` = '%i',\
             `offset_x` = '%f',\
             `offset_y` = '%f',\
             `offset_z` = '%f',\
@@ -262,13 +261,12 @@ stock Accessories:Save(playerid, bool: is_disconnect = false)
             `scale_y` = '%f',\
             `scale_z` = '%f',\
             `materialcolor1` = '%i',\n\
-            `materialcolor2` = '%i' WHERE `owner_idx` = '%i' AND `id` = '%i'",
+            `materialcolor2` = '%i' WHERE `account_id` = '%i' AND `id` = '%i'",
             GetPlayerAccSlot(playerid, i, E_PA_SLOT),
             GetPlayerAccSlot(playerid, i, E_PA_MODEL),
             GetPlayerAccSlot(playerid, i, E_PA_EXTRA),
             GetPlayerAccSlot(playerid, i, E_PA_BONE),
             GetPlayerAccSlot(playerid, i, E_PA_TYPE),
-            GetPlayerAccSlot(playerid, i, E_PA_W_SLOT),
             GetPlayerAccSlot(playerid, i, E_PA_OFFSET_X),
             GetPlayerAccSlot(playerid, i, E_PA_OFFSET_Y),
             GetPlayerAccSlot(playerid, i, E_PA_OFFSET_Z),
@@ -308,10 +306,10 @@ stock Accessories:IsAttachType(playerid, model)
     for(new i; i < MAX_PLAYER_ATTACHED_OBJECTS; i++)
     {
         if(IsPlayerAttachedObjectSlotUsed(playerid, slot))
-            return true;
+            return 1;
     }
 
-    return false;
+    return 0;
 }
 
 stock Accessories:Update(playerid)
@@ -447,29 +445,33 @@ DialogResponse:D_ACCESSORY_LIST(playerid, response, listitem, inputtext[])
 
 DialogCreate:D_MY_ACCESSORIES(playerid)
 {
-
+    new accessories_count;
     for(new accessory_slot; accessory_slot < MAX_MY_ACCESSORIES; accessory_slot++)
     {
         new model = GetPlayerAccSlot(playerid, accessory_slot, E_PA_MODEL);
+
+        if(model == 0)
+            continue;
 
         format
         (
             FormatData_2048,
             sizeof FormatData_2048,
-            "%s%d\t%s\n", FormatData_2048,
-            accessory_slot,
+            "%s%d. %s\n", FormatData_2048,
+            accessories_count,
             Accessories:GetItemName(model)
         );
+
+        accessories_count++;
     }
 
-    new dialog_header[70];
-
-	strcat(dialog_header, ""c_white"Номер слота\tНаиманование аксессуара\n");
+    if(!accessories_count)
+        return SendClientMessage(playerid, -1, "У вас нет доступных аксессуаров.");
 
     Dialog_Open
     (
         playerid, 
-        Dialog: D_MY_ACCESSORIES, DIALOG_STYLE_TABLIST_HEADERS,
+        Dialog: D_MY_ACCESSORIES, DIALOG_STYLE_LIST,
         "Мои аксессуары", 
         FormatData_2048,
         "Выбрать", "Закрыть"
@@ -482,21 +484,33 @@ DialogResponse:D_MY_ACCESSORIES(playerid, response, listitem, inputtext[])
 {
     if(!response) return 1;
 
-    
-    
+    SetPVarInt(playerid, #SELECT_ACCESSORY_INDEX, listitem);
 
+    Dialog_Show(playerid, Dialog: D_MY_ACCESSORIES_ACTION);
+    
     return 1;
 }
 
 DialogCreate:D_MY_ACCESSORIES_ACTION(playerid)
 {
+    new 
+        accessory_slot = GetPVarInt(playerid, #SELECT_ACCESSORY_INDEX),
+        model = GetPlayerAccSlot(playerid, accessory_slot, E_PA_MODEL);
+
+    format
+    (
+        FormatData_2048, sizeof FormatData_2048, "Аксессуар [%s]:\n\n\
+        Посмотреть информацию об аксессуаре\n\
+        Редактировать аксессуар",
+        Accessories:GetItemName(model)     
+    );
+
     Dialog_Open
     (
         playerid, 
         Dialog:D_MY_ACCESSORIES_ACTION, DIALOG_STYLE_LIST,
-        "Выберите действие","\
-        Посмотреть информацию об аксессуаре\n\
-        Редактировать аксессуар",
+        "Выберите действие",
+        FormatData_2048,
         "Выбрать", "Назад"
     );
     return 1;
@@ -510,10 +524,11 @@ DialogResponse:D_MY_ACCESSORIES_ACTION(playerid, response, listitem, inputtext[]
         return 1;
     }
 
-    switch(listitem)
-    {
-        case 0: Dialog_Show(playerid, Dialog: D_MY_ACCESSORIES_INFO);
-        case 1: Dialog_Show(playerid, Dialog: D_MY_ACCESSORIES_EDIT);
+    if(strfind(inputtext, "Посмотреть информацию об аксессуаре") != -1) {
+        Dialog_Show(playerid, Dialog: D_MY_ACCESSORIES_INFO);
+    }
+    if(strfind(inputtext, "Редактировать аксессуар") != -1) {
+        Dialog_Show(playerid, Dialog: D_MY_ACCESSORIES_EDIT);
     }
 
     return 1;
@@ -521,12 +536,17 @@ DialogResponse:D_MY_ACCESSORIES_ACTION(playerid, response, listitem, inputtext[]
 
 DialogCreate:D_MY_ACCESSORIES_INFO(playerid)
 {
+    new 
+        accessory_slot = GetPVarInt(playerid, #SELECT_ACCESSORY_INDEX),
+        model = GetPlayerAccSlot(playerid, accessory_slot, E_PA_MODEL);
+
     format
     (
         FormatData_2048, 
         sizeof FormatData_2048,"\
         Наименование аксессуара: %s\n\
-        Описание аксессуара: %s"
+        Описание аксессуара: -",
+        Accessories:GetItemName(model)
     );
 
     Dialog_Open
@@ -543,9 +563,8 @@ DialogCreate:D_MY_ACCESSORIES_INFO(playerid)
 DialogResponse:D_MY_ACCESSORIES_INFO(playerid, response, listitem, inputtext[])
 {
     if(!response) 
-    {
         return 1;
-    }
+
     Dialog_Show(playerid, Dialog: D_MY_ACCESSORIES_ACTION);
     return 1;
 }
@@ -574,9 +593,59 @@ DialogResponse:D_MY_ACCESSORIES_EDIT(playerid, response, listitem, inputtext[])
 
     switch(listitem)
     {
-        case 0: Dialog_Show(playerid, Dialog: D_MY_ACCESSORIES_EDIT_POS);
+        case 0:
+        {
+            new   
+                accessory_slot = GetPVarInt(playerid, #SELECT_ACCESSORY_INDEX);
+
+            SetPVarInt(playerid, #ACCESSORY_EDIT, 1); 
+
+            EditAttachedObject(playerid, GetPlayerAccSlot(playerid, accessory_slot, E_PA_SLOT));
+        }
         case 1: Dialog_Show(playerid, Dialog: D_MY_ACCESSORIES_EDIT_DEL);
     }
+    return 1;
+}
+
+
+DialogCreate:D_MY_ACCESSORIES_EDIT_DEL(playerid)
+{
+    new   
+        accessory_slot = GetPVarInt(playerid, #SELECT_ACCESSORY_INDEX),
+        model = GetPlayerAccSlot(playerid, accessory_slot, E_PA_MODEL);
+
+    format
+    (
+        FormatData_2048, sizeof FormatData_2048,
+        ""c_white"Вы действительно хотите удалить данный аксессуар %s",
+        Accessories:GetItemName(model)
+    );
+    Dialog_Open
+    (
+        playerid, 
+        Dialog: D_MY_ACCESSORIES_EDIT_DEL, DIALOG_STYLE_MSGBOX,
+        "Подтверждение удаления",
+        FormatData_2048,
+        "Да", "Нет"
+    );
+    return 1;
+}
+
+DialogResponse:D_MY_ACCESSORIES_EDIT_DEL(playerid, response, listitem, inputtext[])
+{
+    new accessory_slot = GetPVarInt(playerid, #SELECT_ACCESSORY_INDEX);
+
+    if(!response) 
+    {
+        DeletePVar(playerid, #SELECT_ACCESSORY_INDEX);
+        SendClientMessage(playerid, -1, "Вы отменили действие удаления аксессуара.");
+        return 1;
+    }
+
+    Accessories:UnAttachAcc(playerid, accessory_slot);
+
+    SendClientMessage(playerid, -1, "Вы успешно удалили данный аксессуар.");
+    
     return 1;
 }
 
@@ -658,12 +727,40 @@ DialogResponse:D_GIVE_ACCESSORY(playerid, response, listitem, inputtext[])
     new   
         accessory_item_id = GetPlayerListItem(playerid, listitem),
         model = g_accessories[accessory_item_id][E_ACC_MODEL];
-    
-    g_player_data[to_player][PLAYER_ACCESSORY][slot_index] = model;
-    
-    Accessories:SetPlayerAttached(to_player, model, slot_index);
 
-    EditAttachedObject(to_player, g_accessories[accessory_item_id][E_ACC_TYPE_SLOT]);
+
+    SetPVarInt(playerid, #SELECT_ACCESSORY_ITEM, GetPlayerListItem(playerid, listitem));
+
+    new acc_slot = Accessories:SetPlayerAttached(to_player, model, slot_index);
+
+    if(acc_slot != -1)
+    {
+        new query[380];
+        format
+        (
+            query, sizeof(query),
+            "INSERT INTO "DB_ACCESSORIES" (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,\
+                `rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES \
+                (%i, %i, %i, %i, %i, %i, %f, %f, %f, %f, %f, %f, %f, %f, %f, %i, %i)",
+            GetPlayerData(to_player, PLAYER_ID), acc_slot,
+            GetPlayerAccSlot(to_player, acc_slot, E_PA_MODEL),
+            GetPlayerAccSlot(to_player, acc_slot, E_PA_EXTRA),
+            GetPlayerAccSlot(to_player, acc_slot, E_PA_BONE), 
+            Accessories:GetItemType(GetPlayerAccSlot(playerid, acc_slot, E_PA_MODEL)),
+            GetPlayerAccSlot(to_player, acc_slot, E_PA_OFFSET_X),
+            GetPlayerAccSlot(to_player, acc_slot, E_PA_OFFSET_Y),
+            GetPlayerAccSlot(to_player, acc_slot, E_PA_OFFSET_Z),
+            GetPlayerAccSlot(to_player, acc_slot, E_PA_ROT_X),
+            GetPlayerAccSlot(to_player, acc_slot, E_PA_ROT_Y),
+            GetPlayerAccSlot(to_player, acc_slot, E_PA_ROT_Z),
+            GetPlayerAccSlot(to_player, acc_slot, E_PA_SCALE_X),
+            GetPlayerAccSlot(to_player, acc_slot, E_PA_SCALE_Y),
+            GetPlayerAccSlot(to_player, acc_slot, E_PA_SCALE_Z),
+            GetPlayerAccSlot(to_player, acc_slot, E_PA_MATCOLOR_1),
+            GetPlayerAccSlot(to_player, acc_slot, E_PA_MATCOLOR_2)
+        );
+        mysql_tquery(mysql, query, DatabaseText(Database:InsertAccessoryData), "ddd", to_player, acc_slot, slot_index);
+    }
 
     return 1;
 }
@@ -697,26 +794,35 @@ stock Accessories:EditAttachedObject(playerid, response, index, modelid, boneid,
 {
     #pragma unused modelid, boneid, index 
 
-    if(response) 
+    if(GetPVarInt(playerid, #ACCESSORY_EDIT) == 1)
     {
+        new   
+            accessory_slot = GetPVarInt(playerid, #SELECT_ACCESSORY_INDEX),
+            acc_slot = GetPlayerAccSlot(playerid, accessory_slot, E_PA_SLOT);
 
-        SetAttachEditInfo(playerid, E_OFFSET_X, fOffsetX);
-        SetAttachEditInfo(playerid, E_OFFSET_Y, fOffsetY);
-        SetAttachEditInfo(playerid, E_OFFSET_Z, fOffsetZ);
+        if(response) 
+        {
 
-        SetAttachEditInfo(playerid, E_ROT_X, fRotX);
-        SetAttachEditInfo(playerid, E_ROT_Y, fRotY);
-        SetAttachEditInfo(playerid, E_ROT_Z, fRotZ);
-        SetAttachEditInfo(playerid, E_SCALE_X, fScaleX);
-        SetAttachEditInfo(playerid, E_SCALE_Y, fScaleY);
-        SetAttachEditInfo(playerid, E_SCALE_Z, fScaleZ);
+            SetPlayerAccSlot(playerid, acc_slot, E_PA_OFFSET_X, fOffsetX);
+            SetPlayerAccSlot(playerid, acc_slot, E_PA_OFFSET_Y, fOffsetY);
+            SetPlayerAccSlot(playerid, acc_slot, E_PA_OFFSET_Z, fOffsetZ);
 
+            SetPlayerAccSlot(playerid, acc_slot, E_PA_ROT_X, fRotX);
+            SetPlayerAccSlot(playerid, acc_slot, E_PA_ROT_Y, fRotY);
+            SetPlayerAccSlot(playerid, acc_slot, E_PA_ROT_Z, fRotZ);
 
-       // Accesories:Save(playerid);
-    }
-    else 
-    {
-    
+            SetPlayerAccSlot(playerid, acc_slot, E_PA_SCALE_X, fScaleX);
+            SetPlayerAccSlot(playerid, acc_slot, E_PA_SCALE_Y, fScaleY);
+            SetPlayerAccSlot(playerid, acc_slot, E_PA_SCALE_Z, fScaleZ);
+
+            SendClientMessage(playerid, -1, "Вы успешно обновили параметры аксессуара!");
+
+            Accessories:Save(playerid);
+        }
+        else 
+        {
+            SendClientMessage(playerid, -1, "Вы отменили редактирование аксессуара!");
+        }
     }
     return 1;
 }

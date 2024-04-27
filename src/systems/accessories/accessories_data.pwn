@@ -1,7 +1,9 @@
 #define Accessories:%0(%1)                   ACS_%0(%1)
 
 #define MAX_ACCESSORIES                     sizeof g_accessories
-#define MAX_MY_ACCESSORIES                  3
+#define MAX_MY_ACCESSORIES                  MAX_PLAYER_ATTACHED_OBJECTS
+
+#define DB_ACCESSORIES                      "`accessories`"
 
 #define GetPlayerAccSlot(%0,%1,%2)          g_player_accessory[%0][%1][%2]
 #define SetPlayerAccSlot(%0,%1,%2,%3)       g_player_accessory[%0][%1][%2] = %3
@@ -143,3 +145,4 @@ new g_accessories[][E_ACCESSORIES_STRUCT] =
     {A_SLOT_HANDS,      A_TYPE_WATCHES,  "×àñû",             19039, A_OBJECT_BONE_RIGHT_HAND, -0.018999,-0.003998,-0.001999, 51.200016,53.199977,142.800018, 0.963999,0.916999,1.000000},
     {A_SLOT_BODY,       A_TYPE_BACKPACK,  "Ðþêçàê",            19559, A_OBJECT_BONE_SPINE, -0.204000,-0.064999,-0.002999 ,  -0.600000,-1.100000,0.000000 ,  1.075999,0.918998,0.905000}
 };
+

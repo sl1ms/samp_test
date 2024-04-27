@@ -23,5 +23,6 @@ new g_player_data_default[E_PLAYER_DATA] = {
     -1, // PLAYER_ID
     "", // PLAYER_NAME
     "", // PLAYER_PASSWORD
+    {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1},
     false
 };
