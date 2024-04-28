@@ -5,8 +5,6 @@ stock Database:Init()
 
     mysql_set_charset("cp1251", mysql);
 
-	print("sdasd");
-
     printf(
         mysql_errno(mysql) ? "[MySQL] Подключение к основной базе данных не прошло (%d)" : "[MySQL] Подключение к основной базе данных прошло успешно",
         mysql_errno(mysql)

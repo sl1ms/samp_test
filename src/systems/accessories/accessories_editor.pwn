@@ -26,27 +26,7 @@ enum E_ATTACHMENTS_EDITOR_STRUCT
 	E_MATERIALCOLOR_2
 };
 
-new g_attachments_editor[MAX_PLAYERS][E_ATTACHMENTS_EDITOR_STRUCT],
-	g_attachments_editor_default[E_ATTACHMENTS_EDITOR_STRUCT] =
-{
-	false,						// E_IS_SHOW
-	INVALID_ATTACHEDIT_INDEX,	// E_INDEX
-	INVALID_ATTACHEDIT_INDEX,	// E_MODEL
-	INVALID_ATTACHEDIT_INDEX,	// E_EXTRA
-	INVALID_ATTACHEDIT_INDEX,	// E_BONE
-	0.0,						// E_OFFSET_X
-	0.0,						// E_OFFSET_Y
-	0.0,						// E_OFFSET_Z
-	0.0,						// E_ROT_X
-	0.0,						// E_ROT_Y
-	0.0,						// E_ROT_Z
-	0.0,						// E_SCALE_X
-	0.0,						// E_SCALE_Y
-	0.0,						// E_SCALE_Z
-	0.0,						// E_STEP
-	0,							// E_MATERIALCOLOR_1
-	0							// E_MATERIALCOLOR_2
-};
+new g_attachments_editor[MAX_PLAYERS][E_ATTACHMENTS_EDITOR_STRUCT];
 
 enum
 {

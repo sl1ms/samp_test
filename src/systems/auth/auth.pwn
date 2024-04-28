@@ -78,12 +78,7 @@ public: Database:LoadPlayerData(playerid)
     if(!rows) return Dialog_Show(playerid, Dialog: D_LOGIN);
 
     cache_get_value_name_int(0, "id", GetPlayerData(playerid, PLAYER_ID));
-
-
-    new accessories_item[64];
-    cache_get_value_name(0, "accessories_item", accessories_item, sizeof accessories_item);
- 	sscanf(accessories_item, "p<,>a<d>["#MAX_MY_ACCESSORIES"]", g_player_data[playerid][PLAYER_ACCESSORY]);
-
+ 
     Accessories:LoadPlayerData(playerid);
 
     Auth:LoadPlayerDataDone(playerid);
@@ -156,9 +151,6 @@ public: Database:IsCheckAccount(playerid)
 
     return 1;
 }
-
-
-
 
 stock Auth:LoadPlayerDataDone(playerid)
 {

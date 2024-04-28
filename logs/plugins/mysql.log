@@ -296,3 +296,745 @@
 [11:37:15] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:121)
 [11:37:15] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:121)
 [11:37:15] [INFO] Callback successfully executed.
+[22:09:23] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:25 -> F:\samp\test\pawno\include\mdialog.inc:380 -> F:\samp\test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\test\pawno\include\sscanf2.inc:1065)
+[22:09:23] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: NO)'
+[22:09:23] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: NO)'
+[22:09:23] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: NO)'
+[22:09:23] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: NO)'
+[22:09:23] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[22:09:47] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[22:32:55] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[22:51:06] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[22:51:06] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 1.46 milliseconds
+[22:51:06] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[22:51:06] [INFO] Callback successfully executed.
+[22:51:09] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[22:51:09] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.757 milliseconds
+[22:51:09] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[22:51:09] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[22:51:09] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[22:51:09] [INFO] Callback successfully executed.
+[22:51:09] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 36.117 milliseconds
+[22:51:09] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[22:51:09] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:107)
+[22:51:09] [ERROR] cache_get_value_name_int: field 'w_slot' not found (../src/systems/accessories/accessories.pwn:107)
+[22:51:09] [INFO] Callback successfully executed.
+[22:53:52] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[22:54:15] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[22:54:15] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.854 milliseconds
+[22:54:15] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[22:54:15] [INFO] Callback successfully executed.
+[22:54:22] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[22:54:22] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.688 milliseconds
+[22:54:22] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[22:54:22] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[22:54:22] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[22:54:22] [INFO] Callback successfully executed.
+[22:54:22] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 4.312 milliseconds
+[22:54:22] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[22:54:22] [INFO] Callback successfully executed.
+[22:55:52] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[22:55:52] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.880 milliseconds
+[22:55:52] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[22:55:52] [INFO] Callback successfully executed.
+[22:55:55] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[22:55:55] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.718 milliseconds
+[22:55:55] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[22:55:55] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[22:55:55] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[22:55:55] [INFO] Callback successfully executed.
+[22:55:55] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 1.196 milliseconds
+[22:55:55] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[22:55:55] [INFO] Callback successfully executed.
+[22:59:24] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[22:59:46] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[22:59:46] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.653 milliseconds
+[22:59:46] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[22:59:46] [INFO] Callback successfully executed.
+[22:59:48] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[22:59:48] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.795 milliseconds
+[22:59:48] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[22:59:48] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[22:59:48] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[22:59:48] [INFO] Callback successfully executed.
+[22:59:48] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 2.380 milliseconds
+[22:59:48] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[22:59:48] [INFO] Callback successfully executed.
+[23:02:20] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[23:02:43] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[23:02:43] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.919 milliseconds
+[23:02:43] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[23:02:43] [INFO] Callback successfully executed.
+[23:02:47] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[23:02:47] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.68 milliseconds
+[23:02:47] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[23:02:47] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[23:02:47] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[23:02:47] [INFO] Callback successfully executed.
+[23:02:47] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 1.658 milliseconds
+[23:02:47] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[23:02:47] [INFO] Callback successfully executed.
+[23:05:07] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[23:05:29] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[23:05:29] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.657 milliseconds
+[23:05:29] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[23:05:29] [INFO] Callback successfully executed.
+[23:05:33] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[23:05:33] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.171 milliseconds
+[23:05:33] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[23:05:33] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[23:05:33] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[23:05:33] [INFO] Callback successfully executed.
+[23:05:33] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 1.195 milliseconds
+[23:05:33] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[23:05:33] [INFO] Callback successfully executed.
+[23:05:44] [ERROR] mysql_tquery: callback error: callback "DB__InsertAccessoryData" does not exist (../src/systems/accessories/accessories.pwn:762)
+[23:07:26] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[23:07:48] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[23:07:48] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.854 milliseconds
+[23:07:48] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[23:07:48] [INFO] Callback successfully executed.
+[23:07:53] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[23:07:53] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.334 milliseconds
+[23:07:53] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[23:07:53] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[23:07:53] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[23:07:53] [INFO] Callback successfully executed.
+[23:07:53] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 2.755 milliseconds
+[23:07:53] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[23:07:53] [INFO] Callback successfully executed.
+[23:08:07] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[23:08:07] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 19067, -1, 2, 1, 0.118997, 0.003000, -0.004000, 0.000000, 90.000000, 96.400009, 1.058998, 1.159999, 1.000000, 0, 0)" successfully executed within 107.563 milliseconds
+[23:08:07] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[23:08:07] [INFO] Callback successfully executed.
+[23:29:14] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[23:29:36] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[23:29:36] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.971 milliseconds
+[23:29:37] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[23:29:37] [INFO] Callback successfully executed.
+[23:29:43] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[23:29:43] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.811 milliseconds
+[23:29:43] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[23:29:43] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[23:29:43] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[23:29:43] [INFO] Callback successfully executed.
+[23:29:43] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 1.490 milliseconds
+[23:29:43] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[23:29:43] [INFO] Callback successfully executed.
+[23:32:50] [INFO] query "UPDATE `accessories` SET `slot` = '0',`model` = '19067',`extra` = '-1',`bone` = '2',`category` = '1',`offset_x` = '0.538996',`offset_y` = '0.003000',`offset_z` = '-0.092999',`rot_x` = '0.000000',`rot_y` = '90.000000',`rot_z` = '96.400001',`scale_x` = '1.059000',`scale_y` = '1.159999',`scale_z` = '1.000000',`materialcolor1` = '0',
+`materialcolor2` = '0' WHERE `account_id` = '1' AND `id` = '1'" successfully executed within 93.660 milliseconds
+[23:33:39] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[23:33:39] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 3, 19559, -1, 1, 8, -0.203999, -0.064998, -0.002999, -0.600000, -1.100000, 0.000000, 1.075999, 0.918998, 0.904999, 0, 0)" successfully executed within 58.941 milliseconds
+[23:33:39] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[23:33:39] [INFO] Callback successfully executed.
+[23:44:04] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[23:44:26] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[23:44:26] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.951 milliseconds
+[23:44:26] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[23:44:26] [INFO] Callback successfully executed.
+[23:44:29] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[23:44:29] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.966 milliseconds
+[23:44:29] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[23:44:29] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[23:44:29] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[23:44:29] [INFO] Callback successfully executed.
+[23:44:29] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.905 milliseconds
+[23:44:29] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[23:44:29] [INFO] Callback successfully executed.
+[23:49:08] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[23:49:31] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[23:49:54] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[23:49:54] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.902 milliseconds
+[23:49:54] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[23:49:54] [INFO] Callback successfully executed.
+[23:49:58] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[23:49:58] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.764 milliseconds
+[23:49:58] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[23:49:58] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[23:49:58] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[23:49:58] [INFO] Callback successfully executed.
+[23:49:58] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 2.704 milliseconds
+[23:49:58] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[23:49:58] [INFO] Callback successfully executed.
+[23:56:18] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[23:56:39] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[23:56:39] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.810 milliseconds
+[23:56:39] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[23:56:39] [INFO] Callback successfully executed.
+[23:56:44] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[23:56:44] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.422 milliseconds
+[23:56:44] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[23:56:44] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[23:56:44] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[23:56:44] [INFO] Callback successfully executed.
+[23:56:44] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.849 milliseconds
+[23:56:44] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[23:56:44] [INFO] Callback successfully executed.
+[23:57:07] [INFO] query "UPDATE `accessories` SET `slot` = '0',`model` = '19067',`extra` = '-1',`bone` = '2',`category` = '1',`offset_x` = '0.279001',`offset_y` = '-0.064998',`offset_z` = '-0.002999',`rot_x` = '-0.600000',`rot_y` = '-1.100000',`rot_z` = '0.000000',`scale_x` = '1.075999',`scale_y` = '0.918998',`scale_z` = '0.904999',`materialcolor1` = '0',
+`materialcolor2` = '0' WHERE `account_id` = '1' AND `id` = '1'" successfully executed within 75.90 milliseconds
+[23:57:07] [INFO] query "UPDATE `accessories` SET `slot` = '3',`model` = '19559',`extra` = '-1',`bone` = '1',`category` = '8',`offset_x` = '-0.203998',`offset_y` = '-0.064998',`offset_z` = '-0.002999',`rot_x` = '-0.600000',`rot_y` = '-1.100000',`rot_z` = '0.000000',`scale_x` = '1.075999',`scale_y` = '0.918998',`scale_z` = '0.904999',`materialcolor1` = '0',
+`materialcolor2` = '0' WHERE `account_id` = '1' AND `id` = '2'" successfully executed within 143.693 milliseconds
+[23:57:44] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[23:57:44] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.968 milliseconds
+[23:57:44] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[23:57:44] [INFO] Callback successfully executed.
+[23:57:46] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[23:57:46] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.820 milliseconds
+[23:57:46] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[23:57:46] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[23:57:46] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[23:57:46] [INFO] Callback successfully executed.
+[23:57:46] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 2.272 milliseconds
+[23:57:46] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[23:57:46] [INFO] Callback successfully executed.
+[00:33:56] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[00:34:20] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[00:34:20] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.866 milliseconds
+[00:34:20] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[00:34:20] [INFO] Callback successfully executed.
+[00:34:23] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[00:34:23] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.716 milliseconds
+[00:34:23] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[00:34:23] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[00:34:23] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[00:34:23] [INFO] Callback successfully executed.
+[00:34:23] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 1.455 milliseconds
+[00:34:23] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[00:34:23] [INFO] Callback successfully executed.
+[00:38:55] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[00:39:17] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[00:39:17] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.677 milliseconds
+[00:39:17] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[00:39:17] [INFO] Callback successfully executed.
+[00:39:19] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[00:39:19] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.305 milliseconds
+[00:39:19] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[00:39:19] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[00:39:19] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[00:39:19] [INFO] Callback successfully executed.
+[00:39:19] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 2.552 milliseconds
+[00:39:19] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[00:39:19] [INFO] Callback successfully executed.
+[00:41:48] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[00:42:10] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[00:42:10] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.660 milliseconds
+[00:42:10] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[00:42:10] [INFO] Callback successfully executed.
+[00:42:23] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[00:42:23] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.503 milliseconds
+[00:42:23] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[00:42:23] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[00:42:23] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[00:42:23] [INFO] Callback successfully executed.
+[00:42:23] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 3.255 milliseconds
+[00:42:23] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[00:42:23] [INFO] Callback successfully executed.
+[00:43:13] [INFO] query "UPDATE `accessories` SET `slot` = '0',`model` = '19067',`extra` = '-1',`bone` = '2',`category` = '1',`offset_x` = '0.279000',`offset_y` = '-0.064998',`offset_z` = '-0.002999',`rot_x` = '-0.600000',`rot_y` = '-1.100000',`rot_z` = '0.000000',`scale_x` = '1.075999',`scale_y` = '0.918998',`scale_z` = '0.904999',`materialcolor1` = '0',
+`materialcolor2` = '0' WHERE `account_id` = '1' AND `id` = '1'" successfully executed within 55.381 milliseconds
+[00:43:13] [INFO] query "UPDATE `accessories` SET `slot` = '3',`model` = '19559',`extra` = '-1',`bone` = '1',`category` = '8',`offset_x` = '-0.045997',`offset_y` = '-0.064998',`offset_z` = '-0.002999',`rot_x` = '-0.600000',`rot_y` = '81.700019',`rot_z` = '-4.699999',`scale_x` = '1.075999',`scale_y` = '0.918998',`scale_z` = '0.904999',`materialcolor1` = '0',
+`materialcolor2` = '0' WHERE `account_id` = '1' AND `id` = '2'" successfully executed within 55.462 milliseconds
+[00:43:40] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[00:43:40] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.820 milliseconds
+[00:43:40] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[00:43:40] [INFO] Callback successfully executed.
+[00:43:46] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[00:43:46] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.809 milliseconds
+[00:43:46] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[00:43:46] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[00:43:46] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[00:43:46] [INFO] Callback successfully executed.
+[00:43:46] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 2.681 milliseconds
+[00:43:46] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[00:43:46] [INFO] Callback successfully executed.
+[01:03:53] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[01:03:53] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 2, 19039, -1, 6, 7, -0.018998, -0.003998, -0.001999, 51.200016, 53.199977, 142.800018, 0.963998, 0.916998, 1.000000, 0, 0)" successfully executed within 154.447 milliseconds
+[01:03:53] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[01:03:53] [INFO] Callback successfully executed.
+[01:04:57] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '1'" successfully executed within 100.661 milliseconds
+[01:06:13] [INFO] query "UPDATE `accessories` SET `slot` = '2',`model` = '19039',`extra` = '-1',`bone` = '6',`category` = '0',`offset_x` = '-0.018998',`offset_y` = '-0.003998',`offset_z` = '-0.001999',`rot_x` = '51.200016',`rot_y` = '53.199977',`rot_z` = '142.800018',`scale_x` = '0.963998',`scale_y` = '0.916998',`scale_z` = '1.000000',`materialcolor1` = '0',
+`materialcolor2` = '0' WHERE `account_id` = '1' AND `id` = '3'" successfully executed within 60.43 milliseconds
+[01:06:13] [INFO] query "UPDATE `accessories` SET `slot` = '3',`model` = '19559',`extra` = '-1',`bone` = '1',`category` = '8',`offset_x` = '-0.045997',`offset_y` = '-0.064998',`offset_z` = '-0.002999',`rot_x` = '-0.600000',`rot_y` = '81.699996',`rot_z` = '-4.699999',`scale_x` = '1.075999',`scale_y` = '0.918998',`scale_z` = '0.904999',`materialcolor1` = '0',
+`materialcolor2` = '0' WHERE `account_id` = '1' AND `id` = '2'" successfully executed within 44.163 milliseconds
+[01:13:20] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[01:13:42] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[01:13:42] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 1.129 milliseconds
+[01:13:42] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[01:13:42] [INFO] Callback successfully executed.
+[01:13:45] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[01:13:45] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 4.41 milliseconds
+[01:13:45] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[01:13:45] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[01:13:45] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[01:13:45] [INFO] Callback successfully executed.
+[01:13:45] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 2.103 milliseconds
+[01:13:45] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[01:13:45] [INFO] Callback successfully executed.
+[01:13:57] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '3'" successfully executed within 48.585 milliseconds
+[01:14:05] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '2'" successfully executed within 55.902 milliseconds
+[01:17:36] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[01:17:43] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[01:18:06] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[01:18:06] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.706 milliseconds
+[01:18:06] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[01:18:06] [INFO] Callback successfully executed.
+[01:18:09] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[01:18:09] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 3.126 milliseconds
+[01:18:09] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[01:18:09] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[01:18:09] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[01:18:09] [INFO] Callback successfully executed.
+[01:18:09] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 1.309 milliseconds
+[01:18:09] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[01:18:09] [INFO] Callback successfully executed.
+[01:18:35] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[01:18:35] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 3, 19559, -1, 1, 8, -0.203999, -0.064998, -0.002999, -0.600000, -1.100000, 0.000000, 1.075999, 0.918998, 0.904999, 0, 0)" successfully executed within 44.836 milliseconds
+[01:18:35] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[01:18:35] [INFO] Callback successfully executed.
+[01:18:35] [ERROR] error #1064 while executing query "`accessories` = '7,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '7,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:217)
+[01:18:40] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[01:18:40] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 18910, -1, 2, 2, 0.119999, -0.001000, 0.000000, -92.499984, -7.199993, -98.099990, 1.114999, 1.000000, 0.901000, 0, 0)" successfully executed within 71.906 milliseconds
+[01:18:40] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[01:18:40] [INFO] Callback successfully executed.
+[01:18:40] [ERROR] error #1064 while executing query "`accessories` = '7,1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '7,1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:217)
+[01:19:07] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '4'" successfully executed within 82.599 milliseconds
+[01:20:11] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '5'" successfully executed within 153.472 milliseconds
+[01:20:18] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '4'" successfully executed within 0.580 milliseconds
+[01:21:57] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[01:22:18] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[01:22:18] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.869 milliseconds
+[01:22:18] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[01:22:18] [INFO] Callback successfully executed.
+[01:22:20] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[01:22:20] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.305 milliseconds
+[01:22:20] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[01:22:20] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[01:22:20] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[01:22:20] [INFO] Callback successfully executed.
+[01:22:20] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 4.659 milliseconds
+[01:22:20] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[01:22:20] [INFO] Callback successfully executed.
+[01:22:50] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[01:22:51] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 2, 19039, -1, 6, 7, -0.018998, -0.003998, -0.001999, 51.200016, 53.199977, 142.800018, 0.963998, 0.916998, 1.000000, 0, 0)" successfully executed within 114.73 milliseconds
+[01:22:51] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[01:22:51] [INFO] Callback successfully executed.
+[01:22:51] [ERROR] error #1064 while executing query "`accessories` = '6,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '6,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:217)
+[01:22:54] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[01:22:54] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 3, 19559, -1, 1, 8, -0.203999, -0.064998, -0.002999, -0.600000, -1.100000, 0.000000, 1.075999, 0.918998, 0.904999, 0, 0)" successfully executed within 91.767 milliseconds
+[01:22:54] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[01:22:54] [INFO] Callback successfully executed.
+[01:22:54] [ERROR] error #1064 while executing query "`accessories` = '6,7,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '6,7,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:217)
+[01:24:10] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '6'" successfully executed within 70.405 milliseconds
+[01:29:08] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[01:29:31] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[01:29:31] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.868 milliseconds
+[01:29:31] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[01:29:31] [INFO] Callback successfully executed.
+[01:29:37] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[01:29:37] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.997 milliseconds
+[01:29:37] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[01:29:37] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[01:29:37] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[01:29:37] [INFO] Callback successfully executed.
+[01:29:37] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.985 milliseconds
+[01:29:37] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[01:29:37] [INFO] Callback successfully executed.
+[01:30:01] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[01:30:01] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 19067, -1, 2, 1, 0.118997, 0.003000, -0.004000, 0.000000, 90.000000, 96.400009, 1.058998, 1.159999, 1.000000, 0, 0)" successfully executed within 83.963 milliseconds
+[01:30:01] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[01:30:01] [INFO] Callback successfully executed.
+[01:30:01] [ERROR] error #1064 while executing query "`accessories` = '0,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '0,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:217)
+[01:30:22] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '8'" successfully executed within 42.637 milliseconds
+[01:30:29] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '7'" successfully executed within 65.771 milliseconds
+[01:31:22] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[01:31:45] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[01:31:45] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.789 milliseconds
+[01:31:45] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[01:31:45] [INFO] Callback successfully executed.
+[01:31:50] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[01:31:50] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.788 milliseconds
+[01:31:50] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[01:31:50] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[01:31:50] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[01:31:50] [INFO] Callback successfully executed.
+[01:31:50] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 1.77 milliseconds
+[01:31:50] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[01:31:50] [INFO] Callback successfully executed.
+[01:32:19] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[01:32:19] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 19067, -1, 2, 1, 0.118997, 0.003000, -0.004000, 0.000000, 90.000000, 96.400009, 1.058998, 1.159999, 1.000000, 0, 0)" successfully executed within 123.387 milliseconds
+[01:32:19] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[01:32:19] [INFO] Callback successfully executed.
+[01:32:19] [ERROR] error #1064 while executing query "`accessories` = '0,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '0,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:217)
+[01:32:22] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[01:32:22] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 2, 19039, -1, 6, 7, -0.018998, -0.003998, -0.001999, 51.200016, 53.199977, 142.800018, 0.963998, 0.916998, 1.000000, 0, 0)" successfully executed within 51.893 milliseconds
+[01:32:22] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[01:32:22] [INFO] Callback successfully executed.
+[01:32:22] [ERROR] error #1064 while executing query "`accessories` = '0,6,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '0,6,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:217)
+[01:32:31] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '10'" successfully executed within 67.754 milliseconds
+[01:37:28] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[01:37:49] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[01:37:49] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.859 milliseconds
+[01:37:49] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[01:37:49] [INFO] Callback successfully executed.
+[01:37:54] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[01:37:54] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.825 milliseconds
+[01:37:54] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[01:37:54] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[01:37:54] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[01:37:54] [INFO] Callback successfully executed.
+[01:37:54] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 2.409 milliseconds
+[01:37:54] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[01:37:54] [INFO] Callback successfully executed.
+[01:38:11] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '9'" successfully executed within 63.900 milliseconds
+[01:38:20] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[01:38:21] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 19067, -1, 2, 1, 0.118997, 0.003000, -0.004000, 0.000000, 90.000000, 96.400009, 1.058998, 1.159999, 1.000000, 0, 0)" successfully executed within 1529.946 milliseconds
+[01:38:21] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[01:38:21] [INFO] Callback successfully executed.
+[01:38:21] [ERROR] error #1064 while executing query "`accessories` = '0,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '0,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:217)
+[01:38:23] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[01:38:23] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 3, 19559, -1, 1, 8, -0.203999, -0.064998, -0.002999, -0.600000, -1.100000, 0.000000, 1.075999, 0.918998, 0.904999, 0, 0)" successfully executed within 52.53 milliseconds
+[01:38:23] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[01:38:23] [INFO] Callback successfully executed.
+[01:38:23] [ERROR] error #1064 while executing query "`accessories` = '0,7,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '0,7,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:217)
+[01:38:30] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '12'" successfully executed within 60.889 milliseconds
+[01:39:41] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[01:40:03] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[01:40:03] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.839 milliseconds
+[01:40:03] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[01:40:03] [INFO] Callback successfully executed.
+[01:40:09] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[01:40:09] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.24 milliseconds
+[01:40:09] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[01:40:09] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[01:40:09] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[01:40:09] [INFO] Callback successfully executed.
+[01:40:09] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.971 milliseconds
+[01:40:09] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[01:40:09] [INFO] Callback successfully executed.
+[01:40:20] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '11'" successfully executed within 108.751 milliseconds
+[01:40:33] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[01:40:33] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 19067, -1, 2, 1, 0.118997, 0.003000, -0.004000, 0.000000, 90.000000, 96.400009, 1.058998, 1.159999, 1.000000, 0, 0)" successfully executed within 72.473 milliseconds
+[01:40:33] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[01:40:33] [INFO] Callback successfully executed.
+[01:40:33] [ERROR] error #1064 while executing query "`accessories` = '0,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '0,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:217)
+[01:40:35] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[01:40:36] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 18910, -1, 2, 2, 0.119999, -0.001000, 0.000000, -92.499984, -7.199993, -98.099990, 1.114999, 1.000000, 0.901000, 0, 0)" successfully executed within 242.922 milliseconds
+[01:40:36] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[01:40:36] [ERROR] error #1064 while executing query "`accessories` = '0,1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '0,1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:217)
+[01:40:36] [INFO] Callback successfully executed.
+[01:40:39] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[01:40:39] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 19067, -1, 2, 1, 0.118997, 0.003000, -0.004000, 0.000000, 90.000000, 96.400009, 1.058998, 1.159999, 1.000000, 0, 0)" successfully executed within 49.893 milliseconds
+[01:40:39] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[01:40:39] [INFO] Callback successfully executed.
+[01:40:39] [ERROR] error #1064 while executing query "`accessories` = '0,1,0,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '0,1,0,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:217)
+[01:40:45] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[01:40:45] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 1, 19421, -1, 2, 4, 0.286000, 0.089000, -0.006000, -90.599975, -121.999969, 92.599967, 1.000000, 1.000000, 1.000000, 0, 0)" successfully executed within 157.295 milliseconds
+[01:40:45] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[01:40:45] [INFO] Callback successfully executed.
+[01:40:45] [ERROR] error #1064 while executing query "`accessories` = '0,1,0,3,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '0,1,0,3,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:217)
+[01:41:08] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '16'" successfully executed within 67.136 milliseconds
+[01:41:19] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '15'" successfully executed within 185.666 milliseconds
+[01:42:29] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[01:42:51] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[01:42:51] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.751 milliseconds
+[01:42:51] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[01:42:51] [INFO] Callback successfully executed.
+[01:42:53] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[01:42:53] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.74 milliseconds
+[01:42:53] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[01:42:53] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[01:42:53] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[01:42:53] [INFO] Callback successfully executed.
+[01:42:53] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 2.940 milliseconds
+[01:42:53] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[01:42:53] [INFO] Callback successfully executed.
+[01:43:05] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[01:43:05] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 19067, -1, 2, 1, 0.118997, 0.003000, -0.004000, 0.000000, 90.000000, 96.400009, 1.058998, 1.159999, 1.000000, 0, 0)" successfully executed within 56.799 milliseconds
+[01:43:05] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[01:43:05] [INFO] Callback successfully executed.
+[01:43:05] [ERROR] error #1064 while executing query "`accessories` = '0,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '0,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:217)
+[01:43:09] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[01:43:10] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 3, 19559, -1, 1, 8, -0.203999, -0.064998, -0.002999, -0.600000, -1.100000, 0.000000, 1.075999, 0.918998, 0.904999, 0, 0)" successfully executed within 149.40 milliseconds
+[01:43:10] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[01:43:10] [INFO] Callback successfully executed.
+[01:43:10] [ERROR] error #1064 while executing query "`accessories` = '0,7,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '0,7,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:217)
+[01:43:21] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '2'" successfully executed within 66.767 milliseconds
+[07:51:05] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[07:52:09] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[07:52:09] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.882 milliseconds
+[07:52:09] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[07:52:09] [INFO] Callback successfully executed.
+[07:52:11] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[07:52:11] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.885 milliseconds
+[07:52:11] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[07:52:11] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[07:52:11] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[07:52:11] [INFO] Callback successfully executed.
+[07:52:11] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 2.630 milliseconds
+[07:52:11] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[07:52:11] [INFO] Callback successfully executed.
+[07:53:22] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '1'" successfully executed within 79.720 milliseconds
+[07:54:13] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[07:54:37] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[07:54:37] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 1.103 milliseconds
+[07:54:37] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[07:54:37] [INFO] Callback successfully executed.
+[07:54:39] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[07:54:39] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.818 milliseconds
+[07:54:39] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[07:54:39] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[07:54:39] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[07:54:39] [INFO] Callback successfully executed.
+[07:54:39] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 2.731 milliseconds
+[07:54:39] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[07:54:39] [INFO] Callback successfully executed.
+[07:54:54] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[07:54:54] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 2, 19039, -1, 6, 7, -0.018998, -0.003998, -0.001999, 51.200016, 53.199977, 142.800018, 0.963998, 0.916998, 1.000000, 0, 0)" successfully executed within 101.418 milliseconds
+[07:54:54] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[07:54:54] [INFO] Callback successfully executed.
+[07:54:54] [ERROR] error #1064 while executing query "`accessories` = '6,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '6,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:219)
+[07:55:25] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[07:55:25] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 19067, -1, 2, 1, 0.118997, 0.003000, -0.004000, 0.000000, 90.000000, 96.400009, 1.058998, 1.159999, 1.000000, 0, 0)" successfully executed within 56.500 milliseconds
+[07:55:25] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[07:55:25] [INFO] Callback successfully executed.
+[07:55:25] [ERROR] error #1064 while executing query "`accessories` = '6,0,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '6,0,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:219)
+[07:58:23] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[07:58:45] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[07:58:45] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.804 milliseconds
+[07:58:45] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[07:58:45] [INFO] Callback successfully executed.
+[07:58:48] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[07:58:48] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.890 milliseconds
+[07:58:48] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[07:58:48] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[07:58:48] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[07:58:48] [INFO] Callback successfully executed.
+[07:58:48] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 1.43 milliseconds
+[07:58:48] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[07:58:48] [INFO] Callback successfully executed.
+[08:00:48] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '3'" successfully executed within 124.66 milliseconds
+[08:04:20] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[08:04:41] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[08:04:41] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.750 milliseconds
+[08:04:41] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[08:04:41] [INFO] Callback successfully executed.
+[08:04:44] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[08:04:44] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.444 milliseconds
+[08:04:44] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[08:04:44] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[08:04:44] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[08:04:44] [INFO] Callback successfully executed.
+[08:04:44] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.982 milliseconds
+[08:04:44] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[08:04:44] [INFO] Callback successfully executed.
+[08:05:00] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[08:05:01] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 2, 19039, -1, 6, 7, -0.018998, -0.003998, -0.001999, 51.200016, 53.199977, 142.800018, 0.963998, 0.916998, 1.000000, 0, 0)" successfully executed within 120.260 milliseconds
+[08:05:01] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[08:05:01] [INFO] Callback successfully executed.
+[08:05:01] [ERROR] error #1064 while executing query "`accessories` = '6,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '6,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:219)
+[08:05:04] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[08:05:05] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 19067, -1, 2, 1, 0.118997, 0.003000, -0.004000, 0.000000, 90.000000, 96.400009, 1.058998, 1.159999, 1.000000, 0, 0)" successfully executed within 104.15 milliseconds
+[08:05:05] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[08:05:05] [INFO] Callback successfully executed.
+[08:05:05] [ERROR] error #1064 while executing query "`accessories` = '6,0,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '6,0,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:219)
+[08:05:37] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[08:05:58] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[08:05:58] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.867 milliseconds
+[08:05:58] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[08:05:58] [INFO] Callback successfully executed.
+[08:06:00] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[08:06:00] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.745 milliseconds
+[08:06:00] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[08:06:00] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[08:06:00] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[08:06:00] [INFO] Callback successfully executed.
+[08:06:00] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.896 milliseconds
+[08:06:00] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[08:06:00] [INFO] Callback successfully executed.
+[08:06:24] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '5'" successfully executed within 56.24 milliseconds
+[08:08:38] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[08:09:01] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[08:09:01] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.782 milliseconds
+[08:09:01] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[08:09:01] [INFO] Callback successfully executed.
+[08:09:03] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[08:09:03] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.357 milliseconds
+[08:09:03] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[08:09:03] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[08:09:03] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[08:09:03] [INFO] Callback successfully executed.
+[08:09:03] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.815 milliseconds
+[08:09:03] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[08:09:03] [INFO] Callback successfully executed.
+[08:09:14] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[08:09:14] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 2, 19039, -1, 6, 7, -0.018998, -0.003998, -0.001999, 51.200016, 53.199977, 142.800018, 0.963998, 0.916998, 1.000000, 0, 0)" successfully executed within 102.172 milliseconds
+[08:09:14] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[08:09:14] [INFO] Callback successfully executed.
+[08:09:14] [ERROR] error #1064 while executing query "`accessories` = '6,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '6,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:219)
+[08:09:17] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[08:09:17] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 19067, -1, 2, 1, 0.118997, 0.003000, -0.004000, 0.000000, 90.000000, 96.400009, 1.058998, 1.159999, 1.000000, 0, 0)" successfully executed within 105.71 milliseconds
+[08:09:17] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[08:09:17] [INFO] Callback successfully executed.
+[08:09:17] [ERROR] error #1064 while executing query "`accessories` = '6,0,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '6,0,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:219)
+[08:09:23] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[08:09:46] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[08:09:46] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.682 milliseconds
+[08:09:46] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[08:09:46] [INFO] Callback successfully executed.
+[08:09:48] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[08:09:48] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.6 milliseconds
+[08:09:48] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[08:09:48] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[08:09:48] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[08:09:48] [INFO] Callback successfully executed.
+[08:09:48] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 2.525 milliseconds
+[08:09:48] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[08:09:48] [INFO] Callback successfully executed.
+[08:21:41] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[08:22:04] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[08:22:04] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.811 milliseconds
+[08:22:04] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[08:22:04] [INFO] Callback successfully executed.
+[08:22:09] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[08:22:09] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.742 milliseconds
+[08:22:09] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[08:22:09] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[08:22:09] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[08:22:09] [INFO] Callback successfully executed.
+[08:22:09] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 3.809 milliseconds
+[08:22:09] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[08:22:09] [INFO] Callback successfully executed.
+[08:25:38] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[08:26:00] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[08:26:00] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.899 milliseconds
+[08:26:00] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[08:26:00] [INFO] Callback successfully executed.
+[08:26:04] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[08:26:04] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.242 milliseconds
+[08:26:04] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[08:26:04] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[08:26:04] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[08:26:04] [INFO] Callback successfully executed.
+[08:26:04] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 1.317 milliseconds
+[08:26:04] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[08:26:04] [INFO] Callback successfully executed.
+[08:26:39] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '7'" successfully executed within 67.435 milliseconds
+[08:27:14] [INFO] query "UPDATE `accessories` SET `slot` = '0',`model` = '19067',`extra` = '-1',`bone` = '2',`category` = '1',`offset_x` = '0.151996',`offset_y` = '0.003000',`offset_z` = '-0.004000',`rot_x` = '0.000000',`rot_y` = '90.000000',`rot_z` = '96.400001',`scale_x` = '1.059000',`scale_y` = '1.159999',`scale_z` = '1.000000',`materialcolor1` = '0',
+`materialcolor2` = '0' WHERE `account_id` = '1' AND `id` = '8'" successfully executed within 68.152 milliseconds
+[08:29:14] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[08:29:14] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 3, 19559, -1, 1, 8, -0.203999, -0.064998, -0.002999, -0.600000, -1.100000, 0.000000, 1.075999, 0.918998, 0.904999, 0, 0)" successfully executed within 260.293 milliseconds
+[08:29:14] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[08:29:14] [INFO] Callback successfully executed.
+[08:29:14] [ERROR] error #1064 while executing query "`accessories` = '7,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '7,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:219)
+[08:29:18] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[08:29:18] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 2, 19039, -1, 6, 7, -0.018998, -0.003998, -0.001999, 51.200016, 53.199977, 142.800018, 0.963998, 0.916998, 1.000000, 0, 0)" successfully executed within 55.117 milliseconds
+[08:29:18] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[08:29:18] [INFO] Callback successfully executed.
+[08:29:18] [ERROR] error #1064 while executing query "`accessories` = '7,6,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '7,6,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:219)
+[08:30:39] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '10'" successfully executed within 47.828 milliseconds
+[08:35:38] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[08:36:01] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[08:36:01] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.877 milliseconds
+[08:36:01] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[08:36:01] [INFO] Callback successfully executed.
+[08:36:07] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[08:36:07] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.720 milliseconds
+[08:36:07] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[08:36:07] [ERROR] cache_get_value_name: field 'accessories_item' not found (../src/systems/auth/auth.pwn:84)
+[08:36:07] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[08:36:07] [INFO] Callback successfully executed.
+[08:36:07] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 3.195 milliseconds
+[08:36:07] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[08:36:07] [INFO] Callback successfully executed.
+[08:51:19] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '8'" successfully executed within 63.410 milliseconds
+[08:51:22] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '9'" successfully executed within 50.309 milliseconds
+[08:51:39] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[08:52:00] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[08:52:00] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.788 milliseconds
+[08:52:00] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[08:52:00] [INFO] Callback successfully executed.
+[08:52:44] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[08:52:44] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.882 milliseconds
+[08:52:44] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[08:52:44] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[08:52:44] [INFO] Callback successfully executed.
+[08:52:44] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 0.975 milliseconds
+[08:52:44] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[08:52:44] [INFO] Callback successfully executed.
+[08:53:07] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[08:53:07] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 2, 19039, -1, 6, 7, -0.018998, -0.003998, -0.001999, 51.200016, 53.199977, 142.800018, 0.963998, 0.916998, 1.000000, 0, 0)" successfully executed within 96.137 milliseconds
+[08:53:07] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[08:53:07] [INFO] Callback successfully executed.
+[08:53:07] [ERROR] error #1064 while executing query "`accessories` = '6,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '6,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:219)
+[08:53:13] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[08:53:13] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 19067, -1, 2, 1, 0.118997, 0.003000, -0.004000, 0.000000, 90.000000, 96.400009, 1.058998, 1.159999, 1.000000, 0, 0)" successfully executed within 97.715 milliseconds
+[08:53:13] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[08:53:13] [INFO] Callback successfully executed.
+[08:53:13] [ERROR] error #1064 while executing query "`accessories` = '0,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '0,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:219)
+[08:53:37] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[08:53:37] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 1, 19140, -1, 2, 3, 0.102998, 0.030998, -0.001001, 0.000000, 90.000000, 90.500007, 1.000000, 1.057999, 1.000000, 0, 0)" successfully executed within 278.914 milliseconds
+[08:53:37] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[08:53:37] [INFO] Callback successfully executed.
+[08:53:37] [ERROR] error #1064 while executing query "`accessories` = '0,2,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '0,2,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:219)
+[08:53:46] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[08:53:46] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 1, 19421, -1, 2, 4, 0.286000, 0.089000, -0.006000, -90.599975, -121.999969, 92.599967, 1.000000, 1.000000, 1.000000, 0, 0)" successfully executed within 138.243 milliseconds
+[08:53:46] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[08:53:46] [INFO] Callback successfully executed.
+[08:53:46] [ERROR] error #1064 while executing query "`accessories` = '0,2,-1,3,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '0,2,-1,3,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:219)
+[08:53:55] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[08:53:56] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 1, 19085, -1, 2, 6, 0.102999, 0.019999, -0.003998, -2.900000, 91.700050, 94.000015, 0.911998, 1.068999, 1.000000, 0, 0)" successfully executed within 59.286 milliseconds
+[08:53:56] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[08:53:56] [INFO] Callback successfully executed.
+[08:53:56] [ERROR] error #1064 while executing query "`accessories` = '0,2,-1,5,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '0,2,-1,5,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:219)
+[08:54:03] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[08:54:03] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 3, 19559, -1, 1, 8, -0.203999, -0.064998, -0.002999, -0.600000, -1.100000, 0.000000, 1.075999, 0.918998, 0.904999, 0, 0)" successfully executed within 173.714 milliseconds
+[08:54:03] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[08:54:03] [INFO] Callback successfully executed.
+[08:54:03] [ERROR] error #1064 while executing query "`accessories` = '0,2,-1,7,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '0,2,-1,7,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:219)
+[09:36:36] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[09:36:58] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[09:36:58] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.887 milliseconds
+[09:36:58] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[09:36:58] [INFO] Callback successfully executed.
+[09:37:00] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[09:37:00] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.856 milliseconds
+[09:37:00] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[09:37:00] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[09:37:00] [INFO] Callback successfully executed.
+[09:37:00] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 1.828 milliseconds
+[09:37:00] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[09:37:00] [INFO] Callback successfully executed.
+[09:37:56] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '12'" successfully executed within 143.546 milliseconds
+[09:38:07] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[09:38:07] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 19067, -1, 2, 1, 0.118997, 0.003000, -0.004000, 0.000000, 90.000000, 96.400009, 1.058998, 1.159999, 1.000000, 0, 0)" successfully executed within 67.254 milliseconds
+[09:38:07] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[09:38:07] [INFO] Callback successfully executed.
+[09:38:07] [ERROR] error #1064 while executing query "`accessories` = '0,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '0,-1,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:219)
+[09:40:03] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '15'" successfully executed within 71.401 milliseconds
+[09:40:11] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
+[09:40:11] [INFO] query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `category`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 1, 19421, -1, 2, 4, 0.286000, 0.089000, -0.006000, -90.599975, -121.999969, 92.599967, 1.000000, 1.000000, 1.000000, 0, 0)" successfully executed within 129.763 milliseconds
+[09:40:11] [INFO] Executing callback 'DB__InsertAccessoryData' with 3 parameters...
+[09:40:11] [INFO] Callback successfully executed.
+[09:40:11] [ERROR] error #1064 while executing query "`accessories` = '0,3,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`accessories` = '0,3,-1,-1,-1,-1,-1,-1,-1,-1' WHERE `id` = '1'' at line 1 (../src/systems/players/player.pwn:30 -> ../src/systems/accessories/accessories.pwn:219)
+[10:30:50] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[10:31:17] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[10:31:17] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.824 milliseconds
+[10:31:17] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[10:31:17] [INFO] Callback successfully executed.
+[10:31:19] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[10:31:19] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.716 milliseconds
+[10:31:19] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[10:31:19] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
+[10:31:19] [INFO] Callback successfully executed.
+[10:31:19] [INFO] query "SELECT * FROM `accessories` WHERE `account_id` = '1'" successfully executed within 2.37 milliseconds
+[10:31:19] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
+[10:31:19] [INFO] Callback successfully executed.
+[10:31:43] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '16'" successfully executed within 34.960 milliseconds
+[10:31:50] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '17'" successfully executed within 99.373 milliseconds
+[10:31:58] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '18'" successfully executed within 69.625 milliseconds
+[10:32:03] [INFO] query "DELETE FROM `accessories` WHERE `account_id` = '1' AND `id` = '11'" successfully executed within 68.357 milliseconds
+[10:32:12] [ERROR] mysql_tquery: callback error: parameter count does not match format specifier length (../src/systems/accessories/accessories.pwn:789)
+[10:32:15] [ERROR] mysql_tquery: callback error: parameter count does not match format specifier length (../src/systems/accessories/accessories.pwn:789)
+[10:32:38] [INFO] query "UPDATE `accessories` SET `slot` = '0',`model` = '19067',`extra` = '-1',`bone` = '2',`category` = '0',`offset_x` = '0.118997',`offset_y` = '0.003000',`offset_z` = '-0.004000',`rot_x` = '0.000000',`rot_y` = '90.000000',`rot_z` = '96.400009',`scale_x` = '1.058998',`scale_y` = '1.159999',`scale_z` = '1.000000',`materialcolor1` = '0',
+`materialcolor2` = '0' WHERE `account_id` = '1' AND `id` = '-1'" successfully executed within 0.976 milliseconds
+[10:32:38] [INFO] query "UPDATE `accessories` SET `slot` = '2',`model` = '19039',`extra` = '-1',`bone` = '6',`category` = '0',`offset_x` = '-0.125998',`offset_y` = '-0.003998',`offset_z` = '-0.001999',`rot_x` = '51.200016',`rot_y` = '53.199977',`rot_z` = '142.800018',`scale_x` = '0.963998',`scale_y` = '0.916998',`scale_z` = '1.000000',`materialcolor1` = '0',
+`materialcolor2` = '0' WHERE `account_id` = '1' AND `id` = '-1'" successfully executed within 1.71 milliseconds

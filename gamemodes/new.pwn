@@ -221,3 +221,4 @@ public OnPlayerEditAttachedObject(playerid, response, index, modelid, boneid, Fl
 	Accessories:EditAttachedObject(playerid, response, index, modelid, boneid, fOffsetX, fOffsetY, fOffsetZ, fRotX, fRotY, fRotZ, fScaleX, fScaleY, fScaleZ);
     return 1;
 }
+

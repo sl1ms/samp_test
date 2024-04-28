@@ -1,24 +1,33 @@
-stock Player:Save(playerid) 
+/*stock Player:Save(playerid) 
 {
     if(!GetPlayerData(playerid, PLAYER_AUTHORIZED))
         return 0;
 
     new 
-        save_player_query[128];
+        save_player_query[150],
+        accessory_string[40];
 
-    for(new i, accessory_string[20]; i < MAX_MY_ACCESSORIES; i++)
+    strcat(save_player_query, "UPDATE "DB_ACCOUNT" SET ");
+
+    for(new i; i < MAX_MY_ACCESSORIES; i++)
     {
-		format(accessory_string, sizeof accessory_string, "%d%s", _:player_battle_pass_data[playerid][P_BATTLE_PASS_PRIZE_STATUS][i], (i == BATTLE_PASS_MAX_PRIZE - 1) ? "" : ",");
-		strcat(save_player_query, accessory_string);
+		format
+        (
+            accessory_string, sizeof accessory_string, "%s%d%s", 
+            accessory_string, g_player_data[playerid][PLAYER_ACCESSORY][i], 
+            (i == MAX_MY_ACCESSORIES - 1) ? "" : ","
+        );
 	}
 
     format
     (
-        save_player_query, sizeof save_player_query, "UPDATE "DB_ACCOUNT" SET \
-        `"
-        
-    )
+        save_player_query, sizeof save_player_query, "\
+        `accessories` = '%s' WHERE `id` = '%d'",
+        accessory_string,
+        GetPlayerData(playerid, PLAYER_ID)
+    );
 
+    mysql_tquery(mysql, save_player_query);
 
     return 1;
-}
+}*/

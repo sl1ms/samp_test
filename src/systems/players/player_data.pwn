@@ -13,7 +13,6 @@ enum E_PLAYER_DATA
     PLAYER_ID, 
     PLAYER_NAME[MAX_PLAYER_NAME],
     PLAYER_PASSWORD[MAX_LENGTH_PASSWORD],
-    PLAYER_ACCESSORY[MAX_MY_ACCESSORIES],
     bool: PLAYER_AUTHORIZED
 };
 
@@ -23,6 +22,5 @@ new g_player_data_default[E_PLAYER_DATA] = {
     -1, // PLAYER_ID
     "", // PLAYER_NAME
     "", // PLAYER_PASSWORD
-    {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1},
     false
 };

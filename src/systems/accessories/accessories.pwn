@@ -1,3 +1,17 @@
+/*
+    Каждый аксессуар подвязан к определенному слоту:
+    A_SLOT_HAT,         // Первый слот это акссесуары на голову
+    A_SLOT_GLASSES,     // Второй слот это акссесуары на глаза
+    A_SLOT_HANDS,       // Третий слот это акссесуары на руку 
+    A_SLOT_BODY,        // Четвертый слот это акссесуары на грудь
+    A_SLOT_SHOULDER,    // Пятый слот это акссесуары на плечо 
+    A_SLOT_BACK         // Шестой слот это акссесуары на спину
+
+    Есть ещё другой вариант реализации можно было выбрать любой слот от 0-9 через диалог, 
+    принцип особо + - бы не изменился. 
+
+*/
+
 
 
 stock SetPlayerAttachedObjectEx(playerid, a_index, a_modelid, a_boneid, Float: a_fOffsetX, Float: a_fOffsetY, Float: a_fOffsetZ, Float:a_fRotX, \
@@ -24,8 +38,6 @@ stock SetPlayerAttachedObjectEx(playerid, a_index, a_modelid, a_boneid, Float: a
 
     SetAttachEditInfo(playerid, E_MATERIALCOLOR_1, materialcolor1);
     SetAttachEditInfo(playerid, E_MATERIALCOLOR_2, materialcolor2);
-
-
 
     if(acc_slot >= 0)
     {
@@ -104,7 +116,6 @@ public: Database:LoadPlayerAccessory(playerid)
         cache_get_value_name_int(i, "extra", g_player_accessory[playerid][acc_slot][E_PA_EXTRA]);
         cache_get_value_name_int(i, "bone", g_player_accessory[playerid][acc_slot][E_PA_BONE]);
         cache_get_value_name_int(i, "category", g_player_accessory[playerid][acc_slot][E_PA_TYPE]);
-        cache_get_value_name_int(i, "w_slot", g_player_accessory[playerid][acc_slot][E_PA_W_SLOT]);
 
         cache_get_value_name_float(i, "offset_x", g_player_accessory[playerid][acc_slot][E_PA_OFFSET_X]);
         cache_get_value_name_float(i, "offset_y", g_player_accessory[playerid][acc_slot][E_PA_OFFSET_Y]);
@@ -151,6 +162,21 @@ stock Accessories:GetItemName(model)
     return name;
 }
 
+stock Accessories:GetDescriptionText(model)
+{
+    new description[128] = "";
+
+    for(new i; i < MAX_ACCESSORIES; i++)
+    {
+        if(g_accessories[i][E_ACC_MODEL] == model)
+        {
+            strcat(description, g_accessories_descriptions[i]);
+        }
+    }
+
+    return description;
+}
+
 stock Accessories:GetItemSlotByType(type)
 {
     for(new i; i < MAX_ACCESSORIES; i++)
@@ -162,7 +188,7 @@ stock Accessories:GetItemSlotByType(type)
     return INVALID_ACC_INDEX;
 }
 
-stock Accessories:SetPlayerAttached(playerid, model, accessory_slot = INVALID_ACC_INDEX, extra = INVALID_ACC_INDEX)
+stock Accessories:SetPlayerAttached(playerid, model, extra = INVALID_ACC_INDEX)
 {
     new type = Accessories:GetItemType(model);
     if(type == INVALID_ACC_INDEX)
@@ -173,7 +199,6 @@ stock Accessories:SetPlayerAttached(playerid, model, accessory_slot = INVALID_AC
         return 0;
 
     SetPVarInt(playerid, #ACC_TEMP_SLOT, slot);
-    SetPVarInt(playerid, #ACC_TEMP_ACCESSORY_SLOT, accessory_slot);
 
     if(IsPlayerAttachedObjectSlotUsed(playerid, slot))
         RemovePlayerAttachedObject(playerid, slot);
@@ -188,16 +213,13 @@ stock Accessories:SetPlayerAttached(playerid, model, accessory_slot = INVALID_AC
     return slot;
 }
 
-public: Accessories:InsertAccessoryData(playerid, accessory_slot, slot)
+public: Database:InsertAccessoryData(playerid, accessory_slot, slot)
 {
     new sql_id = cache_insert_id();
 
     if(sql_id != INVALID_ACC_INDEX)
     {
-        new   
-            accessory_item_id = GetPVarInt(playerid, #SELECT_ACCESSORY_ITEM);
 
-        g_player_data[playerid][PLAYER_ACCESSORY][slot] = accessory_item_id;
         g_player_accessory[playerid][accessory_slot][E_PA_USED] = true;
         g_player_accessory[playerid][accessory_slot][E_PA_SQL_ID] = sql_id;
 
@@ -206,15 +228,18 @@ public: Accessories:InsertAccessoryData(playerid, accessory_slot, slot)
     return 1;
 }
 
-stock Accessories:UnAttachAcc(playerid, accessory_slot)
+stock Accessories:UnAttachAcc(playerid)
 {
-    new model = GetPlayerAccSlot(playerid, accessory_slot, E_PA_MODEL);
+    new 
+        accessory_index = GetPVarInt(playerid, #SELECT_ACCESSORY_INDEX),
+        accessory_slot = g_temp_accessories_listitem[playerid][accessory_index],
+        model = GetPlayerAccSlot(playerid, accessory_slot, E_PA_MODEL);
 
     if(model == 0)
         return 0;
-
-    if(IsPlayerAttachedObjectSlotUsed(playerid, accessory_slot))
-        RemovePlayerAttachedObject(playerid, accessory_slot);
+        
+    if(IsPlayerAttachedObjectSlotUsed(playerid, GetPlayerAccSlot(playerid, accessory_slot, E_PA_SLOT)))
+        RemovePlayerAttachedObject(playerid, GetPlayerAccSlot(playerid, accessory_slot, E_PA_SLOT));
 
     new query[84];
     format
@@ -342,6 +367,7 @@ stock Accessories:Update(playerid)
 			    GetPlayerAccSlot(playerid, i, E_PA_MATCOLOR_1),
 			    GetPlayerAccSlot(playerid, i, E_PA_MATCOLOR_2)
             );
+
 		}
 	}
 	return 1;
@@ -416,6 +442,8 @@ DialogCreate:D_ACCESSORY_LIST(playerid)
         FormatData_2048,
         "Закрыть", ""
     );
+
+    FormatData_2048="";
     return 1;
 }
 
@@ -457,10 +485,13 @@ DialogCreate:D_MY_ACCESSORIES(playerid)
         (
             FormatData_2048,
             sizeof FormatData_2048,
-            "%s%d. %s\n", FormatData_2048,
-            accessories_count,
-            Accessories:GetItemName(model)
+            "%s%d. %s [слот %d]\n", FormatData_2048,
+            accessories_count + 1,
+            Accessories:GetItemName(model),
+            GetPlayerAccSlot(playerid, accessory_slot, E_PA_SLOT)
         );
+
+        g_temp_accessories_listitem[playerid][accessories_count] = accessory_slot;
 
         accessories_count++;
     }
@@ -476,6 +507,8 @@ DialogCreate:D_MY_ACCESSORIES(playerid)
         FormatData_2048,
         "Выбрать", "Закрыть"
     );
+
+    FormatData_2048="";
 
     return 1;
 }
@@ -494,7 +527,8 @@ DialogResponse:D_MY_ACCESSORIES(playerid, response, listitem, inputtext[])
 DialogCreate:D_MY_ACCESSORIES_ACTION(playerid)
 {
     new 
-        accessory_slot = GetPVarInt(playerid, #SELECT_ACCESSORY_INDEX),
+        accessory_index = GetPVarInt(playerid, #SELECT_ACCESSORY_INDEX),
+        accessory_slot = g_temp_accessories_listitem[playerid][accessory_index],
         model = GetPlayerAccSlot(playerid, accessory_slot, E_PA_MODEL);
 
     format
@@ -513,6 +547,7 @@ DialogCreate:D_MY_ACCESSORIES_ACTION(playerid)
         FormatData_2048,
         "Выбрать", "Назад"
     );
+    FormatData_2048="";
     return 1;
 }
 
@@ -537,7 +572,8 @@ DialogResponse:D_MY_ACCESSORIES_ACTION(playerid, response, listitem, inputtext[]
 DialogCreate:D_MY_ACCESSORIES_INFO(playerid)
 {
     new 
-        accessory_slot = GetPVarInt(playerid, #SELECT_ACCESSORY_INDEX),
+        accessory_index = GetPVarInt(playerid, #SELECT_ACCESSORY_INDEX),
+        accessory_slot = g_temp_accessories_listitem[playerid][accessory_index],
         model = GetPlayerAccSlot(playerid, accessory_slot, E_PA_MODEL);
 
     format
@@ -545,8 +581,9 @@ DialogCreate:D_MY_ACCESSORIES_INFO(playerid)
         FormatData_2048, 
         sizeof FormatData_2048,"\
         Наименование аксессуара: %s\n\
-        Описание аксессуара: -",
-        Accessories:GetItemName(model)
+        Описание аксессуара: %s",
+        Accessories:GetItemName(model),
+        Accessories:GetDescriptionText(model)
     );
 
     Dialog_Open
@@ -557,15 +594,18 @@ DialogCreate:D_MY_ACCESSORIES_INFO(playerid)
         FormatData_2048,
         "Закрыть", "Назад"
     );
+
+    FormatData_2048="";
     return 1;
 }
 
 DialogResponse:D_MY_ACCESSORIES_INFO(playerid, response, listitem, inputtext[])
 {
     if(!response) 
-        return 1;
+        return Dialog_Show(playerid, Dialog: D_MY_ACCESSORIES_ACTION);
 
-    Dialog_Show(playerid, Dialog: D_MY_ACCESSORIES_ACTION);
+    DeletePVar(playerid, #SELECT_ACCESSORY_INDEX);
+
     return 1;
 }
 
@@ -595,8 +635,9 @@ DialogResponse:D_MY_ACCESSORIES_EDIT(playerid, response, listitem, inputtext[])
     {
         case 0:
         {
-            new   
-                accessory_slot = GetPVarInt(playerid, #SELECT_ACCESSORY_INDEX);
+            new 
+                accessory_index = GetPVarInt(playerid, #SELECT_ACCESSORY_INDEX),
+                accessory_slot = g_temp_accessories_listitem[playerid][accessory_index];
 
             SetPVarInt(playerid, #ACCESSORY_EDIT, 1); 
 
@@ -610,8 +651,9 @@ DialogResponse:D_MY_ACCESSORIES_EDIT(playerid, response, listitem, inputtext[])
 
 DialogCreate:D_MY_ACCESSORIES_EDIT_DEL(playerid)
 {
-    new   
-        accessory_slot = GetPVarInt(playerid, #SELECT_ACCESSORY_INDEX),
+    new 
+        accessory_index = GetPVarInt(playerid, #SELECT_ACCESSORY_INDEX),
+        accessory_slot = g_temp_accessories_listitem[playerid][accessory_index],
         model = GetPlayerAccSlot(playerid, accessory_slot, E_PA_MODEL);
 
     format
@@ -628,13 +670,13 @@ DialogCreate:D_MY_ACCESSORIES_EDIT_DEL(playerid)
         FormatData_2048,
         "Да", "Нет"
     );
+
+    FormatData_2048="";
     return 1;
 }
 
 DialogResponse:D_MY_ACCESSORIES_EDIT_DEL(playerid, response, listitem, inputtext[])
 {
-    new accessory_slot = GetPVarInt(playerid, #SELECT_ACCESSORY_INDEX);
-
     if(!response) 
     {
         DeletePVar(playerid, #SELECT_ACCESSORY_INDEX);
@@ -642,7 +684,7 @@ DialogResponse:D_MY_ACCESSORIES_EDIT_DEL(playerid, response, listitem, inputtext
         return 1;
     }
 
-    Accessories:UnAttachAcc(playerid, accessory_slot);
+    Accessories:UnAttachAcc(playerid);
 
     SendClientMessage(playerid, -1, "Вы успешно удалили данный аксессуар.");
     
@@ -700,38 +742,23 @@ DialogCreate:D_GIVE_ACCESSORY(playerid)
     return 1;
 }
 
-stock Accessories:GetFreeSlot(playerid) 
-{
-    for(new i; i < MAX_MY_ACCESSORIES; i++) {
-        if(g_player_data[playerid][PLAYER_ACCESSORY][i])
-            continue;
-        return i;
-    }
-    return -1;
-}
 
 DialogResponse:D_GIVE_ACCESSORY(playerid, response, listitem, inputtext[])
 {
     if(!response) 
-    {
         return 1;
-    }
 
     new 
         to_player = GetPVarInt(playerid, #GIVE_ACCESSORY_PLAYER_ID),
-        slot_index = Accessories:GetFreeSlot(to_player);
-
-    if(slot_index == -1)
-        return SendClientMessage(playerid, -1, "Все доступные места под аксессуары заняты!");
-        
-    new   
         accessory_item_id = GetPlayerListItem(playerid, listitem),
         model = g_accessories[accessory_item_id][E_ACC_MODEL];
 
 
-    SetPVarInt(playerid, #SELECT_ACCESSORY_ITEM, GetPlayerListItem(playerid, listitem));
+    if(Accessories:IsAttachType(to_player, model))
+        return SendClientMessage(playerid, -1, "Вы не можете надеть данный аксессуар, т.к слот уже занят.");
 
-    new acc_slot = Accessories:SetPlayerAttached(to_player, model, slot_index);
+
+    new acc_slot = Accessories:SetPlayerAttached(to_player, model);
 
     if(acc_slot != -1)
     {
@@ -759,7 +786,7 @@ DialogResponse:D_GIVE_ACCESSORY(playerid, response, listitem, inputtext[])
             GetPlayerAccSlot(to_player, acc_slot, E_PA_MATCOLOR_1),
             GetPlayerAccSlot(to_player, acc_slot, E_PA_MATCOLOR_2)
         );
-        mysql_tquery(mysql, query, DatabaseText(Database:InsertAccessoryData), "ddd", to_player, acc_slot, slot_index);
+        mysql_tquery(mysql, query, DatabaseText(Database:InsertAccessoryData), "ddd", to_player, acc_slot);
     }
 
     return 1;
@@ -796,9 +823,9 @@ stock Accessories:EditAttachedObject(playerid, response, index, modelid, boneid,
 
     if(GetPVarInt(playerid, #ACCESSORY_EDIT) == 1)
     {
-        new   
-            accessory_slot = GetPVarInt(playerid, #SELECT_ACCESSORY_INDEX),
-            acc_slot = GetPlayerAccSlot(playerid, accessory_slot, E_PA_SLOT);
+        new 
+            accessory_index = GetPVarInt(playerid, #SELECT_ACCESSORY_INDEX),
+            acc_slot = g_temp_accessories_listitem[playerid][accessory_index];
 
         if(response) 
         {
@@ -821,8 +848,30 @@ stock Accessories:EditAttachedObject(playerid, response, index, modelid, boneid,
         }
         else 
         {
+
+            SetPlayerAttachedObject
+            (
+                playerid,
+                GetPlayerAccSlot(playerid, acc_slot, E_PA_SLOT),
+                GetPlayerAccSlot(playerid, acc_slot, E_PA_MODEL),
+                GetPlayerAccSlot(playerid, acc_slot, E_PA_BONE),
+                GetPlayerAccSlot(playerid, acc_slot, E_PA_OFFSET_X),
+                GetPlayerAccSlot(playerid, acc_slot, E_PA_OFFSET_Y),
+                GetPlayerAccSlot(playerid, acc_slot, E_PA_OFFSET_Z),
+                GetPlayerAccSlot(playerid, acc_slot, E_PA_ROT_X),
+                GetPlayerAccSlot(playerid, acc_slot, E_PA_ROT_Y),
+                GetPlayerAccSlot(playerid, acc_slot, E_PA_ROT_Z),
+                GetPlayerAccSlot(playerid, acc_slot, E_PA_SCALE_X),
+                GetPlayerAccSlot(playerid, acc_slot, E_PA_SCALE_Y),
+                GetPlayerAccSlot(playerid, acc_slot, E_PA_SCALE_Z),
+                GetPlayerAccSlot(playerid, acc_slot, E_PA_MATCOLOR_1),
+                GetPlayerAccSlot(playerid, acc_slot, E_PA_MATCOLOR_2)
+            );
+
             SendClientMessage(playerid, -1, "Вы отменили редактирование аксессуара!");
         }
+
+        DeletePVar(playerid, #ACCESSORY_EDIT);
     }
     return 1;
 }
