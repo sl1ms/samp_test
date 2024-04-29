@@ -1,9 +1,13 @@
 #define Accessories:%0(%1)                   ACS_%0(%1)
 
-#define MAX_ACCESSORIES                     sizeof g_accessories
+#define MAX_ACCESSORIES                     8
 #define MAX_MY_ACCESSORIES                  MAX_PLAYER_ATTACHED_OBJECTS
 
+
+
 #define DB_ACCESSORIES                      "`accessories`"
+#define DB_ACCESSORIES_DATA                 "`accessories_data`"
+#define DB_ACCESSORIES_DESCRIPTION          "`accessories_descriptions`"
 
 #define GetPlayerAccSlot(%0,%1,%2)          g_player_accessory[%0][%1][%2]
 #define SetPlayerAccSlot(%0,%1,%2,%3)       g_player_accessory[%0][%1][%2] = %3
@@ -53,107 +57,35 @@ new g_player_accessory[MAX_PLAYERS][MAX_PLAYER_ATTACHED_OBJECTS][E_PLAYER_ACC_ST
     0.0                 // E_PA_SCALE_Z
 };
 
-
-enum
+enum E_ACCESSORIES_DATA 
 {
-    A_TYPE_HATS_RED             = 1,        // Красные шапки
-    A_TYPE_HATS_BANDANA         = 2,       // Бандана на голову
-    A_TYPE_GLASSES              = 3,       // Очки
-    A_TYPE_HEADPHONES           = 4,       // Наушники
-    A_TYPE_MUSTACHE             = 5,       // Усы
-    A_TYPE_BANDAGE              = 6,       // Повязка
-    A_TYPE_WATCHES              = 7,       // Часы
-    A_TYPE_BACKPACK             = 8,       // Рюкзак
-    //
-    A_TYPE_COUNT                = 9
-};
+    ACCESSORY_SQL_ID,
+    ACCESSORY_NAME[24],
+    ACCESSORY_SLOT, 
+    ACCESSORY_CATEGORY,
+    ACCESSORY_MODEL, 
+    ACCESSORY_BONE, 
 
-new const g_accessory_category_name[A_TYPE_COUNT - 1][25] =
-{
-	"Красные шапки",
-    "Банданы на голову",
-    "Очки",
-    "Наушники",
-    "Усы",
-    "Повязка",
-    "Часы",
-    "Рюкзаки"
-};
+    Float: ACCESSORY_OFFSET_X,
+    Float: ACCESSORY_OFFSET_Y,
+    Float: ACCESSORY_OFFSET_Z,
+    Float: ACCESSORY_ROT_X,
+    Float: ACCESSORY_ROT_Y,
+    Float: ACCESSORY_ROT_Z,
+    Float: ACCESSORY_SCALE_X,
+    Float: ACCESSORY_SCALE_Y,
+    Float: ACCESSORY_SCALE_Z,
+    
+    ACCESSORY_MATERIAL_COLOR1,
+    ACCESSORY_MATERIAL_COLOR2,
 
-enum
-{
-    A_SLOT_HAT,         // Первый слот это акссесуары на голову
-    A_SLOT_GLASSES,     // Второй слот это акссесуары на глаза
-    A_SLOT_HANDS,       // Третий слот это акссесуары на руку 
-    A_SLOT_BODY,        // Четвертый слот это акссесуары на грудь
-    A_SLOT_SHOULDER,    // Пятый слот это акссесуары на плечо 
-    A_SLOT_BACK         // Шестой слот это акссесуары на спину
-};
+    ACCESSORY_DESCRIPTION[128]
+}
 
-enum
-{
-	A_OBJECT_BONE_SPINE = 1, 		// Торс
-	A_OBJECT_BONE_HEAD, 			// Голова
-	A_OBJECT_BONE_LEFT_ARM, 		// Левое плечо
-	A_OBJECT_BONE_RIGHT_ARM, 		// Правое плечо
-	A_OBJECT_BONE_LEFT_HAND, 		// Левая рука
-	A_OBJECT_BONE_RIGHT_HAND, 		// Правая рука
-	A_OBJECT_BONE_LEFT_THIGH, 		// Левое бедро
- 	A_OBJECT_BONE_RIGHT_THIGH,		// Правое бедро
-	A_OBJECT_BONE_LEFT_FOOT, 		// Левая нога
-	A_OBJECT_BONE_RIGHT_FOOT, 		// Правая нога
-	A_OBJECT_BONE_RIGHT_CALF, 		// Правая голень
-	A_OBJECT_BONE_LEFT_CALF, 		// Левая голень
-	A_OBJECT_BONE_LEFT_FOREARM, 	// Левое предплечье
-	A_OBJECT_BONE_RIGHT_FOREARM,	// Правое предплечье
-	A_OBJECT_BONE_LEFT_CLAVICLE,	// Левая ключица (плечо)
-	A_OBJECT_BONE_RIGHT_CLAVICLE,	// Правая ключица (плечо)
-	A_OBJECT_BONE_NECK, 			// Шея
-	A_OBJECT_BONE_JAW				// Челюсть
-};
+ 
+new g_accessories_data[MAX_ACCESSORIES][E_ACCESSORIES_DATA];
 
-enum E_ACCESSORIES_STRUCT
-{
-    E_ACC_TYPE_SLOT,
-    E_ACC_TYPE,
-    E_ACC_NAME[24],
-    E_ACC_MODEL,
-    E_ACC_BONE,
-    Float: E_ACC_OFFSET_X,
-    Float: E_ACC_OFFSET_Y,
-    Float: E_ACC_OFFSET_Z,
-    Float: E_ACC_ROT_X,
-    Float: E_ACC_ROT_Y,
-    Float: E_ACC_ROT_Z,
-    Float: E_ACC_SCALE_X,
-    Float: E_ACC_SCALE_Y,
-    Float: E_ACC_SCALE_Z,
-    E_ACC_MATERIALCOLOR_1,
-    E_ACC_MATERIALCOLOR_2
-};
-
-new g_accessories[][E_ACCESSORIES_STRUCT] =
-{
-    {A_SLOT_HAT,        A_TYPE_HATS_RED,     "Красная шапка",  19067, A_OBJECT_BONE_HEAD, 0.118998,0.003000,-0.004000, 0.000000,90.000000,96.400009, 1.058999,1.159999,1.000000},
-    {A_SLOT_HAT,        A_TYPE_HATS_BANDANA, "Бандана",        18910, A_OBJECT_BONE_HEAD, 0.120000,-0.001000,0.000000, -92.499984,-7.199993,-98.099990, 1.114999,1.000000,0.901000},
-    {A_SLOT_GLASSES,    A_TYPE_GLASSES,      "Очки",           19140, A_OBJECT_BONE_HEAD, 0.102998,0.030999,-0.001001, 0.000000,90.000000,90.500007, 1.000000,1.058000,1.000000},
-    {A_SLOT_GLASSES,    A_TYPE_HEADPHONES,   "Наушники",       19421, A_OBJECT_BONE_HEAD, 0.286000,0.089000,-0.006000, -90.599975,-121.999969,92.599967, 1.000000,1.000000,1.000000},
-    {A_SLOT_GLASSES,    A_TYPE_MUSTACHE,     "Усы",            19350, A_OBJECT_BONE_HEAD, 0.025999,0.108000,0.003000, 0.000000,0.000000,-81.399993, 1.000000,1.000000,1.000000},
-    {A_SLOT_GLASSES,    A_TYPE_BANDAGE,      "Повязка на глаз",19085, A_OBJECT_BONE_HEAD, 0.102999,0.020000,-0.003999, -2.900000,91.700050,94.000015, 0.911999,1.068999,1.000000},
-    {A_SLOT_HANDS,      A_TYPE_WATCHES,      "Часы",           19039, A_OBJECT_BONE_RIGHT_HAND, -0.018999,-0.003998,-0.001999, 51.200016,53.199977,142.800018, 0.963999,0.916999,1.000000},
-    {A_SLOT_BODY,       A_TYPE_BACKPACK,     "Рюкзак",         19559, A_OBJECT_BONE_SPINE, -0.204000,-0.064999,-0.002999 ,  -0.600000,-1.100000,0.000000 ,  1.075999,0.918998,0.905000}
-};
-
-new g_accessories_descriptions[sizeof g_accessories][128] = 
-{
-    "Классическая красная шапка, которая придает носителю задорный вид.",
-    "Многофункциональная бандана, которую можно носить как на голове, так и на шее.",
-    "Стильные очки, которые защищают глаза от солнца и добавляют носителю интеллектуальный вид.",
-    "Мощные наушники, которые обеспечивают превосходное качество звука и погружают носителя в музыку",
-    "Великолепные усы, которые придают носителю мужественный и харизматичный вид",
-    "Таинственная повязка на глаз, которая скрывает один глаз и придает носителю загадочный вид.",
-    "Элегантные часы, которые не только показывают время, но и являются стильным аксессуаром.",
-    "Прочный рюкзак, который позволяет носителю удобно переносить предметы и всегда иметь под рукой все необходимое."
-};
 
 new g_temp_accessories_listitem[MAX_PLAYERS][MAX_MY_ACCESSORIES];
+
+new g_quantity_accessories;

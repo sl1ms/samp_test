@@ -18,6 +18,8 @@ main()
 
 public OnGameModeInit()
 {
+	Accessories:LoadDataInfo();
+
 	SetGameModeText("Blank Script");
     AddPlayerClass(0, 0.0, 0.0, 0.0, 0.0, 0, 0, 0, 0, 0, 0);
 
@@ -44,7 +46,10 @@ public OnPlayerRequestClass(playerid, classid)
 public OnPlayerConnect(playerid)
 {
 	Auth:CheckAccount(playerid);
-
+	
+	for(new i; i < MAX_MY_ACCESSORIES; i++) {
+		g_player_accessory_sql_id[playerid][i] = -1;
+	}
 	return 1;
 }
 

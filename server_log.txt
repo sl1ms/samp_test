@@ -1765,3 +1765,1957 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [11:37:50] AttachToPlayer playerid (0), type (8), model (19559), slot (3) extra (-1)
 [11:37:50]  playerid (0), type (8 = 8), model (19559 = 19559), slot (3 = 3) extra (-1)
 [11:37:50] 3 19559 1 -0.203999 -0.064998 -0.002999 -0.600000 -1.100000 0.000000 1.075999 0.918998 0.904999 0 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:46:53] 
+[12:46:53] Server Plugins
+[12:46:53] --------------
+[12:46:53]  Loading plugin: crashdetect
+[12:46:54]   CrashDetect plugin 4.21
+[12:46:54]   Loaded.
+[12:46:54]  Loading plugin: sscanf
+[12:46:54] 
+[12:46:54]  ===============================
+[12:46:54] 
+[12:46:54]       sscanf plugin loaded.     
+[12:46:54] 
+[12:46:54]          Version: 2.13.8
+[12:46:54] 
+[12:46:54]    (c) 2022 Alex "Y_Less" Cole  
+[12:46:54] 
+[12:46:54]  ===============================
+[12:46:54] 
+[12:46:54]   Loaded.
+[12:46:54]  Loading plugin: mysql
+[12:46:54]  >> plugin.mysql: R41-4 successfully loaded.
+[12:46:54]   Loaded.
+[12:46:54]  Loading plugin: pawncmd
+[12:46:55] [Pawn.CMD] plugin v3.4.0 loading...
+[12:46:55] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[12:46:55]   Loaded.
+[12:46:55]  Loaded 4 plugins.
+
+[12:46:55] 
+[12:46:55] Filterscripts
+[12:46:55] ---------------
+[12:46:55]   Loaded 0 filterscripts.
+
+[12:46:56] [MySQL] Подключение к основной базе данных прошло успешно
+[12:46:56] 
+----------------------------------
+[12:46:56]  Blank Gamemode by your name here
+[12:46:56] ----------------------------------
+
+[12:46:57] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:50:00] 
+[12:50:00] Server Plugins
+[12:50:00] --------------
+[12:50:00]  Loading plugin: crashdetect
+[12:50:00]   CrashDetect plugin 4.21
+[12:50:00]   Loaded.
+[12:50:00]  Loading plugin: sscanf
+[12:50:00] 
+[12:50:00]  ===============================
+[12:50:00] 
+[12:50:00]       sscanf plugin loaded.     
+[12:50:00] 
+[12:50:00]          Version: 2.13.8
+[12:50:00] 
+[12:50:00]    (c) 2022 Alex "Y_Less" Cole  
+[12:50:00] 
+[12:50:00]  ===============================
+[12:50:00] 
+[12:50:00]   Loaded.
+[12:50:00]  Loading plugin: mysql
+[12:50:00]  >> plugin.mysql: R41-4 successfully loaded.
+[12:50:00]   Loaded.
+[12:50:00]  Loading plugin: pawncmd
+[12:50:00] [Pawn.CMD] plugin v3.4.0 loading...
+[12:50:00] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[12:50:00]   Loaded.
+[12:50:00]  Loaded 4 plugins.
+
+[12:50:00] 
+[12:50:00] Filterscripts
+[12:50:00] ---------------
+[12:50:00]   Loaded 0 filterscripts.
+
+[12:50:01] [MySQL] Подключение к основной базе данных прошло успешно
+[12:50:01] 
+----------------------------------
+[12:50:01]  Blank Gamemode by your name here
+[12:50:01] ----------------------------------
+
+[12:50:01] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:53:53] 
+[12:53:53] Server Plugins
+[12:53:53] --------------
+[12:53:53]  Loading plugin: crashdetect
+[12:53:53]   CrashDetect plugin 4.21
+[12:53:53]   Loaded.
+[12:53:53]  Loading plugin: sscanf
+[12:53:53] 
+[12:53:53]  ===============================
+[12:53:53] 
+[12:53:53]       sscanf plugin loaded.     
+[12:53:53] 
+[12:53:53]          Version: 2.13.8
+[12:53:53] 
+[12:53:53]    (c) 2022 Alex "Y_Less" Cole  
+[12:53:53] 
+[12:53:53]  ===============================
+[12:53:53] 
+[12:53:53]   Loaded.
+[12:53:53]  Loading plugin: mysql
+[12:53:53]  >> plugin.mysql: R41-4 successfully loaded.
+[12:53:53]   Loaded.
+[12:53:53]  Loading plugin: pawncmd
+[12:53:53] [Pawn.CMD] plugin v3.4.0 loading...
+[12:53:53] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[12:53:53]   Loaded.
+[12:53:53]  Loaded 4 plugins.
+
+[12:53:53] 
+[12:53:53] Filterscripts
+[12:53:53] ---------------
+[12:53:53]   Loaded 0 filterscripts.
+
+[12:53:53] [MySQL] Подключение к основной базе данных прошло успешно
+[12:53:53] 
+----------------------------------
+[12:53:53]  Blank Gamemode by your name here
+[12:53:53] ----------------------------------
+
+[12:53:53] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:55:16] 
+[12:55:16] Server Plugins
+[12:55:16] --------------
+[12:55:16]  Loading plugin: crashdetect
+[12:55:16]   CrashDetect plugin 4.21
+[12:55:16]   Loaded.
+[12:55:16]  Loading plugin: sscanf
+[12:55:16] 
+[12:55:16]  ===============================
+[12:55:16] 
+[12:55:16]       sscanf plugin loaded.     
+[12:55:16] 
+[12:55:16]          Version: 2.13.8
+[12:55:16] 
+[12:55:16]    (c) 2022 Alex "Y_Less" Cole  
+[12:55:16] 
+[12:55:16]  ===============================
+[12:55:16] 
+[12:55:16]   Loaded.
+[12:55:16]  Loading plugin: mysql
+[12:55:16]  >> plugin.mysql: R41-4 successfully loaded.
+[12:55:16]   Loaded.
+[12:55:16]  Loading plugin: pawncmd
+[12:55:16] [Pawn.CMD] plugin v3.4.0 loading...
+[12:55:16] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[12:55:16]   Loaded.
+[12:55:16]  Loaded 4 plugins.
+
+[12:55:16] 
+[12:55:16] Filterscripts
+[12:55:16] ---------------
+[12:55:16]   Loaded 0 filterscripts.
+
+[12:55:16] [MySQL] Подключение к основной базе данных прошло успешно
+[12:55:16] 
+----------------------------------
+[12:55:16]  Blank Gamemode by your name here
+[12:55:16] ----------------------------------
+
+[12:55:16] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:57:35] 
+[12:57:35] Server Plugins
+[12:57:35] --------------
+[12:57:35]  Loading plugin: crashdetect
+[12:57:35]   CrashDetect plugin 4.21
+[12:57:35]   Loaded.
+[12:57:35]  Loading plugin: sscanf
+[12:57:35] 
+[12:57:35]  ===============================
+[12:57:35] 
+[12:57:35]       sscanf plugin loaded.     
+[12:57:35] 
+[12:57:35]          Version: 2.13.8
+[12:57:35] 
+[12:57:35]    (c) 2022 Alex "Y_Less" Cole  
+[12:57:35] 
+[12:57:35]  ===============================
+[12:57:35] 
+[12:57:35]   Loaded.
+[12:57:35]  Loading plugin: mysql
+[12:57:35]  >> plugin.mysql: R41-4 successfully loaded.
+[12:57:35]   Loaded.
+[12:57:35]  Loading plugin: pawncmd
+[12:57:35] [Pawn.CMD] plugin v3.4.0 loading...
+[12:57:35] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[12:57:35]   Loaded.
+[12:57:35]  Loaded 4 plugins.
+
+[12:57:35] 
+[12:57:35] Filterscripts
+[12:57:35] ---------------
+[12:57:35]   Loaded 0 filterscripts.
+
+[12:57:35] [MySQL] Подключение к основной базе данных прошло успешно
+[12:57:35] 
+----------------------------------
+[12:57:35]  Blank Gamemode by your name here
+[12:57:35] ----------------------------------
+
+[12:57:35] Number of vehicle models: 0
+[12:57:35] sdsd
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:57:53] 
+[12:57:53] Server Plugins
+[12:57:53] --------------
+[12:57:53]  Loading plugin: crashdetect
+[12:57:53]   CrashDetect plugin 4.21
+[12:57:53]   Loaded.
+[12:57:53]  Loading plugin: sscanf
+[12:57:53] 
+[12:57:53]  ===============================
+[12:57:53] 
+[12:57:53]       sscanf plugin loaded.     
+[12:57:53] 
+[12:57:53]          Version: 2.13.8
+[12:57:53] 
+[12:57:53]    (c) 2022 Alex "Y_Less" Cole  
+[12:57:53] 
+[12:57:53]  ===============================
+[12:57:53] 
+[12:57:53]   Loaded.
+[12:57:53]  Loading plugin: mysql
+[12:57:53]  >> plugin.mysql: R41-4 successfully loaded.
+[12:57:53]   Loaded.
+[12:57:53]  Loading plugin: pawncmd
+[12:57:53] [Pawn.CMD] plugin v3.4.0 loading...
+[12:57:53] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[12:57:53]   Loaded.
+[12:57:53]  Loaded 4 plugins.
+
+[12:57:53] 
+[12:57:53] Filterscripts
+[12:57:53] ---------------
+[12:57:53]   Loaded 0 filterscripts.
+
+[12:57:53] [MySQL] Подключение к основной базе данных прошло успешно
+[12:57:53] 
+----------------------------------
+[12:57:53]  Blank Gamemode by your name here
+[12:57:53] ----------------------------------
+
+[12:57:53] Number of vehicle models: 0
+[12:57:53] Классическая красная шапка, которая придает носителю задорный вид.
+[12:57:53] Многофункциональная бандана, которую можно носить как на голове, так и на шее.
+[12:57:53] Стильные очки, которые защищают глаза от солнца и добавляют носителю интеллектуальный вид.
+[12:57:53] Мощные наушники, которые обеспечивают превосходное качество звука и погружают носителя в музыку
+[12:57:53] Великолепные усы, которые придают носителю мужественный и харизматичный вид
+[12:57:53] Таинственная повязка на глаз, которая скрывает один глаз и придает носителю загадочный вид.
+[12:57:53] [debug] Long callback execution detected (hang or performance issue)
+[12:57:53] [debug] AMX backtrace:
+[12:57:53] [debug] #0 00006250 in public DB__LoadAccessoriesData () at ../src/systems/accessories/accessories.pwn:111
+[12:57:53] Элегантные часы, которые не только показывают время, но и являются стильным аксессуаром.
+[12:57:53] Прочный рюкзак, который позволяет носителю удобно переносить предметы и всегда иметь под рукой все необходимое.
+[12:59:25] [connection] 127.0.0.1:58201 requests connection cookie.
+[12:59:26] [connection] incoming connection: 127.0.0.1:58201 id: 0
+[12:59:26] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[13:03:11] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:13:05] 
+[13:13:05] Server Plugins
+[13:13:05] --------------
+[13:13:05]  Loading plugin: crashdetect
+[13:13:05]   CrashDetect plugin 4.21
+[13:13:05]   Loaded.
+[13:13:05]  Loading plugin: sscanf
+[13:13:05] 
+[13:13:05]  ===============================
+[13:13:05] 
+[13:13:05]       sscanf plugin loaded.     
+[13:13:05] 
+[13:13:05]          Version: 2.13.8
+[13:13:05] 
+[13:13:05]    (c) 2022 Alex "Y_Less" Cole  
+[13:13:05] 
+[13:13:05]  ===============================
+[13:13:05] 
+[13:13:05]   Loaded.
+[13:13:05]  Loading plugin: mysql
+[13:13:05]  >> plugin.mysql: R41-4 successfully loaded.
+[13:13:05]   Loaded.
+[13:13:05]  Loading plugin: pawncmd
+[13:13:05] [Pawn.CMD] plugin v3.4.0 loading...
+[13:13:05] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:13:05]   Loaded.
+[13:13:05]  Loaded 4 plugins.
+
+[13:13:05] 
+[13:13:05] Filterscripts
+[13:13:05] ---------------
+[13:13:05]   Loaded 0 filterscripts.
+
+[13:13:05] [MySQL] Подключение к основной базе данных прошло успешно
+[13:13:05] 
+----------------------------------
+[13:13:05]  Blank Gamemode by your name here
+[13:13:05] ----------------------------------
+
+[13:13:05] Number of vehicle models: 0
+[13:13:27] [connection] 127.0.0.1:59296 requests connection cookie.
+[13:13:28] [connection] incoming connection: 127.0.0.1:59296 id: 0
+[13:13:28] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[13:13:48] 19067
+[13:17:25] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:17:30] 
+[13:17:30] Server Plugins
+[13:17:30] --------------
+[13:17:30]  Loading plugin: crashdetect
+[13:17:30]   CrashDetect plugin 4.21
+[13:17:30]   Loaded.
+[13:17:30]  Loading plugin: sscanf
+[13:17:30] 
+[13:17:30]  ===============================
+[13:17:30] 
+[13:17:30]       sscanf plugin loaded.     
+[13:17:30] 
+[13:17:30]          Version: 2.13.8
+[13:17:30] 
+[13:17:30]    (c) 2022 Alex "Y_Less" Cole  
+[13:17:30] 
+[13:17:30]  ===============================
+[13:17:30] 
+[13:17:30]   Loaded.
+[13:17:30]  Loading plugin: mysql
+[13:17:30]  >> plugin.mysql: R41-4 successfully loaded.
+[13:17:30]   Loaded.
+[13:17:30]  Loading plugin: pawncmd
+[13:17:30] [Pawn.CMD] plugin v3.4.0 loading...
+[13:17:30] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:17:30]   Loaded.
+[13:17:30]  Loaded 4 plugins.
+
+[13:17:30] 
+[13:17:30] Filterscripts
+[13:17:30] ---------------
+[13:17:30]   Loaded 0 filterscripts.
+
+[13:17:30] [MySQL] Подключение к основной базе данных прошло успешно
+[13:17:30] 
+----------------------------------
+[13:17:30]  Blank Gamemode by your name here
+[13:17:30] ----------------------------------
+
+[13:17:30] Number of vehicle models: 0
+[13:17:59] [connection] 127.0.0.1:55226 requests connection cookie.
+[13:18:00] [connection] incoming connection: 127.0.0.1:55226 id: 0
+[13:18:01] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[13:18:16] 19067 0.118997
+[13:24:29] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:24:34] 
+[13:24:34] Server Plugins
+[13:24:34] --------------
+[13:24:34]  Loading plugin: crashdetect
+[13:24:34]   CrashDetect plugin 4.21
+[13:24:34]   Loaded.
+[13:24:34]  Loading plugin: sscanf
+[13:24:34] 
+[13:24:34]  ===============================
+[13:24:34] 
+[13:24:34]       sscanf plugin loaded.     
+[13:24:34] 
+[13:24:34]          Version: 2.13.8
+[13:24:34] 
+[13:24:34]    (c) 2022 Alex "Y_Less" Cole  
+[13:24:34] 
+[13:24:34]  ===============================
+[13:24:34] 
+[13:24:34]   Loaded.
+[13:24:34]  Loading plugin: mysql
+[13:24:34]  >> plugin.mysql: R41-4 successfully loaded.
+[13:24:34]   Loaded.
+[13:24:34]  Loading plugin: pawncmd
+[13:24:34] [Pawn.CMD] plugin v3.4.0 loading...
+[13:24:34] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:24:34]   Loaded.
+[13:24:34]  Loaded 4 plugins.
+
+[13:24:34] 
+[13:24:34] Filterscripts
+[13:24:34] ---------------
+[13:24:34]   Loaded 0 filterscripts.
+
+[13:24:34] [MySQL] Подключение к основной базе данных прошло успешно
+[13:24:34] 
+----------------------------------
+[13:24:34]  Blank Gamemode by your name here
+[13:24:34] ----------------------------------
+
+[13:24:34] Number of vehicle models: 0
+[13:24:53] [connection] 127.0.0.1:54209 requests connection cookie.
+[13:24:54] [connection] incoming connection: 127.0.0.1:54209 id: 0
+[13:24:54] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[13:25:04] 19067 0.118997
+[13:25:04] 2323
+[13:28:14] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:28:18] 
+[13:28:18] Server Plugins
+[13:28:18] --------------
+[13:28:18]  Loading plugin: crashdetect
+[13:28:18]   CrashDetect plugin 4.21
+[13:28:18]   Loaded.
+[13:28:18]  Loading plugin: sscanf
+[13:28:18] 
+[13:28:18]  ===============================
+[13:28:18] 
+[13:28:18]       sscanf plugin loaded.     
+[13:28:18] 
+[13:28:18]          Version: 2.13.8
+[13:28:18] 
+[13:28:18]    (c) 2022 Alex "Y_Less" Cole  
+[13:28:18] 
+[13:28:18]  ===============================
+[13:28:18] 
+[13:28:18]   Loaded.
+[13:28:18]  Loading plugin: mysql
+[13:28:18]  >> plugin.mysql: R41-4 successfully loaded.
+[13:28:18]   Loaded.
+[13:28:18]  Loading plugin: pawncmd
+[13:28:18] [Pawn.CMD] plugin v3.4.0 loading...
+[13:28:18] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:28:18]   Loaded.
+[13:28:18]  Loaded 4 plugins.
+
+[13:28:18] 
+[13:28:18] Filterscripts
+[13:28:18] ---------------
+[13:28:18]   Loaded 0 filterscripts.
+
+[13:28:18] [MySQL] Подключение к основной базе данных прошло успешно
+[13:28:18] 
+----------------------------------
+[13:28:18]  Blank Gamemode by your name here
+[13:28:18] ----------------------------------
+
+[13:28:18] Number of vehicle models: 0
+[13:28:37] [connection] 127.0.0.1:50997 requests connection cookie.
+[13:28:38] [connection] incoming connection: 127.0.0.1:50997 id: 0
+[13:28:38] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[13:28:59] 19067 0.118997
+[13:32:09] 19421 0.286000
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:34:29] 
+[13:34:29] Server Plugins
+[13:34:29] --------------
+[13:34:29]  Loading plugin: crashdetect
+[13:34:29]   CrashDetect plugin 4.21
+[13:34:29]   Loaded.
+[13:34:29]  Loading plugin: sscanf
+[13:34:29] 
+[13:34:29]  ===============================
+[13:34:29] 
+[13:34:29]       sscanf plugin loaded.     
+[13:34:29] 
+[13:34:29]          Version: 2.13.8
+[13:34:29] 
+[13:34:29]    (c) 2022 Alex "Y_Less" Cole  
+[13:34:29] 
+[13:34:29]  ===============================
+[13:34:29] 
+[13:34:29]   Loaded.
+[13:34:29]  Loading plugin: mysql
+[13:34:29]  >> plugin.mysql: R41-4 successfully loaded.
+[13:34:29]   Loaded.
+[13:34:29]  Loading plugin: pawncmd
+[13:34:29] [Pawn.CMD] plugin v3.4.0 loading...
+[13:34:29] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:34:29]   Loaded.
+[13:34:29]  Loaded 4 plugins.
+
+[13:34:29] 
+[13:34:29] Filterscripts
+[13:34:29] ---------------
+[13:34:29]   Loaded 0 filterscripts.
+
+[13:34:29] [MySQL] Подключение к основной базе данных прошло успешно
+[13:34:29] 
+----------------------------------
+[13:34:29]  Blank Gamemode by your name here
+[13:34:29] ----------------------------------
+
+[13:34:29] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:34:38] 
+[13:34:38] Server Plugins
+[13:34:38] --------------
+[13:34:38]  Loading plugin: crashdetect
+[13:34:38]   CrashDetect plugin 4.21
+[13:34:38]   Loaded.
+[13:34:38]  Loading plugin: sscanf
+[13:34:38] 
+[13:34:38]  ===============================
+[13:34:38] 
+[13:34:38]       sscanf plugin loaded.     
+[13:34:38] 
+[13:34:38]          Version: 2.13.8
+[13:34:38] 
+[13:34:38]    (c) 2022 Alex "Y_Less" Cole  
+[13:34:38] 
+[13:34:38]  ===============================
+[13:34:38] 
+[13:34:38]   Loaded.
+[13:34:38]  Loading plugin: mysql
+[13:34:39]  >> plugin.mysql: R41-4 successfully loaded.
+[13:34:39]   Loaded.
+[13:34:39]  Loading plugin: pawncmd
+[13:34:39] [Pawn.CMD] plugin v3.4.0 loading...
+[13:34:39] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:34:39]   Loaded.
+[13:34:39]  Loaded 4 plugins.
+
+[13:34:39] 
+[13:34:39] Filterscripts
+[13:34:39] ---------------
+[13:34:39]   Loaded 0 filterscripts.
+
+[13:34:39] [MySQL] Подключение к основной базе данных прошло успешно
+[13:34:39] 
+----------------------------------
+[13:34:39]  Blank Gamemode by your name here
+[13:34:39] ----------------------------------
+
+[13:34:39] Number of vehicle models: 0
+[13:34:39] 0.118997
+[13:34:39] 0.119999
+[13:34:39] 0.102998
+[13:34:39] 0.286000
+[13:34:39] 0.025999
+[13:34:39] 0.102999
+[13:34:39] [debug] Long callback execution detected (hang or performance issue)
+[13:34:39] [debug] AMX backtrace:
+[13:34:39] [debug] #0 0000481c in public DB__LoadAccessoriesData () at ../src/systems/accessories/accessories.pwn:39
+[13:34:39] -0.018998
+[13:34:39] -0.203999
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:41:57] 
+[13:41:57] Server Plugins
+[13:41:57] --------------
+[13:41:57]  Loading plugin: crashdetect
+[13:41:57]   CrashDetect plugin 4.21
+[13:41:57]   Loaded.
+[13:41:57]  Loading plugin: sscanf
+[13:41:57] 
+[13:41:57]  ===============================
+[13:41:57] 
+[13:41:57]       sscanf plugin loaded.     
+[13:41:57] 
+[13:41:57]          Version: 2.13.8
+[13:41:57] 
+[13:41:57]    (c) 2022 Alex "Y_Less" Cole  
+[13:41:57] 
+[13:41:57]  ===============================
+[13:41:57] 
+[13:41:57]   Loaded.
+[13:41:57]  Loading plugin: mysql
+[13:41:57]  >> plugin.mysql: R41-4 successfully loaded.
+[13:41:57]   Loaded.
+[13:41:57]  Loading plugin: pawncmd
+[13:41:57] [Pawn.CMD] plugin v3.4.0 loading...
+[13:41:57] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:41:57]   Loaded.
+[13:41:57]  Loaded 4 plugins.
+
+[13:41:57] 
+[13:41:57] Filterscripts
+[13:41:57] ---------------
+[13:41:57]   Loaded 0 filterscripts.
+
+[13:41:57] [MySQL] Подключение к основной базе данных прошло успешно
+[13:41:57] 
+----------------------------------
+[13:41:57]  Blank Gamemode by your name here
+[13:41:57] ----------------------------------
+
+[13:41:57] Number of vehicle models: 0
+[13:42:18] [connection] 127.0.0.1:64450 requests connection cookie.
+[13:42:19] [connection] incoming connection: 127.0.0.1:64450 id: 0
+[13:42:20] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[13:42:40] 19067 0.118997
+[13:42:46] 19140 0.102998
+[13:42:54] 19039 -0.018998
+[13:43:02] 19559 -0.203999
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:24:37] 
+[15:24:37] Server Plugins
+[15:24:37] --------------
+[15:24:37]  Loading plugin: crashdetect
+[15:24:37]   CrashDetect plugin 4.21
+[15:24:37]   Loaded.
+[15:24:37]  Loading plugin: sscanf
+[15:24:37] 
+[15:24:37]  ===============================
+[15:24:37] 
+[15:24:37]       sscanf plugin loaded.     
+[15:24:37] 
+[15:24:37]          Version: 2.13.8
+[15:24:37] 
+[15:24:37]    (c) 2022 Alex "Y_Less" Cole  
+[15:24:37] 
+[15:24:37]  ===============================
+[15:24:37] 
+[15:24:37]   Loaded.
+[15:24:37]  Loading plugin: mysql
+[15:24:37]  >> plugin.mysql: R41-4 successfully loaded.
+[15:24:37]   Loaded.
+[15:24:37]  Loading plugin: pawncmd
+[15:24:37] [Pawn.CMD] plugin v3.4.0 loading...
+[15:24:37] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:24:37]   Loaded.
+[15:24:37]  Loaded 4 plugins.
+
+[15:24:37] 
+[15:24:37] Filterscripts
+[15:24:37] ---------------
+[15:24:37]   Loaded 0 filterscripts.
+
+[15:24:37] [MySQL] Подключение к основной базе данных прошло успешно
+[15:24:37] 
+----------------------------------
+[15:24:37]  Blank Gamemode by your name here
+[15:24:37] ----------------------------------
+
+[15:24:37] Number of vehicle models: 0
+[15:24:57] [connection] 127.0.0.1:52493 requests connection cookie.
+[15:24:58] [connection] incoming connection: 127.0.0.1:52493 id: 0
+[15:24:58] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[15:25:54] [debug] Long callback execution detected (hang or performance issue)
+[15:25:54] [debug] AMX backtrace:
+[15:25:54] [debug] #0 000098d4 in public dre_D_ACCESSORY_EDIT_POS (playerid=0, response=1, listitem=-1, inputtext[]=@00173794 "0,0,0") at ../src/systems/accessories/accessories.pwn:663
+[15:25:54] [debug] #1 native CallLocalFunction () in samp-server.exe
+[15:25:54] [debug] #2 00002058 in public OnDialogResponse (playerid=0, dialogid=32700, response=1, listitem=-1, inputtext[]=@0017377c "0,0,0") at D:\samp\t02\pawno\include\mdialog.inc:664
+[15:26:41] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:30:49] 
+[15:30:49] Server Plugins
+[15:30:49] --------------
+[15:30:49]  Loading plugin: crashdetect
+[15:30:49]   CrashDetect plugin 4.21
+[15:30:49]   Loaded.
+[15:30:49]  Loading plugin: sscanf
+[15:30:49] 
+[15:30:49]  ===============================
+[15:30:49] 
+[15:30:49]       sscanf plugin loaded.     
+[15:30:49] 
+[15:30:49]          Version: 2.13.8
+[15:30:49] 
+[15:30:49]    (c) 2022 Alex "Y_Less" Cole  
+[15:30:49] 
+[15:30:49]  ===============================
+[15:30:49] 
+[15:30:49]   Loaded.
+[15:30:49]  Loading plugin: mysql
+[15:30:49]  >> plugin.mysql: R41-4 successfully loaded.
+[15:30:49]   Loaded.
+[15:30:49]  Loading plugin: pawncmd
+[15:30:49] [Pawn.CMD] plugin v3.4.0 loading...
+[15:30:49] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:30:49]   Loaded.
+[15:30:49]  Loaded 4 plugins.
+
+[15:30:49] 
+[15:30:49] Filterscripts
+[15:30:49] ---------------
+[15:30:49]   Loaded 0 filterscripts.
+
+[15:30:49] [MySQL] Подключение к основной базе данных прошло успешно
+[15:30:49] 
+----------------------------------
+[15:30:49]  Blank Gamemode by your name here
+[15:30:49] ----------------------------------
+
+[15:30:49] Number of vehicle models: 0
+[15:31:08] [connection] 127.0.0.1:52546 requests connection cookie.
+[15:31:09] [connection] incoming connection: 127.0.0.1:52546 id: 0
+[15:31:09] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:34:45] 
+[15:34:45] Server Plugins
+[15:34:45] --------------
+[15:34:45]  Loading plugin: crashdetect
+[15:34:45]   CrashDetect plugin 4.21
+[15:34:45]   Loaded.
+[15:34:45]  Loading plugin: sscanf
+[15:34:45] 
+[15:34:45]  ===============================
+[15:34:45] 
+[15:34:45]       sscanf plugin loaded.     
+[15:34:45] 
+[15:34:45]          Version: 2.13.8
+[15:34:45] 
+[15:34:45]    (c) 2022 Alex "Y_Less" Cole  
+[15:34:45] 
+[15:34:45]  ===============================
+[15:34:45] 
+[15:34:45]   Loaded.
+[15:34:45]  Loading plugin: mysql
+[15:34:45]  >> plugin.mysql: R41-4 successfully loaded.
+[15:34:45]   Loaded.
+[15:34:45]  Loading plugin: pawncmd
+[15:34:45] [Pawn.CMD] plugin v3.4.0 loading...
+[15:34:45] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:34:45]   Loaded.
+[15:34:45]  Loaded 4 plugins.
+
+[15:34:45] 
+[15:34:45] Filterscripts
+[15:34:45] ---------------
+[15:34:45]   Loaded 0 filterscripts.
+
+[15:34:45] [MySQL] Подключение к основной базе данных прошло успешно
+[15:34:45] 
+----------------------------------
+[15:34:45]  Blank Gamemode by your name here
+[15:34:45] ----------------------------------
+
+[15:34:45] Number of vehicle models: 0
+[15:35:04] [connection] 127.0.0.1:49917 requests connection cookie.
+[15:35:05] [connection] incoming connection: 127.0.0.1:49917 id: 0
+[15:35:05] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[15:36:37] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:37:12] 
+[15:37:12] Server Plugins
+[15:37:12] --------------
+[15:37:12]  Loading plugin: crashdetect
+[15:37:12]   CrashDetect plugin 4.21
+[15:37:12]   Loaded.
+[15:37:12]  Loading plugin: sscanf
+[15:37:12] 
+[15:37:12]  ===============================
+[15:37:12] 
+[15:37:12]       sscanf plugin loaded.     
+[15:37:12] 
+[15:37:12]          Version: 2.13.8
+[15:37:12] 
+[15:37:12]    (c) 2022 Alex "Y_Less" Cole  
+[15:37:12] 
+[15:37:12]  ===============================
+[15:37:12] 
+[15:37:12]   Loaded.
+[15:37:12]  Loading plugin: mysql
+[15:37:12]  >> plugin.mysql: R41-4 successfully loaded.
+[15:37:12]   Loaded.
+[15:37:12]  Loading plugin: pawncmd
+[15:37:12] [Pawn.CMD] plugin v3.4.0 loading...
+[15:37:12] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:37:12]   Loaded.
+[15:37:12]  Loaded 4 plugins.
+
+[15:37:12] 
+[15:37:12] Filterscripts
+[15:37:12] ---------------
+[15:37:12]   Loaded 0 filterscripts.
+
+[15:37:12] [MySQL] Подключение к основной базе данных прошло успешно
+[15:37:12] 
+----------------------------------
+[15:37:12]  Blank Gamemode by your name here
+[15:37:12] ----------------------------------
+
+[15:37:12] Number of vehicle models: 0
+[15:37:38] [connection] 127.0.0.1:51665 requests connection cookie.
+[15:37:39] [connection] incoming connection: 127.0.0.1:51665 id: 0
+[15:37:39] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[15:51:37] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:51:43] 
+[15:51:43] Server Plugins
+[15:51:43] --------------
+[15:51:43]  Loading plugin: crashdetect
+[15:51:43]   CrashDetect plugin 4.21
+[15:51:43]   Loaded.
+[15:51:43]  Loading plugin: sscanf
+[15:51:43] 
+[15:51:43]  ===============================
+[15:51:43] 
+[15:51:43]       sscanf plugin loaded.     
+[15:51:43] 
+[15:51:43]          Version: 2.13.8
+[15:51:43] 
+[15:51:43]    (c) 2022 Alex "Y_Less" Cole  
+[15:51:43] 
+[15:51:43]  ===============================
+[15:51:43] 
+[15:51:43]   Loaded.
+[15:51:43]  Loading plugin: mysql
+[15:51:43]  >> plugin.mysql: R41-4 successfully loaded.
+[15:51:43]   Loaded.
+[15:51:43]  Loading plugin: pawncmd
+[15:51:43] [Pawn.CMD] plugin v3.4.0 loading...
+[15:51:43] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:51:43]   Loaded.
+[15:51:43]  Loaded 4 plugins.
+
+[15:51:43] 
+[15:51:43] Filterscripts
+[15:51:43] ---------------
+[15:51:43]   Loaded 0 filterscripts.
+
+[15:51:43] [MySQL] Подключение к основной базе данных прошло успешно
+[15:51:43] 
+----------------------------------
+[15:51:43]  Blank Gamemode by your name here
+[15:51:43] ----------------------------------
+
+[15:51:43] Number of vehicle models: 0
+[15:52:04] [connection] 127.0.0.1:56635 requests connection cookie.
+[15:52:05] [connection] incoming connection: 127.0.0.1:56635 id: 0
+[15:52:05] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[15:53:08] 1
+[15:53:08] 1
+[15:53:08] 1
+[15:53:08] 1
+[15:53:08] 1
+[15:53:08] 1
+[15:53:08] 1
+[15:53:08] 1
+[15:53:08] 1
+[15:53:08] 1
+[15:53:08] [debug] Long callback execution detected (hang or performance issue)
+[15:53:08] [debug] AMX backtrace:
+[15:53:08] [debug] #0 000098d4 in public dre_D_ACCESSORY_EDIT_POS (playerid=0, response=1, listitem=-1, inputtext[]=@001737fc "0.118998,0.003000,-0.004000") at ../src/systems/accessories/accessories.pwn:663
+[15:53:08] [debug] #1 native CallLocalFunction () in samp-server.exe
+[15:53:08] [debug] #2 00002058 in public OnDialogResponse (playerid=0, dialogid=32700, response=1, listitem=-1, inputtext[]=@0017378c "0.118998,0.003000,-0.004000") at D:\samp\t02\pawno\include\mdialog.inc:664
+[15:54:22] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:54:36] 
+[15:54:36] Server Plugins
+[15:54:36] --------------
+[15:54:36]  Loading plugin: crashdetect
+[15:54:36]   CrashDetect plugin 4.21
+[15:54:36]   Loaded.
+[15:54:36]  Loading plugin: sscanf
+[15:54:36] 
+[15:54:36]  ===============================
+[15:54:36] 
+[15:54:36]       sscanf plugin loaded.     
+[15:54:36] 
+[15:54:36]          Version: 2.13.8
+[15:54:36] 
+[15:54:36]    (c) 2022 Alex "Y_Less" Cole  
+[15:54:36] 
+[15:54:36]  ===============================
+[15:54:36] 
+[15:54:36]   Loaded.
+[15:54:36]  Loading plugin: mysql
+[15:54:36]  >> plugin.mysql: R41-4 successfully loaded.
+[15:54:36]   Loaded.
+[15:54:36]  Loading plugin: pawncmd
+[15:54:36] [Pawn.CMD] plugin v3.4.0 loading...
+[15:54:36] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:54:36]   Loaded.
+[15:54:36]  Loaded 4 plugins.
+
+[15:54:36] 
+[15:54:36] Filterscripts
+[15:54:36] ---------------
+[15:54:36]   Loaded 0 filterscripts.
+
+[15:54:36] [MySQL] Подключение к основной базе данных прошло успешно
+[15:54:36] 
+----------------------------------
+[15:54:36]  Blank Gamemode by your name here
+[15:54:36] ----------------------------------
+
+[15:54:36] Number of vehicle models: 0
+[15:54:54] [connection] 127.0.0.1:53659 requests connection cookie.
+[15:54:55] [connection] incoming connection: 127.0.0.1:53659 id: 0
+[15:54:56] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[15:55:28] 1
+[15:55:28] 1
+[15:55:28] 1
+[15:55:28] 1
+[15:55:28] 1
+[15:55:28] 1
+[15:55:28] 1
+[15:55:28] 1
+[15:55:28] 1
+[15:55:28] 1
+[15:55:28] [debug] Long callback execution detected (hang or performance issue)
+[15:55:28] [debug] AMX backtrace:
+[15:55:28] [debug] #0 00009854 in public dre_D_ACCESSORY_EDIT_POS (playerid=0, response=1, listitem=-1, inputtext[]=@001737fc "0.118998,0.003000,-0.004000") at ../src/systems/accessories/accessories.pwn:663
+[15:55:28] [debug] #1 native CallLocalFunction () in samp-server.exe
+[15:55:28] [debug] #2 00002058 in public OnDialogResponse (playerid=0, dialogid=32700, response=1, listitem=-1, inputtext[]=@0017378c "0.118998,0.003000,-0.004000") at D:\samp\t02\pawno\include\mdialog.inc:664
+[15:56:07] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:56:20] 
+[15:56:20] Server Plugins
+[15:56:20] --------------
+[15:56:20]  Loading plugin: crashdetect
+[15:56:20]   CrashDetect plugin 4.21
+[15:56:20]   Loaded.
+[15:56:20]  Loading plugin: sscanf
+[15:56:20] 
+[15:56:20]  ===============================
+[15:56:20] 
+[15:56:20]       sscanf plugin loaded.     
+[15:56:20] 
+[15:56:20]          Version: 2.13.8
+[15:56:20] 
+[15:56:20]    (c) 2022 Alex "Y_Less" Cole  
+[15:56:20] 
+[15:56:20]  ===============================
+[15:56:20] 
+[15:56:20]   Loaded.
+[15:56:20]  Loading plugin: mysql
+[15:56:20]  >> plugin.mysql: R41-4 successfully loaded.
+[15:56:20]   Loaded.
+[15:56:20]  Loading plugin: pawncmd
+[15:56:20] [Pawn.CMD] plugin v3.4.0 loading...
+[15:56:20] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[15:56:20]   Loaded.
+[15:56:20]  Loaded 4 plugins.
+
+[15:56:20] 
+[15:56:20] Filterscripts
+[15:56:20] ---------------
+[15:56:20]   Loaded 0 filterscripts.
+
+[15:56:20] [MySQL] Подключение к основной базе данных прошло успешно
+[15:56:20] 
+----------------------------------
+[15:56:20]  Blank Gamemode by your name here
+[15:56:20] ----------------------------------
+
+[15:56:20] Number of vehicle models: 0
+[15:56:38] [connection] 127.0.0.1:63040 requests connection cookie.
+[15:56:39] [connection] incoming connection: 127.0.0.1:63040 id: 0
+[15:56:40] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[15:57:15] 1
+[15:57:15] 1
+[15:57:15] 1
+[15:57:15] 1
+[15:57:15] 1
+[15:57:15] 1
+[15:57:15] 1
+[15:57:15] 1
+[15:57:15] 1
+[15:57:15] 1
+[15:57:15] [debug] Long callback execution detected (hang or performance issue)
+[15:57:15] [debug] AMX backtrace:
+[15:57:15] [debug] #0 00009800 in public dre_D_ACCESSORY_EDIT_POS (playerid=0, response=1, listitem=-1, inputtext[]=@001737fc "0.118998,0.003000,-0.004000") at ../src/systems/accessories/accessories.pwn:663
+[15:57:15] [debug] #1 native CallLocalFunction () in samp-server.exe
+[15:57:15] [debug] #2 00002058 in public OnDialogResponse (playerid=0, dialogid=32700, response=1, listitem=-1, inputtext[]=@0017378c "0.118998,0.003000,-0.004000") at D:\samp\t02\pawno\include\mdialog.inc:664
+[16:00:49] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:01:00] 
+[16:01:00] Server Plugins
+[16:01:00] --------------
+[16:01:00]  Loading plugin: crashdetect
+[16:01:00]   CrashDetect plugin 4.21
+[16:01:00]   Loaded.
+[16:01:00]  Loading plugin: sscanf
+[16:01:00] 
+[16:01:00]  ===============================
+[16:01:00] 
+[16:01:00]       sscanf plugin loaded.     
+[16:01:00] 
+[16:01:00]          Version: 2.13.8
+[16:01:00] 
+[16:01:00]    (c) 2022 Alex "Y_Less" Cole  
+[16:01:00] 
+[16:01:00]  ===============================
+[16:01:00] 
+[16:01:00]   Loaded.
+[16:01:00]  Loading plugin: mysql
+[16:01:00]  >> plugin.mysql: R41-4 successfully loaded.
+[16:01:00]   Loaded.
+[16:01:00]  Loading plugin: pawncmd
+[16:01:00] [Pawn.CMD] plugin v3.4.0 loading...
+[16:01:00] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[16:01:00]   Loaded.
+[16:01:00]  Loaded 4 plugins.
+
+[16:01:00] 
+[16:01:00] Filterscripts
+[16:01:00] ---------------
+[16:01:00]   Loaded 0 filterscripts.
+
+[16:01:00] [MySQL] Подключение к основной базе данных прошло успешно
+[16:01:00] 
+----------------------------------
+[16:01:00]  Blank Gamemode by your name here
+[16:01:00] ----------------------------------
+
+[16:01:00] Number of vehicle models: 0
+[16:01:23] [connection] 127.0.0.1:56732 requests connection cookie.
+[16:01:24] [connection] incoming connection: 127.0.0.1:56732 id: 0
+[16:01:24] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[16:01:58] 1
+[16:01:58] 1
+[16:01:58] 1
+[16:01:58] 1
+[16:01:58] 1
+[16:01:58] 1
+[16:01:58] 1
+[16:01:58] 1
+[16:01:58] 1
+[16:01:58] 1
+[16:01:58] [debug] Long callback execution detected (hang or performance issue)
+[16:01:58] [debug] AMX backtrace:
+[16:01:58] [debug] #0 000097d4 in public dre_D_ACCESSORY_EDIT_POS (playerid=0, response=1, listitem=-1, inputtext[]=@001737fc "0.118998,0.003000,-0.004000") at ../src/systems/accessories/accessories.pwn:661
+[16:01:58] [debug] #1 native CallLocalFunction () in samp-server.exe
+[16:01:58] [debug] #2 00002058 in public OnDialogResponse (playerid=0, dialogid=32700, response=1, listitem=-1, inputtext[]=@0017378c "0.118998,0.003000,-0.004000") at D:\samp\t02\pawno\include\mdialog.inc:664
+[16:02:15] 1
+[16:02:15] 1
+[16:02:15] 1
+[16:02:15] 1
+[16:02:15] 1
+[16:02:15] 1
+[16:02:15] 1
+[16:02:15] 1
+[16:02:15] 1
+[16:02:15] 1
+[16:02:15] [debug] Long callback execution detected (hang or performance issue)
+[16:02:15] [debug] AMX backtrace:
+[16:02:15] [debug] #0 0000988c in public dre_D_ACCESSORY_EDIT_POS (playerid=0, response=1, listitem=-1, inputtext[]=@001737fc "1.118998,0.003000,-0.004000") at ../src/systems/accessories/accessories.pwn:663
+[16:02:15] [debug] #1 native CallLocalFunction () in samp-server.exe
+[16:02:15] [debug] #2 00002058 in public OnDialogResponse (playerid=0, dialogid=32700, response=1, listitem=-1, inputtext[]=@0017378c "1.118998,0.003000,-0.004000") at D:\samp\t02\pawno\include\mdialog.inc:664
+[16:07:26] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:08:09] 
+[16:08:09] Server Plugins
+[16:08:09] --------------
+[16:08:09]  Loading plugin: crashdetect
+[16:08:09]   CrashDetect plugin 4.21
+[16:08:09]   Loaded.
+[16:08:09]  Loading plugin: sscanf
+[16:08:09] 
+[16:08:09]  ===============================
+[16:08:09] 
+[16:08:09]       sscanf plugin loaded.     
+[16:08:09] 
+[16:08:09]          Version: 2.13.8
+[16:08:09] 
+[16:08:09]    (c) 2022 Alex "Y_Less" Cole  
+[16:08:09] 
+[16:08:09]  ===============================
+[16:08:09] 
+[16:08:09]   Loaded.
+[16:08:09]  Loading plugin: mysql
+[16:08:09]  >> plugin.mysql: R41-4 successfully loaded.
+[16:08:09]   Loaded.
+[16:08:09]  Loading plugin: pawncmd
+[16:08:09] [Pawn.CMD] plugin v3.4.0 loading...
+[16:08:09] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[16:08:09]   Loaded.
+[16:08:09]  Loaded 4 plugins.
+
+[16:08:09] 
+[16:08:09] Filterscripts
+[16:08:09] ---------------
+[16:08:09]   Loaded 0 filterscripts.
+
+[16:08:09] [MySQL] Подключение к основной базе данных прошло успешно
+[16:08:09] 
+----------------------------------
+[16:08:09]  Blank Gamemode by your name here
+[16:08:09] ----------------------------------
+
+[16:08:09] Number of vehicle models: 0
+[16:08:29] [connection] 127.0.0.1:51275 requests connection cookie.
+[16:08:30] [connection] incoming connection: 127.0.0.1:51275 id: 0
+[16:08:31] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[16:09:23] 0 - 1 
+[16:09:23] 0 - 1 
+[16:09:23] 0 - 1 
+[16:09:23] 0 - 1 
+[16:09:23] 0 - 1 
+[16:09:23] 0 - 1 
+[16:09:23] 0 - 1 
+[16:09:23] 0 - 1 
+[16:09:23] 0 - 1 
+[16:09:23] 0 - 1 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:32:33] 
+[16:32:33] Server Plugins
+[16:32:33] --------------
+[16:32:33]  Loading plugin: crashdetect
+[16:32:33]   CrashDetect plugin 4.21
+[16:32:33]   Loaded.
+[16:32:33]  Loading plugin: sscanf
+[16:32:33] 
+[16:32:33]  ===============================
+[16:32:33] 
+[16:32:33]       sscanf plugin loaded.     
+[16:32:33] 
+[16:32:33]          Version: 2.13.8
+[16:32:33] 
+[16:32:33]    (c) 2022 Alex "Y_Less" Cole  
+[16:32:33] 
+[16:32:33]  ===============================
+[16:32:33] 
+[16:32:33]   Loaded.
+[16:32:33]  Loading plugin: mysql
+[16:32:33]  >> plugin.mysql: R41-4 successfully loaded.
+[16:32:33]   Loaded.
+[16:32:33]  Loading plugin: pawncmd
+[16:32:33] [Pawn.CMD] plugin v3.4.0 loading...
+[16:32:33] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[16:32:33]   Loaded.
+[16:32:33]  Loaded 4 plugins.
+
+[16:32:33] 
+[16:32:33] Filterscripts
+[16:32:33] ---------------
+[16:32:33]   Loaded 0 filterscripts.
+
+[16:32:33] [MySQL] Подключение к основной базе данных прошло успешно
+[16:32:33] 
+----------------------------------
+[16:32:33]  Blank Gamemode by your name here
+[16:32:33] ----------------------------------
+
+[16:32:33] Number of vehicle models: 0
+[16:33:02] [connection] 127.0.0.1:50178 requests connection cookie.
+[16:33:03] [connection] incoming connection: 127.0.0.1:50178 id: 0
+[16:33:03] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[16:35:54] 1 - 1 
+[16:35:54] 2
+[16:35:54] 0 - 1 
+[16:35:54] 0 - 1 
+[16:35:54] 0 - 1 
+[16:35:54] 0 - 1 
+[16:35:54] 0 - 1 
+[16:35:54] 0 - 1 
+[16:35:54] 0 - 1 
+[16:35:54] 0 - 1 
+[16:35:54] 0 - 1 
+[16:36:58] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:40:31] 
+[16:40:31] Server Plugins
+[16:40:31] --------------
+[16:40:31]  Loading plugin: crashdetect
+[16:40:31]   CrashDetect plugin 4.21
+[16:40:31]   Loaded.
+[16:40:31]  Loading plugin: sscanf
+[16:40:31] 
+[16:40:31]  ===============================
+[16:40:31] 
+[16:40:31]       sscanf plugin loaded.     
+[16:40:31] 
+[16:40:31]          Version: 2.13.8
+[16:40:31] 
+[16:40:31]    (c) 2022 Alex "Y_Less" Cole  
+[16:40:31] 
+[16:40:31]  ===============================
+[16:40:31] 
+[16:40:31]   Loaded.
+[16:40:31]  Loading plugin: mysql
+[16:40:31]  >> plugin.mysql: R41-4 successfully loaded.
+[16:40:31]   Loaded.
+[16:40:31]  Loading plugin: pawncmd
+[16:40:31] [Pawn.CMD] plugin v3.4.0 loading...
+[16:40:31] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[16:40:31]   Loaded.
+[16:40:31]  Loaded 4 plugins.
+
+[16:40:31] 
+[16:40:31] Filterscripts
+[16:40:31] ---------------
+[16:40:31]   Loaded 0 filterscripts.
+
+[16:40:31] [MySQL] Подключение к основной базе данных прошло успешно
+[16:40:31] 
+----------------------------------
+[16:40:31]  Blank Gamemode by your name here
+[16:40:31] ----------------------------------
+
+[16:40:31] Number of vehicle models: 0
+[16:40:50] [connection] 127.0.0.1:57623 requests connection cookie.
+[16:40:51] [connection] incoming connection: 127.0.0.1:57623 id: 0
+[16:40:51] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[16:42:33] 1 - 1 
+[16:42:33] 2
+[16:42:33] 0 - 1 
+[16:42:33] 0 - 1 
+[16:42:33] 0 - 1 
+[16:42:33] 0 - 1 
+[16:42:33] 0 - 1 
+[16:42:33] 0 - 1 
+[16:42:33] 0 - 1 
+[16:42:33] 0 - 1 
+[16:42:33] 0 - 1 
+[16:45:20] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:45:32] 
+[16:45:32] Server Plugins
+[16:45:32] --------------
+[16:45:32]  Loading plugin: crashdetect
+[16:45:32]   CrashDetect plugin 4.21
+[16:45:32]   Loaded.
+[16:45:32]  Loading plugin: sscanf
+[16:45:32] 
+[16:45:32]  ===============================
+[16:45:32] 
+[16:45:32]       sscanf plugin loaded.     
+[16:45:32] 
+[16:45:32]          Version: 2.13.8
+[16:45:32] 
+[16:45:32]    (c) 2022 Alex "Y_Less" Cole  
+[16:45:32] 
+[16:45:32]  ===============================
+[16:45:32] 
+[16:45:32]   Loaded.
+[16:45:32]  Loading plugin: mysql
+[16:45:32]  >> plugin.mysql: R41-4 successfully loaded.
+[16:45:32]   Loaded.
+[16:45:32]  Loading plugin: pawncmd
+[16:45:32] [Pawn.CMD] plugin v3.4.0 loading...
+[16:45:32] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[16:45:32]   Loaded.
+[16:45:32]  Loaded 4 plugins.
+
+[16:45:32] 
+[16:45:32] Filterscripts
+[16:45:32] ---------------
+[16:45:32]   Loaded 0 filterscripts.
+
+[16:45:32] [MySQL] Подключение к основной базе данных прошло успешно
+[16:45:32] 
+----------------------------------
+[16:45:32]  Blank Gamemode by your name here
+[16:45:32] ----------------------------------
+
+[16:45:32] Number of vehicle models: 0
+[16:45:51] [connection] 127.0.0.1:52385 requests connection cookie.
+[16:45:52] [connection] incoming connection: 127.0.0.1:52385 id: 0
+[16:45:53] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[16:46:48] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:47:01] 
+[16:47:01] Server Plugins
+[16:47:01] --------------
+[16:47:01]  Loading plugin: crashdetect
+[16:47:01]   CrashDetect plugin 4.21
+[16:47:01]   Loaded.
+[16:47:01]  Loading plugin: sscanf
+[16:47:01] 
+[16:47:01]  ===============================
+[16:47:01] 
+[16:47:01]       sscanf plugin loaded.     
+[16:47:01] 
+[16:47:01]          Version: 2.13.8
+[16:47:01] 
+[16:47:01]    (c) 2022 Alex "Y_Less" Cole  
+[16:47:01] 
+[16:47:01]  ===============================
+[16:47:01] 
+[16:47:01]   Loaded.
+[16:47:01]  Loading plugin: mysql
+[16:47:01]  >> plugin.mysql: R41-4 successfully loaded.
+[16:47:01]   Loaded.
+[16:47:01]  Loading plugin: pawncmd
+[16:47:01] [Pawn.CMD] plugin v3.4.0 loading...
+[16:47:01] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[16:47:01]   Loaded.
+[16:47:01]  Loaded 4 plugins.
+
+[16:47:01] 
+[16:47:01] Filterscripts
+[16:47:01] ---------------
+[16:47:01]   Loaded 0 filterscripts.
+
+[16:47:01] [MySQL] Подключение к основной базе данных прошло успешно
+[16:47:01] 
+----------------------------------
+[16:47:01]  Blank Gamemode by your name here
+[16:47:01] ----------------------------------
+
+[16:47:01] Number of vehicle models: 0
+[16:47:19] [connection] 127.0.0.1:61836 requests connection cookie.
+[16:47:20] [connection] incoming connection: 127.0.0.1:61836 id: 0
+[16:47:20] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[16:49:25] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:52:09] 
+[16:52:09] Server Plugins
+[16:52:09] --------------
+[16:52:09]  Loading plugin: crashdetect
+[16:52:09]   CrashDetect plugin 4.21
+[16:52:09]   Loaded.
+[16:52:09]  Loading plugin: sscanf
+[16:52:09] 
+[16:52:09]  ===============================
+[16:52:09] 
+[16:52:09]       sscanf plugin loaded.     
+[16:52:09] 
+[16:52:09]          Version: 2.13.8
+[16:52:09] 
+[16:52:09]    (c) 2022 Alex "Y_Less" Cole  
+[16:52:09] 
+[16:52:09]  ===============================
+[16:52:09] 
+[16:52:09]   Loaded.
+[16:52:09]  Loading plugin: mysql
+[16:52:09]  >> plugin.mysql: R41-4 successfully loaded.
+[16:52:09]   Loaded.
+[16:52:09]  Loading plugin: pawncmd
+[16:52:09] [Pawn.CMD] plugin v3.4.0 loading...
+[16:52:09] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[16:52:09]   Loaded.
+[16:52:09]  Loaded 4 plugins.
+
+[16:52:10] 
+[16:52:10] Filterscripts
+[16:52:10] ---------------
+[16:52:10]   Loaded 0 filterscripts.
+
+[16:52:10] [MySQL] Подключение к основной базе данных прошло успешно
+[16:52:10] 
+----------------------------------
+[16:52:10]  Blank Gamemode by your name here
+[16:52:10] ----------------------------------
+
+[16:52:10] Number of vehicle models: 0
+[16:52:28] [connection] 127.0.0.1:52995 requests connection cookie.
+[16:52:29] [connection] incoming connection: 127.0.0.1:52995 id: 0
+[16:52:29] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[16:53:13] -1
+[16:53:43] 1
+[16:53:43] 0
+[16:53:43] 0
+[16:53:43] 0
+[16:53:43] 0
+[16:53:43] 0
+[16:53:43] 0
+[16:53:43] 0
+[16:53:43] 0
+[16:53:43] 0
+[16:56:53] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:57:06] 
+[16:57:06] Server Plugins
+[16:57:06] --------------
+[16:57:06]  Loading plugin: crashdetect
+[16:57:06]   CrashDetect plugin 4.21
+[16:57:06]   Loaded.
+[16:57:06]  Loading plugin: sscanf
+[16:57:06] 
+[16:57:06]  ===============================
+[16:57:06] 
+[16:57:06]       sscanf plugin loaded.     
+[16:57:06] 
+[16:57:06]          Version: 2.13.8
+[16:57:06] 
+[16:57:06]    (c) 2022 Alex "Y_Less" Cole  
+[16:57:06] 
+[16:57:06]  ===============================
+[16:57:06] 
+[16:57:06]   Loaded.
+[16:57:06]  Loading plugin: mysql
+[16:57:06]  >> plugin.mysql: R41-4 successfully loaded.
+[16:57:06]   Loaded.
+[16:57:06]  Loading plugin: pawncmd
+[16:57:06] [Pawn.CMD] plugin v3.4.0 loading...
+[16:57:06] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[16:57:06]   Loaded.
+[16:57:06]  Loaded 4 plugins.
+
+[16:57:06] 
+[16:57:06] Filterscripts
+[16:57:06] ---------------
+[16:57:06]   Loaded 0 filterscripts.
+
+[16:57:06] [MySQL] Подключение к основной базе данных прошло успешно
+[16:57:06] 
+----------------------------------
+[16:57:06]  Blank Gamemode by your name here
+[16:57:06] ----------------------------------
+
+[16:57:06] Number of vehicle models: 0
+[16:57:25] [connection] 127.0.0.1:52935 requests connection cookie.
+[16:57:26] [connection] incoming connection: 127.0.0.1:52935 id: 0
+[16:57:26] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[16:57:47] -1
+[16:57:53] 1
+[16:57:53] -1
+[18:03:56] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:04:01] 
+[18:04:01] Server Plugins
+[18:04:01] --------------
+[18:04:01]  Loading plugin: crashdetect
+[18:04:01]   CrashDetect plugin 4.21
+[18:04:01]   Loaded.
+[18:04:01]  Loading plugin: sscanf
+[18:04:01] 
+[18:04:01]  ===============================
+[18:04:01] 
+[18:04:01]       sscanf plugin loaded.     
+[18:04:01] 
+[18:04:01]          Version: 2.13.8
+[18:04:01] 
+[18:04:01]    (c) 2022 Alex "Y_Less" Cole  
+[18:04:01] 
+[18:04:01]  ===============================
+[18:04:01] 
+[18:04:01]   Loaded.
+[18:04:01]  Loading plugin: mysql
+[18:04:01]  >> plugin.mysql: R41-4 successfully loaded.
+[18:04:01]   Loaded.
+[18:04:01]  Loading plugin: pawncmd
+[18:04:01] [Pawn.CMD] plugin v3.4.0 loading...
+[18:04:01] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[18:04:01]   Loaded.
+[18:04:01]  Loaded 4 plugins.
+
+[18:04:02] 
+[18:04:02] Filterscripts
+[18:04:02] ---------------
+[18:04:02]   Loaded 0 filterscripts.
+
+[18:04:02] [MySQL] Подключение к основной базе данных прошло успешно
+[18:04:02] 
+----------------------------------
+[18:04:02]  Blank Gamemode by your name here
+[18:04:02] ----------------------------------
+
+[18:04:02] Number of vehicle models: 0
+[18:04:20] [connection] 127.0.0.1:54126 requests connection cookie.
+[18:04:21] [connection] incoming connection: 127.0.0.1:54126 id: 0
+[18:04:21] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[18:05:27] [part] Stas_Wilson has left the server (0:1)

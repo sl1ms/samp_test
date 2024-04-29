@@ -102,12 +102,24 @@ public: Database:CreateAccount(playerid)
 
     mysql_tquery(mysql, c_account_query, DatabaseText(Database:CreateAccountDone), "d", playerid);
 
+
     return 1;
 }
 
 public: Database:CreateAccountDone(playerid)
 {
     SetPlayerData(playerid, PLAYER_ID, cache_insert_id());
+
+    new query[150];
+    
+    format
+    (
+        query, sizeof query,
+        "INSERT INTO "DB_ACCESSORIES" (`account_id`) VALUES ('%d')",
+        GetPlayerData(playerid, PLAYER_ID)
+    );
+
+    mysql_tquery(mysql, query);
 
     Auth:LoadPlayerDataDone(playerid);
 
@@ -154,6 +166,7 @@ public: Database:IsCheckAccount(playerid)
 
 stock Auth:LoadPlayerDataDone(playerid)
 {
+
     SetPlayerData(playerid, PLAYER_AUTHORIZED, true);
 
     TogglePlayerSpectating(playerid, 0);
