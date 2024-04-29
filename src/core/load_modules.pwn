@@ -12,3 +12,5 @@
 
 
 #include "../src/systems/accessories/accessories.pwn"
+
+#include "../src/systems/logs/admin/admin_logs.inc"

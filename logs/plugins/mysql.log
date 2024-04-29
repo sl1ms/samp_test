@@ -1,414 +1,56 @@
-[12:50:01] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[12:50:01] [ERROR] mysql_tquery: callback error: callback "DB__LoadAccessoriesData
-" does not exist (../src/systems/accessories/accessories.pwn:89 -> new.pwn:23 -> ../src/core/database/database.pwn:23 -> D:\samp\t02\pawno\include\mdialog.inc:380 -> D:\samp\t02\pawno\include\Pawn.CMD.inc:131 -> D:\samp\t02\pawno\include\sscanf2.inc:1065)
-[12:53:53] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[12:53:53] [ERROR] mysql_tquery: callback error: callback "DB__LoadAccessoriesData
-" does not exist (../src/systems/accessories/accessories.pwn:89 -> new.pwn:23 -> ../src/core/database/database.pwn:23 -> D:\samp\t02\pawno\include\mdialog.inc:380 -> D:\samp\t02\pawno\include\Pawn.CMD.inc:131 -> D:\samp\t02\pawno\include\sscanf2.inc:1065)
-[12:55:16] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[12:55:16] [ERROR] mysql_tquery: callback error: callback "DB__LoadAccessoriesData
-" does not exist (../src/systems/accessories/accessories.pwn:89 -> new.pwn:23 -> ../src/core/database/database.pwn:23 -> D:\samp\t02\pawno\include\mdialog.inc:380 -> D:\samp\t02\pawno\include\Pawn.CMD.inc:131 -> D:\samp\t02\pawno\include\sscanf2.inc:1065)
-[12:57:35] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[12:57:35] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[12:57:35] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 1.64 milliseconds
-[12:57:35] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[12:57:35] [INFO] Callback successfully executed.
-[12:57:53] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[12:57:53] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[12:57:53] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 0.794 milliseconds
-[12:57:53] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[12:57:53] [INFO] Callback successfully executed.
-[12:59:28] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[12:59:28] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.710 milliseconds
-[12:59:28] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[12:59:28] [INFO] Callback successfully executed.
-[12:59:30] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[12:59:30] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 2.156 milliseconds
-[12:59:30] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[12:59:30] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
-[12:59:30] [INFO] Callback successfully executed.
-[12:59:30] [INFO] query "select * from `accessories` where `account_id` = '1'" successfully executed within 1.95 milliseconds
-[12:59:30] [INFO] Executing callback 'DB__LoadPlayerAccessory' with 1 parameter...
-[12:59:30] [ERROR] cache_get_value_name_int: field 'slot' not found (../src/systems/accessories/accessories.pwn:186)
-[12:59:30] [ERROR] cache_get_value_name_int: field 'model' not found (../src/systems/accessories/accessories.pwn:192)
-[12:59:30] [ERROR] cache_get_value_name_int: field 'extra' not found (../src/systems/accessories/accessories.pwn:193)
-[12:59:30] [ERROR] cache_get_value_name_int: field 'bone' not found (../src/systems/accessories/accessories.pwn:194)
-[12:59:30] [ERROR] cache_get_value_name_int: field 'category' not found (../src/systems/accessories/accessories.pwn:195)
-[12:59:30] [ERROR] cache_get_value_name_float: field 'offset_x' not found (../src/systems/accessories/accessories.pwn:197)
-[12:59:30] [ERROR] cache_get_value_name_float: field 'offset_y' not found (../src/systems/accessories/accessories.pwn:198)
-[12:59:30] [ERROR] cache_get_value_name_float: field 'offset_z' not found (../src/systems/accessories/accessories.pwn:199)
-[12:59:30] [ERROR] cache_get_value_name_float: field 'rot_x' not found (../src/systems/accessories/accessories.pwn:201)
-[12:59:30] [ERROR] cache_get_value_name_float: field 'rot_y' not found (../src/systems/accessories/accessories.pwn:202)
-[12:59:30] [ERROR] cache_get_value_name_float: field 'rot_z' not found (../src/systems/accessories/accessories.pwn:203)
-[12:59:30] [ERROR] cache_get_value_name_float: field 'scale_x' not found (../src/systems/accessories/accessories.pwn:205)
-[12:59:30] [ERROR] cache_get_value_name_float: field 'scale_y' not found (../src/systems/accessories/accessories.pwn:206)
-[12:59:30] [ERROR] cache_get_value_name_float: field 'scale_z' not found (../src/systems/accessories/accessories.pwn:207)
-[12:59:30] [ERROR] cache_get_value_name_int: field 'materialcolor1' not found (../src/systems/accessories/accessories.pwn:209)
-[12:59:30] [ERROR] cache_get_value_name_int: field 'materialcolor2' not found (../src/systems/accessories/accessories.pwn:210)
-[12:59:30] [INFO] Callback successfully executed.
-[13:00:07] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[13:00:07] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 1, 19067, -1, 1, 0.118997, 0.003000, -0.004000, 0.000000, 90.000000, 96.400001, 1.059000, 1.159999, 1.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:841)
-[13:01:21] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[13:01:21] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 2, 19559, -1, 1, -0.203999, -0.064998, -0.002999, -0.600000, -1.100000, 0.000000, 1.075999, 0.918998, 0.904999, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:841)
-[13:01:55] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[13:01:55] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 3, 19140, -1, 1, 0.102998, 0.030998, -0.001001, 0.000000, 90.000000, 90.500000, 1.000000, 1.057999, 1.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:841)
-[13:13:05] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[13:13:05] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[13:13:05] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 3.586 milliseconds
-[13:13:05] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[13:13:05] [INFO] Callback successfully executed.
-[13:13:29] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[13:13:29] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 1.382 milliseconds
-[13:13:29] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[13:13:29] [INFO] Callback successfully executed.
-[13:13:33] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[13:13:33] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.949 milliseconds
-[13:13:33] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[13:13:33] [INFO] Callback successfully executed.
-[13:13:48] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[13:13:48] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 19067, -1, 1, 0.118997, 0.003000, -0.004000, 0.000000, 90.000000, 96.400001, 1.059000, 1.159999, 1.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:842)
-[13:17:30] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[13:17:30] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[13:17:30] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 1.322 milliseconds
-[13:17:30] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[13:17:30] [INFO] Callback successfully executed.
-[13:18:02] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[13:18:02] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.803 milliseconds
-[13:18:02] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[13:18:02] [INFO] Callback successfully executed.
-[13:18:06] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[13:18:06] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.934 milliseconds
-[13:18:06] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[13:18:06] [INFO] Callback successfully executed.
-[13:18:16] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[13:18:16] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 19067, -1, 1, 0.118997, 0.003000, -0.004000, 0.000000, 90.000000, 96.400001, 1.059000, 1.159999, 1.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:842)
-[13:24:34] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[13:24:34] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[13:24:34] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 1.728 milliseconds
-[13:24:34] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[13:24:34] [INFO] Callback successfully executed.
-[13:24:56] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[13:24:56] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 1.138 milliseconds
-[13:24:56] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[13:24:56] [INFO] Callback successfully executed.
-[13:24:57] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[13:24:57] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.305 milliseconds
-[13:24:57] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[13:24:57] [INFO] Callback successfully executed.
-[13:25:04] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[13:25:04] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 19067, -1, 1, 0.118997, 0.003000, -0.004000, 0.000000, 90.000000, 96.400001, 1.059000, 1.159999, 1.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:843)
-[13:28:18] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[13:28:18] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[13:28:18] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 0.909 milliseconds
-[13:28:18] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[13:28:18] [INFO] Callback successfully executed.
-[13:28:40] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[13:28:40] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.888 milliseconds
-[13:28:40] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[13:28:40] [INFO] Callback successfully executed.
-[13:28:43] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[13:28:43] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.27 milliseconds
-[13:28:43] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[13:28:43] [INFO] Callback successfully executed.
-[13:28:59] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[13:28:59] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 0, 0, 0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:770)
-[13:32:09] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[13:32:09] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 1, 0, 0, 0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:770)
-[13:34:29] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[13:34:29] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[13:34:29] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 0.914 milliseconds
-[13:34:29] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[13:34:29] [INFO] Callback successfully executed.
-[13:34:39] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[13:34:39] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[13:34:39] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 0.707 milliseconds
-[13:34:39] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[13:34:39] [INFO] Callback successfully executed.
-[13:41:57] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[13:41:57] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[13:41:57] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 0.924 milliseconds
-[13:41:57] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[13:41:57] [INFO] Callback successfully executed.
-[13:42:21] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[13:42:21] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.781 milliseconds
-[13:42:21] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[13:42:21] [INFO] Callback successfully executed.
-[13:42:25] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[13:42:25] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 5.932 milliseconds
-[13:42:25] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[13:42:25] [INFO] Callback successfully executed.
-[13:42:40] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[13:42:40] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 19067, -1, 2, 0.118997, 0.003000, -0.004000, 0.000000, 90.000000, 96.400001, 1.059000, 1.159999, 1.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:842)
-[13:42:46] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[13:42:46] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 1, 19140, -1, 2, 0.102998, 0.030998, -0.001001, 0.000000, 90.000000, 90.500000, 1.000000, 1.057999, 1.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:842)
-[13:42:54] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[13:42:54] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 2, 19039, -1, 6, -0.018998, -0.003998, -0.001999, 51.200000, 53.200000, 142.800003, 0.963998, 0.916998, 1.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:842)
-[13:43:02] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[13:43:02] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 3, 19559, -1, 1, -0.203999, -0.064998, -0.002999, -0.600000, -1.100000, 0.000000, 1.075999, 0.918998, 0.904999, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:842)
-[13:50:20] [INFO] query "UPDATE `accessories` SET `slot1` = DEFAULT WHERE `account_id` = ''" successfully executed within 0.879 milliseconds
-[15:24:37] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[15:24:37] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[15:24:37] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 2.882 milliseconds
-[15:24:37] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[15:24:37] [INFO] Callback successfully executed.
-[15:25:00] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[15:25:00] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.888 milliseconds
-[15:25:00] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[15:25:00] [INFO] Callback successfully executed.
-[15:25:02] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[15:25:02] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.931 milliseconds
-[15:25:02] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[15:25:02] [INFO] Callback successfully executed.
-[15:25:13] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[15:25:13] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 0, 0, 0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:1015)
-[15:25:54] [INFO] query "UPDATE `accessories_data` SET `offset_x` = '0.000000',`offset_y` = '0.000000',`offset_z` = '0.000000' WHERE `id` = '1'" successfully executed within 55.15 milliseconds
-[15:30:49] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[15:30:49] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[15:30:49] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 1.353 milliseconds
-[15:30:49] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[15:30:49] [INFO] Callback successfully executed.
-[15:31:11] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[15:31:11] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.756 milliseconds
-[15:31:11] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[15:31:11] [INFO] Callback successfully executed.
-[15:31:13] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[15:31:13] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.296 milliseconds
-[15:31:13] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[15:31:13] [INFO] Callback successfully executed.
-[15:31:21] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[15:31:21] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 0, 0, 0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:1019)
-[15:31:53] [INFO] query "UPDATE `accessories_data` SET `offset_x` = '5.000000',`offset_y` = '5.000000',`offset_z` = '5.000000' WHERE `id` = '1'" successfully executed within 125.268 milliseconds
-[15:34:45] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[15:34:45] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[15:34:45] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 0.927 milliseconds
-[15:34:45] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[15:34:45] [INFO] Callback successfully executed.
-[15:35:07] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[15:35:07] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.793 milliseconds
-[15:35:07] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[15:35:07] [INFO] Callback successfully executed.
-[15:35:10] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[15:35:10] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.211 milliseconds
-[15:35:10] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[15:35:10] [INFO] Callback successfully executed.
-[15:35:22] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[15:35:22] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 0, 0, 0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:1019)
-[15:35:31] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[15:35:31] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 1, 0, 0, 0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:1019)
-[15:35:50] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[15:35:50] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 2, 0, 0, 0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:1019)
-[15:37:12] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[15:37:12] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[15:37:12] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 1.105 milliseconds
-[15:37:12] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[15:37:12] [INFO] Callback successfully executed.
-[15:37:41] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[15:37:41] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.795 milliseconds
-[15:37:41] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[15:37:41] [INFO] Callback successfully executed.
-[15:37:45] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[15:37:45] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.972 milliseconds
-[15:37:45] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[15:37:45] [INFO] Callback successfully executed.
-[15:37:56] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[15:37:56] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 0, 0, 0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:1019)
-[15:51:43] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[15:51:43] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[15:51:43] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 21.427 milliseconds
-[15:51:43] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[15:51:43] [INFO] Callback successfully executed.
-[15:52:07] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[15:52:07] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.658 milliseconds
-[15:52:07] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[15:52:07] [INFO] Callback successfully executed.
-[15:52:10] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[15:52:10] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.728 milliseconds
-[15:52:10] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[15:52:10] [INFO] Callback successfully executed.
-[15:52:19] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[15:52:19] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 0, 0, 0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:1019)
-[15:53:08] [INFO] query "UPDATE `accessories_data` SET `offset_x` = '0.118997',`offset_y` = '0.003000',`offset_z` = '-0.004000' WHERE `id` = '1'" successfully executed within 33.756 milliseconds
-[15:54:36] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[15:54:36] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[15:54:36] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 0.969 milliseconds
-[15:54:36] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[15:54:36] [INFO] Callback successfully executed.
-[15:54:57] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[15:54:57] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.924 milliseconds
-[15:54:57] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[15:54:57] [INFO] Callback successfully executed.
-[15:54:59] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[15:54:59] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.730 milliseconds
-[15:54:59] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[15:54:59] [INFO] Callback successfully executed.
-[15:55:06] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[15:55:06] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 0, 0, 0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:1019)
-[15:55:28] [INFO] query "UPDATE `accessories_data` SET `offset_x` = '0.118997',`offset_y` = '0.003000',`offset_z` = '-0.004000' WHERE `id` = '1'" successfully executed within 2.204 milliseconds
-[15:56:20] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[15:56:20] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[15:56:20] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 1.3 milliseconds
-[15:56:20] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[15:56:20] [INFO] Callback successfully executed.
-[15:56:41] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[15:56:41] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.862 milliseconds
-[15:56:41] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[15:56:41] [INFO] Callback successfully executed.
-[15:56:46] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[15:56:46] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.715 milliseconds
-[15:56:46] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[15:56:46] [INFO] Callback successfully executed.
-[15:56:51] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[15:56:51] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 0, 0, 0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:1019)
-[15:57:15] [INFO] query "UPDATE `accessories_data` SET `offset_x` = '0.118997',`offset_y` = '0.003000',`offset_z` = '-0.004000' WHERE `id` = '1'" successfully executed within 1.51 milliseconds
-[16:01:00] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[16:01:00] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[16:01:00] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 0.822 milliseconds
-[16:01:00] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[16:01:00] [INFO] Callback successfully executed.
-[16:01:26] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[16:01:26] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.780 milliseconds
-[16:01:26] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[16:01:26] [INFO] Callback successfully executed.
-[16:01:30] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[16:01:30] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.785 milliseconds
-[16:01:30] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[16:01:30] [INFO] Callback successfully executed.
-[16:01:38] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[16:01:38] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 0, 0, 0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:1019)
-[16:01:58] [INFO] query "UPDATE `accessories_data` SET `offset_x` = '0.118997',`offset_y` = '0.003000',`offset_z` = '-0.004000' WHERE `id` = '1'" successfully executed within 0.973 milliseconds
-[16:02:15] [INFO] query "UPDATE `accessories_data` SET `offset_x` = '1.118998',`offset_y` = '0.003000',`offset_z` = '-0.004000' WHERE `id` = '1'" successfully executed within 41.410 milliseconds
-[16:08:09] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[16:08:09] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[16:08:09] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 0.968 milliseconds
-[16:08:09] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[16:08:09] [INFO] Callback successfully executed.
-[16:08:32] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[16:08:32] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.693 milliseconds
-[16:08:32] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[16:08:32] [INFO] Callback successfully executed.
-[16:08:38] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[16:08:38] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.586 milliseconds
-[16:08:38] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[16:08:38] [INFO] Callback successfully executed.
-[16:08:46] [INFO] Callback 'DB__InsertAccessoryData' set up for delayed execution.
-[16:08:46] [ERROR] error #1054 while executing query "INSERT INTO `accessories` (`account_id`, `slot`, `model`, `extra`, `bone`, `offset_x`, `offset_y`, `offset_z`,`rot_x`, `rot_y`, `rot_z`, `scale_x`, `scale_y`, `scale_z`, `materialcolor1`, `materialcolor2`) VALUES (1, 0, 0, 0, 0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0)": Unknown column 'slot' in 'field list' (../src/systems/accessories/accessories.pwn:1013)
-[16:09:23] [INFO] query "UPDATE `accessories_data` SET `offset_x` = '0.118997',`offset_y` = '0.003000',`offset_z` = '-0.004000' WHERE `id` = '1'" successfully executed within 64.295 milliseconds
-[16:32:33] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[16:32:33] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[16:32:33] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 6.78 milliseconds
-[16:32:33] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[16:32:33] [INFO] Callback successfully executed.
-[16:33:05] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[16:33:05] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.830 milliseconds
-[16:33:05] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[16:33:05] [INFO] Callback successfully executed.
-[16:33:28] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[16:33:28] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.913 milliseconds
-[16:33:28] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[16:33:28] [INFO] Callback successfully executed.
-[16:33:45] [INFO] query "update `accessories` set `slot2` = '1' where `account_id` = '1'" successfully executed within 122.693 milliseconds
-[16:35:54] [INFO] query "UPDATE `accessories_data` SET `offset_x` = '1.118998',`offset_y` = '0.003000',`offset_z` = '-0.004000' WHERE `id` = '1'" successfully executed within 39.453 milliseconds
-[16:40:31] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[16:40:31] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[16:40:31] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 46.285 milliseconds
-[16:40:31] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[16:40:31] [INFO] Callback successfully executed.
-[16:40:53] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[16:40:53] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 33.863 milliseconds
-[16:40:53] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[16:40:53] [INFO] Callback successfully executed.
-[16:40:58] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[16:40:58] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.978 milliseconds
-[16:40:58] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[16:40:58] [INFO] Callback successfully executed.
-[16:41:08] [INFO] query "update `accessories` set `slot2` = '1' where `account_id` = '1'" successfully executed within 182.884 milliseconds
-[16:42:33] [INFO] query "UPDATE `accessories_data` SET `offset_x` = '0.118997',`offset_y` = '0.003000',`offset_z` = '-0.004000' WHERE `id` = '1'" successfully executed within 326.812 milliseconds
-[16:42:44] [INFO] query "update `accessories` set `slot2` = '3' where `account_id` = '1'" successfully executed within 77.447 milliseconds
-[16:45:32] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[16:45:32] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[16:45:32] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 1.299 milliseconds
-[16:45:32] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[16:45:32] [INFO] Callback successfully executed.
-[16:45:54] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[16:45:54] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.788 milliseconds
-[16:45:54] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[16:45:54] [INFO] Callback successfully executed.
-[16:46:00] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[16:46:00] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.879 milliseconds
-[16:46:00] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[16:46:00] [INFO] Callback successfully executed.
-[16:46:06] [INFO] query "update `accessories` set `slot2` = '1' where `account_id` = '1'" successfully executed within 115.228 milliseconds
-[16:47:01] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[16:47:01] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[16:47:01] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 1.66 milliseconds
-[16:47:01] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[16:47:01] [INFO] Callback successfully executed.
-[16:47:22] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[16:47:22] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.873 milliseconds
-[16:47:22] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[16:47:22] [INFO] Callback successfully executed.
-[16:47:23] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[16:47:23] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.973 milliseconds
-[16:47:23] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[16:47:23] [INFO] Callback successfully executed.
-[16:47:30] [INFO] query "update `accessories` set `slot1` = '1' where `account_id` = '1'" successfully executed within 49.58 milliseconds
-[16:52:10] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[16:52:10] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[16:52:10] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 0.773 milliseconds
-[16:52:10] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[16:52:10] [INFO] Callback successfully executed.
-[16:52:31] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[16:52:31] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.879 milliseconds
-[16:52:31] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[16:52:31] [INFO] Callback successfully executed.
-[16:52:52] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[16:52:52] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 3.58 milliseconds
-[16:52:52] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[16:52:52] [INFO] Callback successfully executed.
-[16:53:13] [INFO] query "update `accessories` set `slot1` = '1' where `account_id` = '1'" successfully executed within 68.821 milliseconds
-[16:57:06] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[16:57:06] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[16:57:06] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 0.818 milliseconds
-[16:57:06] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[16:57:06] [INFO] Callback successfully executed.
-[16:57:28] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[16:57:28] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.605 milliseconds
-[16:57:28] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[16:57:28] [INFO] Callback successfully executed.
-[16:57:32] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[16:57:32] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.809 milliseconds
-[16:57:32] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[16:57:32] [INFO] Callback successfully executed.
-[16:57:47] [INFO] query "update `accessories` set `slot1` = '1' where `account_id` = '1'" successfully executed within 92.250 milliseconds
-[16:57:53] [INFO] query "update `accessories` set `slot2` = '3' where `account_id` = '1'" successfully executed within 69.813 milliseconds
-[18:04:02] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[18:04:02] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[18:04:02] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 1.130 milliseconds
-[18:04:02] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[18:04:02] [INFO] Callback successfully executed.
-[18:04:23] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[18:04:23] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.608 milliseconds
-[18:04:23] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[18:04:23] [INFO] Callback successfully executed.
-[18:04:28] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
-[18:04:28] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.889 milliseconds
-[18:04:28] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
-[18:04:28] [INFO] Callback 'DB__LoadPlayerAccessory' set up for delayed execution.
-[18:04:28] [INFO] Callback successfully executed.
-[18:04:28] [ERROR] error #1054 while executing query "SELECT `accessories_data`.*, `accessories_descriptions`.description, `accessories`.slot1, `accessories`.slot2, `accessories`.slot3, `accessories`.slot4, `accessories`.slot5, `accessories`.slot6, `accessories`.slot7, `accessories`.slot8, `accessories`.slot9, `accessories`.slot10 FROM `accessories_data` JOIN `accessories` ON `accessories_data`.id = `accessories`.slot1 OR `accessories_data`.id = `accessories`.slot2 OR `accessories_data`.id = `accessories`.slot3 OR `accessories_data`.id = `accessories`.slot4 OR `accessories_data`.id = `accessories`.slot5 OR `accessories_data`.id = `accessories`.s": Unknown column 'accessories_descriptions.description' in 'field list' (../src/systems/accessories/accessories.pwn:136 -> ../src/systems/auth/auth.pwn:83)
-[18:04:37] [INFO] query "update `accessories` set `slot1` = '1' where `account_id` = '1'" successfully executed within 0.716 milliseconds
-[18:04:58] [INFO] query "update `accessories` set `slot2` = '3' where `account_id` = '1'" successfully executed within 0.840 milliseconds
-[18:07:40] [INFO] changed log level from 'warning, error' to 'info, warning, error'
-[18:07:40] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
-[18:07:40] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 0.999 milliseconds
-[18:07:40] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
-[18:07:40] [INFO] Callback successfully executed.
-[18:08:02] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
-[18:08:02] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilsond'" successfully executed within 0.788 milliseconds
-[18:08:02] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
-[18:08:02] [INFO] Callback successfully executed.
-[18:08:05] [INFO] Callback 'DB__CreateAccountDone' set up for delayed execution.
-[18:08:05] [INFO] query "INSERT INTO `accounts` (`name`, `password`) VALUES ('Stas_Wilsond', 'qwerty')" successfully executed within 89.420 milliseconds
-[18:08:05] [INFO] Executing callback 'DB__CreateAccountDone' with 1 parameter...
-[18:08:05] [INFO] Callback successfully executed.
-[18:08:05] [INFO] query "INSERT INTO `accessories` (`account_id`) VALUES ('2')" successfully executed within 383.889 milliseconds
-[18:09:02] [INFO] query "update `accessories` set `slot1` = '1' where `account_id` = '2'" successfully executed within 139.866 milliseconds
+[00:03:14] [ERROR] error #1054 while executing query "INSERT INTO `admin_logs` (account_id, description) VALUES (1, דû)": Unknown column 'דû' in 'field list' (../src/systems/logs/admin/admin_logs.inc:25)
+[00:04:57] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[00:04:57] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
+[00:04:57] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 1.98 milliseconds
+[00:04:57] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
+[00:04:57] [INFO] Callback successfully executed.
+[00:05:22] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[00:05:22] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.674 milliseconds
+[00:05:22] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[00:05:22] [INFO] Callback successfully executed.
+[00:05:23] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[00:05:23] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 2.470 milliseconds
+[00:05:23] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[00:05:23] [INFO] Callback successfully executed.
+[00:05:30] [ERROR] error #1054 while executing query "INSERT INTO `admin_logs` (account_id, description) VALUES (1, ûגûגאפûאג)": Unknown column 'ûגûגאפûאג' in 'field list' (../src/systems/logs/admin/admin_logs.inc:25)
+[00:05:38] [INFO] Callback 'DB__LoadAdminLogs' set up for delayed execution.
+[00:05:38] [INFO] query "SELECT `accounts`.name, `admin_logs`.description, `admin_logs`.created_at FROM `admin_logs` JOIN `accounts` ON `admin_logs`.account_id = `accounts`.id ORDER BY created_at DESC LIMIT 25" successfully executed within 1.904 milliseconds
+[00:05:38] [INFO] Executing callback 'DB__LoadAdminLogs' with 1 parameter...
+[00:05:38] [INFO] Callback successfully executed.
+[00:09:18] [ERROR] error #1064 while executing query "INSERT INTO `admin_logs` (`account_id`, `description`) VALUES ('1, '423423423')": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '423423423')' at line 1 (../src/systems/logs/admin/admin_logs.inc:55)
+[00:09:21] [INFO] Callback 'DB__LoadAdminLogs' set up for delayed execution.
+[00:09:21] [INFO] query "SELECT `accounts`.name, `admin_logs`.description, `admin_logs`.created_at FROM `admin_logs` JOIN `accounts` ON `admin_logs`.account_id = `accounts`.id ORDER BY created_at DESC LIMIT 25" successfully executed within 1.875 milliseconds
+[00:09:21] [INFO] Executing callback 'DB__LoadAdminLogs' with 1 parameter...
+[00:09:21] [INFO] Callback successfully executed.
+[00:14:55] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[00:14:55] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
+[00:14:55] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 1.645 milliseconds
+[00:14:55] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
+[00:14:55] [INFO] Callback successfully executed.
+[00:15:20] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[00:15:20] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.934 milliseconds
+[00:15:20] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[00:15:20] [INFO] Callback successfully executed.
+[00:15:22] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[00:15:22] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.607 milliseconds
+[00:15:22] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[00:15:22] [INFO] Callback successfully executed.
+[00:15:30] [ERROR] error #1054 while executing query "INSERT INTO `admin_logs` (account_id, description) VALUES (1, dasd)": Unknown column 'dasd' in 'field list' (../src/systems/logs/admin/admin_logs.inc:25)
+[00:24:50] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[00:24:50] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
+[00:24:50] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 14.291 milliseconds
+[00:24:50] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
+[00:24:50] [INFO] Callback successfully executed.
+[00:25:18] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[00:25:18] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 1.184 milliseconds
+[00:25:18] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[00:25:18] [INFO] Callback successfully executed.
+[00:25:20] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[00:25:20] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.260 milliseconds
+[00:25:20] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[00:25:20] [INFO] Callback successfully executed.
+[00:25:33] [INFO] query "INSERT INTO `admin_logs` (`account_id`, `description`) VALUES ('1', '86523')" successfully executed within 75.959 milliseconds
+[00:25:36] [INFO] Callback 'DB__LoadAdminLogs' set up for delayed execution.
+[00:25:36] [INFO] query "SELECT `accounts`.name, `admin_logs`.description, `admin_logs`.created_at FROM `admin_logs` JOIN `accounts` ON `admin_logs`.account_id = `accounts`.id ORDER BY created_at DESC LIMIT 25" successfully executed within 1.922 milliseconds
+[00:25:36] [INFO] Executing callback 'DB__LoadAdminLogs' with 1 parameter...
+[00:25:36] [INFO] Callback successfully executed.
