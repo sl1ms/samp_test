@@ -397,3 +397,18 @@
 [18:04:28] [ERROR] error #1054 while executing query "SELECT `accessories_data`.*, `accessories_descriptions`.description, `accessories`.slot1, `accessories`.slot2, `accessories`.slot3, `accessories`.slot4, `accessories`.slot5, `accessories`.slot6, `accessories`.slot7, `accessories`.slot8, `accessories`.slot9, `accessories`.slot10 FROM `accessories_data` JOIN `accessories` ON `accessories_data`.id = `accessories`.slot1 OR `accessories_data`.id = `accessories`.slot2 OR `accessories_data`.id = `accessories`.slot3 OR `accessories_data`.id = `accessories`.slot4 OR `accessories_data`.id = `accessories`.slot5 OR `accessories_data`.id = `accessories`.s": Unknown column 'accessories_descriptions.description' in 'field list' (../src/systems/accessories/accessories.pwn:136 -> ../src/systems/auth/auth.pwn:83)
 [18:04:37] [INFO] query "update `accessories` set `slot1` = '1' where `account_id` = '1'" successfully executed within 0.716 milliseconds
 [18:04:58] [INFO] query "update `accessories` set `slot2` = '3' where `account_id` = '1'" successfully executed within 0.840 milliseconds
+[18:07:40] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[18:07:40] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
+[18:07:40] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 0.999 milliseconds
+[18:07:40] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
+[18:07:40] [INFO] Callback successfully executed.
+[18:08:02] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[18:08:02] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilsond'" successfully executed within 0.788 milliseconds
+[18:08:02] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[18:08:02] [INFO] Callback successfully executed.
+[18:08:05] [INFO] Callback 'DB__CreateAccountDone' set up for delayed execution.
+[18:08:05] [INFO] query "INSERT INTO `accounts` (`name`, `password`) VALUES ('Stas_Wilsond', 'qwerty')" successfully executed within 89.420 milliseconds
+[18:08:05] [INFO] Executing callback 'DB__CreateAccountDone' with 1 parameter...
+[18:08:05] [INFO] Callback successfully executed.
+[18:08:05] [INFO] query "INSERT INTO `accessories` (`account_id`) VALUES ('2')" successfully executed within 383.889 milliseconds
+[18:09:02] [INFO] query "update `accessories` set `slot1` = '1' where `account_id` = '2'" successfully executed within 139.866 milliseconds
