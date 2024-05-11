@@ -1,0 +1,1 @@
+[06:47:27] [plugins/mysql] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> D:\samp\t02\pawno\include\mdialog.inc:380 -> D:\samp\t02\pawno\include\Pawn.CMD.inc:131 -> D:\samp\t02\pawno\include\sscanf2.inc:1065)

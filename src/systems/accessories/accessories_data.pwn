@@ -1,91 +1,66 @@
-#define Accessories:%0(%1)                   ACS_%0(%1)
+#define Accessories:%0(%1)                    ACS__%0(%1)
 
-#define MAX_ACCESSORIES                     8
-#define MAX_MY_ACCESSORIES                  MAX_PLAYER_ATTACHED_OBJECTS
-
-
-
-#define DB_ACCESSORIES                      "`accessories`"
 #define DB_ACCESSORIES_DATA                 "`accessories_data`"
-#define DB_ACCESSORIES_DESCRIPTION          "`accessories_descriptions`"
+#define DB_ACCOUNTS_ACCESSORIES             "`account_accessories`"
+#define DB_ACCOUNT_ACCESSORY                "`account_accessory`"
 
-#define GetPlayerAccSlot(%0,%1,%2)          g_player_accessory[%0][%1][%2]
-#define SetPlayerAccSlot(%0,%1,%2,%3)       g_player_accessory[%0][%1][%2] = %3
+#define MAX_ACCESSORIES                     (10)
+#define MAX_PLAYER_ACCESSORIES              MAX_PLAYER_ATTACHED_OBJECTS        
 
-#define INVALID_ACC_INDEX                   -1
+#define SetAccessoryData(%0,%1,%2)          g_accessory_data[%0][%1] = %2
+#define GetAccessoryData(%0,%1)             g_accessory_data[%0][%1]
+#define SetPlayerAccessoryData(%0,%2,%3,%1) g_player_accessory_data[%0][%1][%2] = %3
+#define GetPlayerAccessoryData(%0,%2,%1)    g_player_accessory_data[%0][%1][%2]
 
-enum E_PLAYER_ACC_STRUCT
-{
-    bool: E_PA_USED,
-    E_PA_SQL_ID,
-    E_PA_TYPE,
-    E_PA_MODEL,
-    E_PA_EXTRA,
-    E_PA_SLOT,
-    E_PA_BONE,
-    Float: E_PA_OFFSET_X,
-	Float: E_PA_OFFSET_Y,
-	Float: E_PA_OFFSET_Z,
-	Float: E_PA_ROT_X,
-	Float: E_PA_ROT_Y,
-	Float: E_PA_ROT_Z,
-	Float: E_PA_SCALE_X,
-	Float: E_PA_SCALE_Y,
-	Float: E_PA_SCALE_Z,
-    E_PA_MATCOLOR_1,
-    E_PA_MATCOLOR_2
-};
-
-new g_player_accessory[MAX_PLAYERS][MAX_PLAYER_ATTACHED_OBJECTS][E_PLAYER_ACC_STRUCT],
-    g_player_accessory_default[E_PLAYER_ACC_STRUCT] =
-{
-    false,              // E_PA_USED
-    INVALID_ACC_INDEX,  // E_PA_SQL_ID
-    0,                  // E_PA_TYPE
-    0,                  // E_PA_MODEL
-    0,                  // E_PA_EXTRA
-    INVALID_ACC_INDEX,  // E_PA_SLOT
-    INVALID_ACC_INDEX,  // E_PA_BONE
-    0.0,                // E_PA_OFFSET_X
-    0.0,                // E_PA_OFFSET_Y
-    0.0,                // E_PA_OFFSET_Z
-    0.0,                // E_PA_ROT_X
-    0.0,                // E_PA_ROT_Y
-    0.0,                // E_PA_ROT_Z
-    0.0,                // E_PA_SCALE_X
-    0.0,                // E_PA_SCALE_Y
-    0.0                 // E_PA_SCALE_Z
-};
-
-enum E_ACCESSORIES_DATA 
+enum E_ACCESSORY
 {
     ACCESSORY_SQL_ID,
     ACCESSORY_NAME[24],
-    ACCESSORY_SLOT, 
-    ACCESSORY_CATEGORY,
-    ACCESSORY_MODEL, 
-    ACCESSORY_BONE, 
-
-    Float: ACCESSORY_OFFSET_X,
-    Float: ACCESSORY_OFFSET_Y,
-    Float: ACCESSORY_OFFSET_Z,
-    Float: ACCESSORY_ROT_X,
-    Float: ACCESSORY_ROT_Y,
-    Float: ACCESSORY_ROT_Z,
-    Float: ACCESSORY_SCALE_X,
-    Float: ACCESSORY_SCALE_Y,
-    Float: ACCESSORY_SCALE_Z,
+    ACCESSORY_MODEL,
+    ACCESSORY_BONE,
     
+    Float:ACCESSORY_OFFSET_X,
+    Float:ACCESSORY_OFFSET_Y,
+    Float:ACCESSORY_OFFSET_Z,
+    Float:ACCESSORY_ROT_X,
+    Float:ACCESSORY_ROT_Y,
+    Float:ACCESSORY_ROT_Z,
+    Float:ACCESSORY_SCALE_X,
+    Float:ACCESSORY_SCALE_Y,
+    Float:ACCESSORY_SCALE_Z,
+
     ACCESSORY_MATERIAL_COLOR1,
-    ACCESSORY_MATERIAL_COLOR2,
+    ACCESSORY_MATERIAL_COLOR2
+};
 
-    ACCESSORY_DESCRIPTION[128]
-}
-
- 
-new g_accessories_data[MAX_ACCESSORIES][E_ACCESSORIES_DATA];
+new g_accessory_data[MAX_ACCESSORIES][E_ACCESSORY];
 
 
-new g_temp_accessories_listitem[MAX_PLAYERS][MAX_MY_ACCESSORIES];
+enum E_PLAYER_ACCESSORY 
+{
+    P_ACCESSORY_SQL_ID, 
+    P_ACCESSORY_MODEL,
+    P_ACCESSORY_BONE,
 
-new g_quantity_accessories;
+    Float:P_ACCESSORY_OFFSET_X,
+    Float:P_ACCESSORY_OFFSET_Y,
+    Float:P_ACCESSORY_OFFSET_Z,
+    Float:P_ACCESSORY_ROT_X,
+    Float:P_ACCESSORY_ROT_Y,
+    Float:P_ACCESSORY_ROT_Z,
+    Float:P_ACCESSORY_SCALE_X,
+    Float:P_ACCESSORY_SCALE_Y,
+    Float:P_ACCESSORY_SCALE_Z,
+    
+    P_ACCESSORY_MATERIAL_COLOR1,
+    P_ACCESSORY_MATERIAL_COLOR2
+};
+
+new g_player_accessory_data[MAX_PLAYERS][MAX_PLAYER_ACCESSORIES][E_PLAYER_ACCESSORY];
+
+#define GetPlayerAccessoryUniqueID(%0,%1) g_player_accessory_sql_id[%0][%1]
+#define SetPlayerAccessoryUniqueID(%0,%1,%2) g_player_accessory_sql_id[%0][%1] = %2
+
+new g_player_accessory_sql_id[MAX_PLAYERS][MAX_PLAYER_ACCESSORIES];
+
+new TOTAL_ACCESSORIES = 0;

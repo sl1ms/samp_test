@@ -18,7 +18,7 @@ main()
 
 public OnGameModeInit()
 {
-	Accessories:LoadDataInfo();
+	Accessories:LoadData();
 
 	SetGameModeText("Blank Script");
     AddPlayerClass(0, 0.0, 0.0, 0.0, 0.0, 0, 0, 0, 0, 0, 0);
@@ -47,7 +47,7 @@ public OnPlayerConnect(playerid)
 {
 	Auth:CheckAccount(playerid);
 	
-	for(new i; i < MAX_MY_ACCESSORIES; i++) {
+	for(new i; i < MAX_PLAYER_ACCESSORIES; i++) {
 		g_player_accessory_sql_id[playerid][i] = -1;
 	}
 	return 1;
@@ -61,7 +61,7 @@ public OnPlayerDisconnect(playerid, reason)
 public OnPlayerSpawn(playerid)
 {
 	SetPlayerPos(playerid, 2447.8909,-1965.0574,13.5469);
-	Accessories:Update(playerid);
+	//Accessories:Update(playerid);
 	return 1;
 }
 
@@ -223,7 +223,7 @@ public OnPlayerClickPlayer(playerid, clickedplayerid, source)
 
 public OnPlayerEditAttachedObject(playerid, response, index, modelid, boneid, Float:fOffsetX, Float:fOffsetY, Float:fOffsetZ, Float:fRotX, Float:fRotY, Float:fRotZ, Float:fScaleX, Float:fScaleY, Float:fScaleZ)
 {
-	Accessories:EditAttachedObject(playerid, response, index, modelid, boneid, fOffsetX, fOffsetY, fOffsetZ, fRotX, fRotY, fRotZ, fScaleX, fScaleY, fScaleZ);
+	//Accessories:EditAttachedObject(playerid, response, index, modelid, boneid, fOffsetX, fOffsetY, fOffsetZ, fRotX, fRotY, fRotZ, fScaleX, fScaleY, fScaleZ);
     return 1;
 }
 

@@ -115,7 +115,7 @@ public: Database:CreateAccountDone(playerid)
     format
     (
         query, sizeof query,
-        "INSERT INTO "DB_ACCESSORIES" (`account_id`) VALUES ('%d')",
+        "INSERT INTO "DB_ACCOUNTS_ACCESSORIES" (`account_id`) VALUES ('%d')",
         GetPlayerData(playerid, PLAYER_ID)
     );
 

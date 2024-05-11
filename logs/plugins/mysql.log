@@ -54,3 +54,148 @@
 [00:25:36] [INFO] query "SELECT `accounts`.name, `admin_logs`.description, `admin_logs`.created_at FROM `admin_logs` JOIN `accounts` ON `admin_logs`.account_id = `accounts`.id ORDER BY created_at DESC LIMIT 25" successfully executed within 1.922 milliseconds
 [00:25:36] [INFO] Executing callback 'DB__LoadAdminLogs' with 1 parameter...
 [00:25:36] [INFO] Callback successfully executed.
+[00:51:50] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[00:51:50] [INFO] Callback 'DB__LoadAccessoriesData' set up for delayed execution.
+[00:51:50] [INFO] query "SELECT `accessories_data`.*, `accessories_descriptions`.description FROM `accessories_data` JOIN `accessories_descriptions` ON `accessories_data`.description_id = `accessories_descriptions`.id" successfully executed within 9.903 milliseconds
+[00:51:50] [INFO] Executing callback 'DB__LoadAccessoriesData' with 0 parameter...
+[00:51:50] [INFO] Callback successfully executed.
+[00:52:21] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[00:52:21] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 1.415 milliseconds
+[00:52:21] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[00:52:21] [INFO] Callback successfully executed.
+[00:52:26] [INFO] Callback 'DB__CreateAccountDone' set up for delayed execution.
+[00:52:26] [INFO] query "INSERT INTO `accounts` (`name`, `password`) VALUES ('Stas_Wilson', 'qwerty')" successfully executed within 304.786 milliseconds
+[00:52:26] [INFO] Executing callback 'DB__CreateAccountDone' with 1 parameter...
+[00:52:26] [INFO] Callback successfully executed.
+[00:52:27] [INFO] query "INSERT INTO `accessories` (`account_id`) VALUES ('1')" successfully executed within 864.734 milliseconds
+[00:52:50] [INFO] query "INSERT INTO `admin_logs` (`account_id`, `description`) VALUES ('1', 'test test')" successfully executed within 82.48 milliseconds
+[00:53:09] [INFO] Callback 'DB__LoadAdminLogs' set up for delayed execution.
+[00:53:09] [INFO] query "SELECT `accounts`.name, `admin_logs`.description, `admin_logs`.created_at FROM `admin_logs` JOIN `accounts` ON `admin_logs`.account_id = `accounts`.id ORDER BY created_at DESC LIMIT 25" successfully executed within 2.327 milliseconds
+[00:53:09] [INFO] Executing callback 'DB__LoadAdminLogs' with 1 parameter...
+[00:53:09] [INFO] Callback successfully executed.
+[00:55:05] [INFO] query "INSERT INTO `admin_logs` (`account_id`, `description`) VALUES ('1', 'DROP DATABASE')" successfully executed within 59.116 milliseconds
+[16:28:41] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[16:29:29] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[16:29:29] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 1.345 milliseconds
+[16:29:29] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[16:29:29] [INFO] Callback successfully executed.
+[16:29:33] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[16:29:33] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.482 milliseconds
+[16:29:33] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[16:29:33] [INFO] Callback successfully executed.
+[16:30:46] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[16:34:11] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[16:34:11] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[16:34:11] [INFO] query "SELECT * FROM `accessories_data` WHERE 1" successfully executed within 0.823 milliseconds
+[16:34:11] [INFO] Executing callback 'DB__LoadAccessoryData' with 0 parameter...
+[16:34:11] [INFO] Callback successfully executed.
+[16:34:45] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[16:34:45] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[16:34:45] [INFO] query "SELECT * FROM `accessories_data` WHERE 1" successfully executed within 1.136 milliseconds
+[16:34:45] [INFO] Executing callback 'DB__LoadAccessoryData' with 0 parameter...
+[16:34:45] [INFO] Callback successfully executed.
+[16:34:50] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[16:34:50] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 1.208 milliseconds
+[16:34:50] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[16:34:50] [INFO] Callback successfully executed.
+[16:34:52] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[16:34:52] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.151 milliseconds
+[16:34:52] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[16:34:52] [INFO] Callback successfully executed.
+[06:09:17] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[06:09:48] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[06:09:48] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[06:09:48] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[06:09:48] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[06:09:48] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[06:09:48] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[06:09:56] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[06:09:56] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[06:09:56] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[06:09:56] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[06:09:56] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[06:09:56] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[06:10:12] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> D:\samp\t02\pawno\include\mdialog.inc:380 -> D:\samp\t02\pawno\include\Pawn.CMD.inc:131 -> D:\samp\t02\pawno\include\sscanf2.inc:1065)
+[06:10:12] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[06:10:12] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[06:10:12] [INFO] query "SELECT * FROM `accessories_data` WHERE 1" successfully executed within 231.619 milliseconds
+[06:10:12] [INFO] Executing callback 'DB__LoadAccessoryData' with 0 parameter...
+[06:10:12] [INFO] Callback successfully executed.
+[06:11:03] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[06:11:03] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 735.511 milliseconds
+[06:11:03] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[06:11:03] [INFO] Callback successfully executed.
+[06:11:08] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[06:11:08] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.984 milliseconds
+[06:11:08] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[06:11:08] [INFO] Callback successfully executed.
+[06:12:09] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> D:\samp\t02\pawno\include\mdialog.inc:380 -> D:\samp\t02\pawno\include\Pawn.CMD.inc:131 -> D:\samp\t02\pawno\include\sscanf2.inc:1065)
+[06:12:09] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[06:12:09] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[06:12:09] [INFO] query "SELECT * FROM `accessories_data` WHERE 1" successfully executed within 0.901 milliseconds
+[06:12:09] [INFO] Executing callback 'DB__LoadAccessoryData' with 0 parameter...
+[06:12:09] [INFO] Callback successfully executed.
+[06:12:31] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[06:12:31] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.685 milliseconds
+[06:12:31] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[06:12:31] [INFO] Callback successfully executed.
+[06:12:36] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[06:12:36] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.518 milliseconds
+[06:12:36] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[06:12:36] [INFO] Callback successfully executed.
+[06:18:42] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> D:\samp\t02\pawno\include\mdialog.inc:380 -> D:\samp\t02\pawno\include\Pawn.CMD.inc:131 -> D:\samp\t02\pawno\include\sscanf2.inc:1065)
+[06:18:43] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[06:18:43] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[06:18:43] [INFO] query "SELECT * FROM `accessories_data` WHERE 1" successfully executed within 1.228 milliseconds
+[06:18:43] [INFO] Executing callback 'DB__LoadAccessoryData' with 0 parameter...
+[06:18:43] [INFO] Callback successfully executed.
+[06:18:46] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[06:18:46] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 1.454 milliseconds
+[06:18:46] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[06:18:46] [INFO] Callback successfully executed.
+[06:18:48] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[06:18:48] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.846 milliseconds
+[06:18:48] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[06:18:48] [INFO] Callback successfully executed.
+[06:21:09] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> D:\samp\t02\pawno\include\mdialog.inc:380 -> D:\samp\t02\pawno\include\Pawn.CMD.inc:131 -> D:\samp\t02\pawno\include\sscanf2.inc:1065)
+[06:21:09] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[06:21:09] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[06:21:09] [INFO] query "SELECT * FROM `accessories_data` WHERE 1" successfully executed within 0.633 milliseconds
+[06:21:09] [INFO] Executing callback 'DB__LoadAccessoryData' with 0 parameter...
+[06:21:09] [INFO] Callback successfully executed.
+[06:21:44] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[06:21:44] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.854 milliseconds
+[06:21:44] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[06:21:44] [INFO] Callback successfully executed.
+[06:21:48] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[06:21:48] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 5.15 milliseconds
+[06:21:48] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[06:21:48] [INFO] Callback successfully executed.
+[06:32:03] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> D:\samp\t02\pawno\include\mdialog.inc:380 -> D:\samp\t02\pawno\include\Pawn.CMD.inc:131 -> D:\samp\t02\pawno\include\sscanf2.inc:1065)
+[06:32:03] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[06:32:03] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[06:32:03] [INFO] query "SELECT * FROM `accessories_data` WHERE 1" successfully executed within 0.796 milliseconds
+[06:32:03] [INFO] Executing callback 'DB__LoadAccessoryData' with 0 parameter...
+[06:32:03] [INFO] Callback successfully executed.
+[06:32:25] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[06:32:25] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.770 milliseconds
+[06:32:25] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[06:32:25] [INFO] Callback successfully executed.
+[06:32:28] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[06:32:28] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 1.732 milliseconds
+[06:32:28] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[06:32:28] [INFO] Callback successfully executed.
+[06:47:27] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> D:\samp\t02\pawno\include\mdialog.inc:380 -> D:\samp\t02\pawno\include\Pawn.CMD.inc:131 -> D:\samp\t02\pawno\include\sscanf2.inc:1065)
+[06:47:27] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[06:47:27] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[06:47:27] [INFO] query "SELECT * FROM `accessories_data` WHERE 1" successfully executed within 1.170 milliseconds
+[06:47:27] [INFO] Executing callback 'DB__LoadAccessoryData' with 0 parameter...
+[06:47:27] [INFO] Callback successfully executed.
+[06:47:51] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[06:47:51] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.782 milliseconds
+[06:47:52] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[06:47:52] [INFO] Callback successfully executed.
+[06:47:56] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[06:47:56] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.975 milliseconds
+[06:47:56] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[06:47:56] [INFO] Callback successfully executed.

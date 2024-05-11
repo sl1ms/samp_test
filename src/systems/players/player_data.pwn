@@ -25,7 +25,3 @@ new g_player_data_default[E_PLAYER_DATA] = {
     false
 };
 
-#define GetPlayerAccessoryUniqueID(%0,%1) g_player_accessory_sql_id[%0][%1]
-#define SetPlayerAccessoryUniqueID(%0,%1,%2) g_player_accessory_sql_id[%0][%1] = %2
-
-new g_player_accessory_sql_id[MAX_PLAYERS][MAX_MY_ACCESSORIES];
