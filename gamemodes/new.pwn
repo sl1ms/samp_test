@@ -18,13 +18,6 @@ main()
 
 public OnGameModeInit()
 {
-	Accessories:LoadData();
-
-	for(new bort_id; bort_id < MAX_CREATE_BORTS; bort_id++)
-    {
-        g_bort_data[bort_id] = g_bort_data_default;
-    }
-
 	SetGameModeText("Blank Script");
     AddPlayerClass(0, 0.0, 0.0, 0.0, 0.0, 0, 0, 0, 0, 0, 0);
 
@@ -52,9 +45,6 @@ public OnPlayerConnect(playerid)
 {
 	Auth:CheckAccount(playerid);
 	
-	for(new i; i < MAX_PLAYER_ACCESSORIES; i++) {
-		g_player_accessory_sql_id[playerid][i] = -1;
-	}
 	return 1;
 }
 

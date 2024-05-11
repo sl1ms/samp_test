@@ -78,8 +78,6 @@ public: Database:LoadPlayerData(playerid)
     if(!rows) return Dialog_Show(playerid, Dialog: D_LOGIN);
 
     cache_get_value_name_int(0, "id", GetPlayerData(playerid, PLAYER_ID));
- 
-    Accessories:LoadPlayerData(playerid);
 
     Auth:LoadPlayerDataDone(playerid);
 
@@ -109,17 +107,6 @@ public: Database:CreateAccount(playerid)
 public: Database:CreateAccountDone(playerid)
 {
     SetPlayerData(playerid, PLAYER_ID, cache_insert_id());
-
-    new query[150];
-    
-    format
-    (
-        query, sizeof query,
-        "INSERT INTO "DB_ACCOUNTS_ACCESSORIES" (`account_id`) VALUES ('%d')",
-        GetPlayerData(playerid, PLAYER_ID)
-    );
-
-    mysql_tquery(mysql, query);
 
     Auth:LoadPlayerDataDone(playerid);
 
