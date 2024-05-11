@@ -7592,3 +7592,72 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [20:03:21] [connection] incoming connection: 127.0.0.1:51521 id: 0
 [20:03:21] [join] Stas_Wilson has joined the server (0:127.0.0.1)
 [20:05:25] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:05:28] 
+[20:05:28] Server Plugins
+[20:05:28] --------------
+[20:05:28]  Loading plugin: crashdetect
+[20:05:28]   CrashDetect plugin 4.21
+[20:05:28]   Loaded.
+[20:05:28]  Loading plugin: sscanf
+[20:05:28] 
+[20:05:28]  ===============================
+[20:05:28] 
+[20:05:28]       sscanf plugin loaded.     
+[20:05:28] 
+[20:05:28]          Version: 2.13.8
+[20:05:28] 
+[20:05:28]    (c) 2022 Alex "Y_Less" Cole  
+[20:05:28] 
+[20:05:28]  ===============================
+[20:05:28] 
+[20:05:28]   Loaded.
+[20:05:28]  Loading plugin: streamer
+[20:05:28] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[20:05:28]   Loaded.
+[20:05:28]  Loading plugin: mysql
+[20:05:28]  >> plugin.mysql: R41-4 successfully loaded.
+[20:05:28]   Loaded.
+[20:05:28]  Loading plugin: pawncmd
+[20:05:28] [Pawn.CMD] plugin v3.4.0 loading...
+[20:05:28] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[20:05:28]   Loaded.
+[20:05:28]  Loaded 5 plugins.
+
+[20:05:29] 
+[20:05:29] Filterscripts
+[20:05:29] ---------------
+[20:05:29]   Loaded 0 filterscripts.
+
+[20:05:29] [MySQL] Подключение к основной базе данных прошло успешно
+[20:05:29] 
+----------------------------------
+[20:05:29]  Blank Gamemode by your name here
+[20:05:29] ----------------------------------
+
+[20:05:29] Number of vehicle models: 0
+[20:05:49] [connection] 127.0.0.1:59216 requests connection cookie.
+[20:05:50] [connection] incoming connection: 127.0.0.1:59216 id: 0
+[20:05:50] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[20:12:40] [part] Stas_Wilson has left the server (0:1)
