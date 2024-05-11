@@ -5024,3 +5024,1522 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [06:32:23] [connection] incoming connection: 127.0.0.1:49896 id: 0
 [06:32:23] [join] Stas_Wilson has joined the server (0:127.0.0.1)
 [06:46:56] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:52:30] 
+[12:52:30] Server Plugins
+[12:52:30] --------------
+[12:52:30]  Loading plugin: crashdetect
+[12:52:30]   CrashDetect plugin 4.21
+[12:52:30]   Loaded.
+[12:52:30]  Loading plugin: sscanf
+[12:52:30] 
+[12:52:30]  ===============================
+[12:52:30] 
+[12:52:30]       sscanf plugin loaded.     
+[12:52:30] 
+[12:52:30]          Version: 2.13.8
+[12:52:30] 
+[12:52:30]    (c) 2022 Alex "Y_Less" Cole  
+[12:52:30] 
+[12:52:30]  ===============================
+[12:52:30] 
+[12:52:30]   Loaded.
+[12:52:30]  Loading plugin: streamer
+[12:52:30] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[12:52:30]   Loaded.
+[12:52:30]  Loading plugin: mysql
+[12:52:30]  >> plugin.mysql: R41-4 successfully loaded.
+[12:52:30]   Loaded.
+[12:52:30]  Loading plugin: pawncmd
+[12:52:30] [Pawn.CMD] plugin v3.4.0 loading...
+[12:52:30] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[12:52:30]   Loaded.
+[12:52:30]  Loaded 5 plugins.
+
+[12:52:30] 
+[12:52:30] Filterscripts
+[12:52:30] ---------------
+[12:52:30]   Loaded 0 filterscripts.
+
+[12:52:30] [MySQL] Подключение к основной базе данных прошло успешно
+[12:52:30] 
+----------------------------------
+[12:52:30]  Blank Gamemode by your name here
+[12:52:30] ----------------------------------
+
+[12:52:30] Number of vehicle models: 0
+[12:53:07] [connection] 127.0.0.1:54952 requests connection cookie.
+[12:53:08] [connection] incoming connection: 127.0.0.1:54952 id: 0
+[12:53:08] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:18:40] 
+[13:18:40] Server Plugins
+[13:18:40] --------------
+[13:18:40]  Loading plugin: crashdetect
+[13:18:40]   CrashDetect plugin 4.21
+[13:18:40]   Loaded.
+[13:18:40]  Loading plugin: sscanf
+[13:18:40] 
+[13:18:40]  ===============================
+[13:18:40] 
+[13:18:40]       sscanf plugin loaded.     
+[13:18:40] 
+[13:18:40]          Version: 2.13.8
+[13:18:40] 
+[13:18:40]    (c) 2022 Alex "Y_Less" Cole  
+[13:18:40] 
+[13:18:40]  ===============================
+[13:18:40] 
+[13:18:40]   Loaded.
+[13:18:40]  Loading plugin: streamer
+[13:18:40] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[13:18:40]   Loaded.
+[13:18:40]  Loading plugin: mysql
+[13:18:40]  >> plugin.mysql: R41-4 successfully loaded.
+[13:18:40]   Loaded.
+[13:18:40]  Loading plugin: pawncmd
+[13:18:40] [Pawn.CMD] plugin v3.4.0 loading...
+[13:18:40] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:18:40]   Loaded.
+[13:18:40]  Loaded 5 plugins.
+
+[13:18:40] 
+[13:18:40] Filterscripts
+[13:18:40] ---------------
+[13:18:40]   Loaded 0 filterscripts.
+
+[13:18:40] [MySQL] Подключение к основной базе данных прошло успешно
+[13:18:40] 
+----------------------------------
+[13:18:40]  Blank Gamemode by your name here
+[13:18:40] ----------------------------------
+
+[13:18:40] Number of vehicle models: 0
+[13:18:52] [connection] 127.0.0.1:49795 requests connection cookie.
+[13:18:53] [connection] incoming connection: 127.0.0.1:49795 id: 0
+[13:18:53] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[13:19:10] [debug] Run time error 4: "Array index out of bounds"
+[13:19:10] [debug]  Attempted to read/write array element at negative index -1
+[13:19:10] [debug] AMX backtrace:
+[13:19:10] [debug] #0 00007270 in public dre_D_BORT_LIST (playerid=0, response=1, listitem=0, inputtext[]=@000bd314 "") at ../src/systems/barrier/barrier_data.pwn:160
+[13:19:10] [debug] #1 native CallLocalFunction () in samp-server.exe
+[13:19:10] [debug] #2 000020b4 in public OnDialogResponse (playerid=0, dialogid=32700, response=1, listitem=0, inputtext[]=@000bd2c8 "") at F:\samp\84323\samp_test\pawno\include\mdialog.inc:664
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:20:54] 
+[13:20:54] Server Plugins
+[13:20:54] --------------
+[13:20:54]  Loading plugin: crashdetect
+[13:20:54]   CrashDetect plugin 4.21
+[13:20:54]   Loaded.
+[13:20:54]  Loading plugin: sscanf
+[13:20:54] 
+[13:20:54]  ===============================
+[13:20:54] 
+[13:20:54]       sscanf plugin loaded.     
+[13:20:54] 
+[13:20:54]          Version: 2.13.8
+[13:20:54] 
+[13:20:54]    (c) 2022 Alex "Y_Less" Cole  
+[13:20:54] 
+[13:20:54]  ===============================
+[13:20:54] 
+[13:20:54]   Loaded.
+[13:20:54]  Loading plugin: streamer
+[13:20:54] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[13:20:54]   Loaded.
+[13:20:54]  Loading plugin: mysql
+[13:20:54]  >> plugin.mysql: R41-4 successfully loaded.
+[13:20:54]   Loaded.
+[13:20:54]  Loading plugin: pawncmd
+[13:20:54] [Pawn.CMD] plugin v3.4.0 loading...
+[13:20:54] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:20:54]   Loaded.
+[13:20:54]  Loaded 5 plugins.
+
+[13:20:54] 
+[13:20:54] Filterscripts
+[13:20:54] ---------------
+[13:20:54]   Loaded 0 filterscripts.
+
+[13:20:54] [MySQL] Подключение к основной базе данных прошло успешно
+[13:20:54] 
+----------------------------------
+[13:20:54]  Blank Gamemode by your name here
+[13:20:54] ----------------------------------
+
+[13:20:54] Number of vehicle models: 0
+[13:21:32] [connection] 127.0.0.1:55139 requests connection cookie.
+[13:21:33] [connection] incoming connection: 127.0.0.1:55139 id: 0
+[13:21:34] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[13:21:44] [debug] Run time error 4: "Array index out of bounds"
+[13:21:44] [debug]  Attempted to read/write array element at negative index -1
+[13:21:44] [debug] AMX backtrace:
+[13:21:44] [debug] #0 00007328 in public dre_D_BORT_LIST (playerid=0, response=1, listitem=0, inputtext[]=@000bd32c "") at ../src/systems/barrier/barrier_data.pwn:162
+[13:21:44] [debug] #1 native CallLocalFunction () in samp-server.exe
+[13:21:44] [debug] #2 000020b4 in public OnDialogResponse (playerid=0, dialogid=32700, response=1, listitem=0, inputtext[]=@000bd2e0 "") at F:\samp\84323\samp_test\pawno\include\mdialog.inc:664
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:38:05] 
+[13:38:05] Server Plugins
+[13:38:05] --------------
+[13:38:05]  Loading plugin: crashdetect
+[13:38:05]   CrashDetect plugin 4.21
+[13:38:05]   Loaded.
+[13:38:05]  Loading plugin: sscanf
+[13:38:05] 
+[13:38:05]  ===============================
+[13:38:05] 
+[13:38:05]       sscanf plugin loaded.     
+[13:38:05] 
+[13:38:05]          Version: 2.13.8
+[13:38:05] 
+[13:38:05]    (c) 2022 Alex "Y_Less" Cole  
+[13:38:05] 
+[13:38:05]  ===============================
+[13:38:05] 
+[13:38:05]   Loaded.
+[13:38:05]  Loading plugin: streamer
+[13:38:05] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[13:38:05]   Loaded.
+[13:38:05]  Loading plugin: mysql
+[13:38:05]  >> plugin.mysql: R41-4 successfully loaded.
+[13:38:05]   Loaded.
+[13:38:05]  Loading plugin: pawncmd
+[13:38:05] [Pawn.CMD] plugin v3.4.0 loading...
+[13:38:05] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:38:05]   Loaded.
+[13:38:05]  Loaded 5 plugins.
+
+[13:38:05] 
+[13:38:05] Filterscripts
+[13:38:05] ---------------
+[13:38:05]   Loaded 0 filterscripts.
+
+[13:38:05] [MySQL] Подключение к основной базе данных прошло успешно
+[13:38:05] 
+----------------------------------
+[13:38:05]  Blank Gamemode by your name here
+[13:38:05] ----------------------------------
+
+[13:38:05] Number of vehicle models: 0
+[13:38:05] [debug] Server crashed due to an unknown error
+[13:38:05] [debug] Native backtrace:
+[13:38:05] [debug] #0 004016eb in ?? () in samp-server.exe
+[13:38:05] [debug] #1 6f0535e9 in ?? () in plugins\mysql.DLL
+[13:38:05] [debug] #2 6f056688 in ?? () in plugins\mysql.DLL
+[13:38:05] [debug] #3 6f03c52e in ?? () in plugins\mysql.DLL
+[13:38:05] [debug] #4 6f03dc7f in ?? () in plugins\mysql.DLL
+[13:38:05] [debug] #5 6f03e3d3 in ?? () in plugins\mysql.DLL
+[13:38:05] [debug] #6 00469a66 in ?? () in samp-server.exe
+[13:38:05] [debug] #7 0048d4db in ?? () in samp-server.exe
+[13:38:05] [debug] #8 0049b4a1 in ?? () in samp-server.exe
+[13:38:05] [debug] #9 0049b4b1 in ?? () in samp-server.exe
+[13:38:05] [debug] Registers:
+[13:38:05] [debug] EAX: 039e2660 EBX: 00000000 ECX: 039f6020 EDX: 00000008
+[13:38:05] [debug] ESI: 00000038 EDI: ffffd8c1 EBP: 0019fd0c ESP: 0019fb90
+[13:38:05] [debug] EIP: 004016eb EFLAGS: 00010246
+[13:38:05] [debug] Stack:
+[13:38:05] [debug] ESP+00000000: 02bb8170 0093aff0 6f037f86 02bb8170
+[13:38:05] [debug] ESP+00000020: 008fdd6c 00000000 0019fce4 6f036e58
+[13:38:05] [debug] ESP+00000040: 00000000 00907373 00000000 008f8a08
+[13:38:05] [debug] ESP+00000060: 00000001 00000063 02bb8170 001a0004
+[13:38:05] [debug] ESP+00000080: 73000034 0098efa0 00000000 0019fd0c
+[13:38:05] [debug] ESP+000000a0: 0093cc50 00000000 00000020 7ffe7000
+[13:38:05] [debug] ESP+000000c0: 00000003 00946604 00000005 0019fc64
+[13:38:05] [debug] ESP+000000e0: 0000007f 02491ae0 55f1ad54 0019fcf0
+[13:38:05] [debug] ESP+00000100: 00ba6794 00a57759 00000000 0000000f
+[13:38:05] [debug] ESP+00000120: 00a57759 00000000 0000000f 0013000a
+[13:38:05] [debug] ESP+00000140: 0000007c 4eedd3dc 0019fd48 6f0633ad
+[13:38:05] [debug] ESP+00000160: 0019fd28 02bb8170 6f06a888 4eedd234
+[13:38:05] [debug] ESP+00000180: 6f0535e9 4eedd26c 6f03c4c0 0094ad88
+[13:38:05] [debug] ESP+000001a0: 00000007 005a0000 00000030 00000000
+[13:38:05] [debug] ESP+000001c0: 00000002 0019fd7c 6f056688 0000047a
+[13:38:05] [debug] ESP+000001e0: 0000002e 0000002f 008fdd68 0019fdb8
+[13:38:05] [debug] ESP+00000200: 0094a800 00000000 008e5448 4c59a6a2
+[13:38:05] [debug] ESP+00000220: 6f063a30 00000001 0019fde8 6f03dc7f
+[13:38:05] [debug] ESP+00000240: 4c59a6a2 00000000 0000000f 00938f10
+[13:38:05] [debug] ESP+00000260: 4eedd128 02499670 02499c3c 00000000
+[13:38:05] [debug] ESP+00000280: 766ad7a0 00469a66 766aea00 766ae9b0
+[13:38:05] [debug] ESP+000002a0: 003e6000 00007d2f 00010101 00000032
+[13:38:05] [debug] ESP+000002c0: 656d6167 65646f6d 00003531 004c4020
+[13:38:05] [debug] ESP+000002e0: 0019ff64 0019ff64 0049d208 004ba2f8
+[13:38:05] [debug] ESP+00000300: 0019ff64 004ab0e1 ffffffff 0049cca6
+[13:38:05] [debug] ESP+00000320: 00000006 00000002 000023f0 00000002
+[13:38:05] [debug] ESP+00000340: 00000000 00000000 00000000 00000000
+[13:38:05] [debug] ESP+00000360: 00000000 00000000 00000000 00000000
+[13:38:05] [debug] ESP+00000380: 00000000 00000000 00000000 00000000
+[13:38:05] [debug] ESP+000003a0: 00000000 00000000 00000000 0049cb52
+[13:38:05] [debug] ESP+000003c0: 00000000 c0000005 00000000 0019feac
+[13:38:05] [debug] ESP+000003e0: 00000000 0019ff84 766a7ba9 003e6000
+[13:38:05] [debug] Loaded modules:
+[13:38:05] [debug] 00400000 - 00519000 samp-server.exe
+[13:38:05] [debug] 771d0000 - 77381000 ntdll.dll
+[13:38:05] [debug] 76690000 - 76780000 KERNEL32.DLL
+[13:38:05] [debug] 74e30000 - 750a5000 KERNELBASE.dll
+[13:38:05] [debug] 769a0000 - 77039000 SHELL32.dll
+[13:38:05] [debug] 765c0000 - 76639000 msvcp_win.dll
+[13:38:05] [debug] 76000000 - 76112000 ucrtbase.dll
+[13:38:05] [debug] 767f0000 - 76999000 USER32.dll
+[13:38:05] [debug] 75240000 - 7525a000 win32u.dll
+[13:38:05] [debug] 750b0000 - 750d3000 GDI32.dll
+[13:38:05] [debug] 76470000 - 76552000 gdi32full.dll
+[13:38:05] [debug] 70ff0000 - 70ff8000 WSOCK32.dll
+[13:38:05] [debug] 6f160000 - 6f191000 WINMM.dll
+[13:38:05] [debug] 75b80000 - 75c44000 msvcrt.dll
+[13:38:05] [debug] 75310000 - 7536f000 ws2_32.DLL
+[13:38:05] [debug] 75ac0000 - 75b7a000 RPCRT4.dll
+[13:38:05] [debug] 77190000 - 771b5000 IMM32.DLL
+[13:38:05] [debug] 6f3c0000 - 6f449000 crashdetect.DLL
+[13:38:05] [debug] 6f340000 - 6f3b1000 MSVCP120.dll
+[13:38:05] [debug] 6f250000 - 6f33e000 MSVCR120.dll
+[13:38:05] [debug] 6f220000 - 6f24a000 sscanf.DLL
+[13:38:05] [debug] 6daa0000 - 6db0d000 MSVCP140.dll
+[13:38:05] [debug] 6db10000 - 6db25000 VCRUNTIME140.dll
+[13:38:05] [debug] 6f1b0000 - 6f216000 streamer.DLL
+[13:38:05] [debug] 6f030000 - 6f07e000 mysql.DLL
+[13:38:05] [debug] 70fd0000 - 70fea000 log-core.dll
+[13:38:05] [debug] 6ef60000 - 6f02d000 libmariadb.dll
+[13:38:05] [debug] 76640000 - 7668b000 SHLWAPI.dll
+[13:38:05] [debug] 75ee0000 - 75fe3000 CRYPT32.dll
+[13:38:05] [debug] 77110000 - 7718f000 ADVAPI32.dll
+[13:38:05] [debug] 751a0000 - 75225000 sechost.dll
+[13:38:05] [debug] 752f0000 - 7530a000 bcrypt.dll
+[13:38:05] [debug] 73930000 - 7393a000 Secur32.dll
+[13:38:05] [debug] 738c0000 - 738eb000 SSPICLI.DLL
+[13:38:05] [debug] 72810000 - 7281b000 CRYPTBASE.DLL
+[13:38:05] [debug] 73810000 - 73823000 kernel.appcore.dll
+[13:38:05] [debug] 6a9d0000 - 6a9e2000 napinsp.dll
+[13:38:05] [debug] 6a9b0000 - 6a9c6000 pnrpnsp.dll
+[13:38:05] [debug] 74d60000 - 74db1000 mswsock.dll
+[13:38:05] [debug] 6f090000 - 6f14d000 DNSAPI.dll
+[13:38:05] [debug] 71030000 - 71054000 IPHLPAPI.DLL
+[13:38:05] [debug] 75ff0000 - 75ff7000 NSI.dll
+[13:38:05] [debug] 6f1a0000 - 6f1ae000 winrnr.dll
+[13:38:05] [debug] 6a990000 - 6a9a1000 wshbth.dll
+[13:38:05] [debug] 6a970000 - 6a988000 nlansp_c.dll
+[13:38:05] [debug] 6ecf0000 - 6ed11000 mdnsNSP.dll
+[13:38:05] [debug] 6f080000 - 6f088000 rasadhlp.dll
+[13:38:05] [debug] 6a8e0000 - 6a969000 pawncmd.DLL
+[13:38:05] [debug] 6ec90000 - 6eced000 fwpuclnt.dll
+[13:38:05] [debug] 75db0000 - 75e12000 bcryptPrimitives.dll
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:38:08] 
+[13:38:08] Server Plugins
+[13:38:08] --------------
+[13:38:08]  Loading plugin: crashdetect
+[13:38:08]   CrashDetect plugin 4.21
+[13:38:08]   Loaded.
+[13:38:08]  Loading plugin: sscanf
+[13:38:08] 
+[13:38:08]  ===============================
+[13:38:08] 
+[13:38:08]       sscanf plugin loaded.     
+[13:38:08] 
+[13:38:08]          Version: 2.13.8
+[13:38:08] 
+[13:38:08]    (c) 2022 Alex "Y_Less" Cole  
+[13:38:08] 
+[13:38:08]  ===============================
+[13:38:08] 
+[13:38:08]   Loaded.
+[13:38:08]  Loading plugin: streamer
+[13:38:08] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[13:38:08]   Loaded.
+[13:38:08]  Loading plugin: mysql
+[13:38:08]  >> plugin.mysql: R41-4 successfully loaded.
+[13:38:08]   Loaded.
+[13:38:08]  Loading plugin: pawncmd
+[13:38:08] [Pawn.CMD] plugin v3.4.0 loading...
+[13:38:08] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:38:08]   Loaded.
+[13:38:08]  Loaded 5 plugins.
+
+[13:38:08] 
+[13:38:08] Filterscripts
+[13:38:08] ---------------
+[13:38:08]   Loaded 0 filterscripts.
+
+[13:38:08] [MySQL] Подключение к основной базе данных прошло успешно
+[13:38:08] 
+----------------------------------
+[13:38:08]  Blank Gamemode by your name here
+[13:38:08] ----------------------------------
+
+[13:38:08] Number of vehicle models: 0
+[13:38:35] [connection] 127.0.0.1:64157 requests connection cookie.
+[13:38:36] [connection] incoming connection: 127.0.0.1:64157 id: 0
+[13:38:37] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[13:39:32] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:39:41] 
+[13:39:41] Server Plugins
+[13:39:41] --------------
+[13:39:41]  Loading plugin: crashdetect
+[13:39:41]   CrashDetect plugin 4.21
+[13:39:41]   Loaded.
+[13:39:41]  Loading plugin: sscanf
+[13:39:41] 
+[13:39:41]  ===============================
+[13:39:41] 
+[13:39:41]       sscanf plugin loaded.     
+[13:39:41] 
+[13:39:41]          Version: 2.13.8
+[13:39:41] 
+[13:39:41]    (c) 2022 Alex "Y_Less" Cole  
+[13:39:41] 
+[13:39:41]  ===============================
+[13:39:41] 
+[13:39:41]   Loaded.
+[13:39:41]  Loading plugin: streamer
+[13:39:41] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[13:39:41]   Loaded.
+[13:39:41]  Loading plugin: mysql
+[13:39:41]  >> plugin.mysql: R41-4 successfully loaded.
+[13:39:41]   Loaded.
+[13:39:41]  Loading plugin: pawncmd
+[13:39:41] [Pawn.CMD] plugin v3.4.0 loading...
+[13:39:41] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:39:41]   Loaded.
+[13:39:41]  Loaded 5 plugins.
+
+[13:39:41] 
+[13:39:41] Filterscripts
+[13:39:41] ---------------
+[13:39:41]   Loaded 0 filterscripts.
+
+[13:39:41] [MySQL] Подключение к основной базе данных прошло успешно
+[13:39:41] 
+----------------------------------
+[13:39:41]  Blank Gamemode by your name here
+[13:39:41] ----------------------------------
+
+[13:39:41] Number of vehicle models: 0
+[13:39:41] [debug] Server crashed due to an unknown error
+[13:39:42] [debug] Native backtrace:
+[13:39:42] [debug] #0 004016eb in ?? () in samp-server.exe
+[13:39:42] [debug] #1 6f0535e9 in ?? () in plugins\mysql.DLL
+[13:39:42] [debug] #2 6f056688 in ?? () in plugins\mysql.DLL
+[13:39:42] [debug] #3 6f03c52e in ?? () in plugins\mysql.DLL
+[13:39:42] [debug] #4 6f03dc7f in ?? () in plugins\mysql.DLL
+[13:39:42] [debug] #5 6f03e3d3 in ?? () in plugins\mysql.DLL
+[13:39:42] [debug] #6 00469a66 in ?? () in samp-server.exe
+[13:39:42] [debug] #7 0048d4db in ?? () in samp-server.exe
+[13:39:42] [debug] #8 0049b4a1 in ?? () in samp-server.exe
+[13:39:42] [debug] #9 0049b4b1 in ?? () in samp-server.exe
+[13:39:42] [debug] Registers:
+[13:39:42] [debug] EAX: 039b9660 EBX: 00000000 ECX: 039cd020 EDX: 00000008
+[13:39:42] [debug] ESI: 00000038 EDI: ffffd8c1 EBP: 0019fd0c ESP: 0019fb90
+[13:39:42] [debug] EIP: 004016eb EFLAGS: 00010246
+[13:39:42] [debug] Stack:
+[13:39:42] [debug] ESP+00000000: 02af8170 00831250 6f037f86 02af8170
+[13:39:42] [debug] ESP+00000020: 007f23b4 00000000 0019fce4 6f036e58
+[13:39:42] [debug] ESP+00000040: 00000000 007f5c73 00000000 007ed928
+[13:39:42] [debug] ESP+00000060: 00000001 00000063 02af8170 00170004
+[13:39:42] [debug] ESP+00000080: 7300007c 008558e8 00000000 0019fd0c
+[13:39:42] [debug] ESP+000000a0: 00828fd0 00000000 00000020 7ffe7000
+[13:39:42] [debug] ESP+000000c0: 00000007 0082e374 00000005 0019fc64
+[13:39:42] [debug] ESP+000000e0: 0000007f 02611ae0 98bbb962 0019fcf0
+[13:39:42] [debug] ESP+00000100: 00ba6794 00872627 00000000 0000000f
+[13:39:42] [debug] ESP+00000120: 00872627 00000000 0000000f 00160009
+[13:39:42] [debug] ESP+00000140: 00000020 8f74c675 0019fd48 6f0633ad
+[13:39:42] [debug] ESP+00000160: 0019fd28 02af8170 6f06a888 8f74c79d
+[13:39:42] [debug] ESP+00000180: 6f0535e9 8f74c7c5 6f03c4c0 0083cdd0
+[13:39:42] [debug] ESP+000001a0: 00000007 005a0000 00000030 00000000
+[13:39:42] [debug] ESP+000001c0: 00000002 0019fd7c 6f056688 0000047a
+[13:39:42] [debug] ESP+000001e0: 0000002e 0000002f 007f23b0 0019fdb8
+[13:39:42] [debug] ESP+00000200: 0083ce00 00000000 007d5418 823cbb02
+[13:39:42] [debug] ESP+00000220: 6f063a30 00000001 0019fde8 6f03dc7f
+[13:39:42] [debug] ESP+00000240: 823cbb02 00000000 0000000f 00828b28
+[13:39:42] [debug] ESP+00000260: 8f74c481 02619670 02619c3c 00000000
+[13:39:42] [debug] ESP+00000280: 766ad7a0 00469a66 766aea00 766ae9b0
+[13:39:42] [debug] ESP+000002a0: 00217000 00007d2f 00010101 00000032
+[13:39:42] [debug] ESP+000002c0: 656d6167 65646f6d 00003531 004c4020
+[13:39:42] [debug] ESP+000002e0: 0019ff64 0019ff64 0049d208 004ba2f8
+[13:39:42] [debug] ESP+00000300: 0019ff64 004ab0e1 ffffffff 0049cca6
+[13:39:42] [debug] ESP+00000320: 00000006 00000002 000023f0 00000002
+[13:39:42] [debug] ESP+00000340: 00000000 00000000 00000000 00000000
+[13:39:42] [debug] ESP+00000360: 00000000 00000000 00000000 00000000
+[13:39:42] [debug] ESP+00000380: 00000000 00000000 00000000 00000000
+[13:39:42] [debug] ESP+000003a0: 00000000 00000000 00000000 0049cb52
+[13:39:42] [debug] ESP+000003c0: 00000000 c0000005 00000000 0019feac
+[13:39:42] [debug] ESP+000003e0: 00000000 0019ff84 766a7ba9 00217000
+[13:39:42] [debug] Loaded modules:
+[13:39:42] [debug] 00400000 - 00519000 samp-server.exe
+[13:39:42] [debug] 771d0000 - 77381000 ntdll.dll
+[13:39:42] [debug] 76690000 - 76780000 KERNEL32.DLL
+[13:39:42] [debug] 74e30000 - 750a5000 KERNELBASE.dll
+[13:39:42] [debug] 769a0000 - 77039000 SHELL32.dll
+[13:39:42] [debug] 765c0000 - 76639000 msvcp_win.dll
+[13:39:42] [debug] 76000000 - 76112000 ucrtbase.dll
+[13:39:42] [debug] 767f0000 - 76999000 USER32.dll
+[13:39:42] [debug] 75240000 - 7525a000 win32u.dll
+[13:39:42] [debug] 750b0000 - 750d3000 GDI32.dll
+[13:39:42] [debug] 76470000 - 76552000 gdi32full.dll
+[13:39:42] [debug] 70ff0000 - 70ff8000 WSOCK32.dll
+[13:39:42] [debug] 75b80000 - 75c44000 msvcrt.dll
+[13:39:42] [debug] 75310000 - 7536f000 WS2_32.dll
+[13:39:42] [debug] 75ac0000 - 75b7a000 RPCRT4.dll
+[13:39:42] [debug] 6f160000 - 6f191000 WINMM.dll
+[13:39:42] [debug] 77190000 - 771b5000 IMM32.DLL
+[13:39:42] [debug] 6f3c0000 - 6f449000 crashdetect.DLL
+[13:39:42] [debug] 6f340000 - 6f3b1000 MSVCP120.dll
+[13:39:42] [debug] 6f250000 - 6f33e000 MSVCR120.dll
+[13:39:42] [debug] 6f220000 - 6f24a000 sscanf.DLL
+[13:39:42] [debug] 6db10000 - 6db25000 VCRUNTIME140.dll
+[13:39:42] [debug] 6daa0000 - 6db0d000 MSVCP140.dll
+[13:39:42] [debug] 6f1b0000 - 6f216000 streamer.DLL
+[13:39:42] [debug] 6f030000 - 6f07e000 mysql.DLL
+[13:39:42] [debug] 70fd0000 - 70fea000 log-core.dll
+[13:39:42] [debug] 6ef60000 - 6f02d000 libmariadb.dll
+[13:39:42] [debug] 76640000 - 7668b000 SHLWAPI.dll
+[13:39:42] [debug] 75ee0000 - 75fe3000 CRYPT32.dll
+[13:39:42] [debug] 77110000 - 7718f000 ADVAPI32.dll
+[13:39:42] [debug] 73930000 - 7393a000 Secur32.dll
+[13:39:42] [debug] 751a0000 - 75225000 sechost.dll
+[13:39:42] [debug] 752f0000 - 7530a000 bcrypt.dll
+[13:39:42] [debug] 738c0000 - 738eb000 SSPICLI.DLL
+[13:39:42] [debug] 72810000 - 7281b000 CRYPTBASE.DLL
+[13:39:42] [debug] 73810000 - 73823000 kernel.appcore.dll
+[13:39:42] [debug] 6a9d0000 - 6a9e2000 napinsp.dll
+[13:39:42] [debug] 6a9b0000 - 6a9c6000 pnrpnsp.dll
+[13:39:42] [debug] 74d60000 - 74db1000 mswsock.dll
+[13:39:42] [debug] 6f090000 - 6f14d000 DNSAPI.dll
+[13:39:42] [debug] 71030000 - 71054000 IPHLPAPI.DLL
+[13:39:42] [debug] 75ff0000 - 75ff7000 NSI.dll
+[13:39:42] [debug] 6f1a0000 - 6f1ae000 winrnr.dll
+[13:39:42] [debug] 6a990000 - 6a9a1000 wshbth.dll
+[13:39:42] [debug] 6a970000 - 6a988000 nlansp_c.dll
+[13:39:42] [debug] 6ecf0000 - 6ed11000 mdnsNSP.dll
+[13:39:42] [debug] 6f080000 - 6f088000 rasadhlp.dll
+[13:39:42] [debug] 6a8e0000 - 6a969000 pawncmd.DLL
+[13:39:42] [debug] 6ec90000 - 6eced000 fwpuclnt.dll
+[13:39:42] [debug] 75db0000 - 75e12000 bcryptPrimitives.dll
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:40:49] 
+[13:40:49] Server Plugins
+[13:40:49] --------------
+[13:40:49]  Loading plugin: crashdetect
+[13:40:49]   CrashDetect plugin 4.21
+[13:40:49]   Loaded.
+[13:40:49]  Loading plugin: sscanf
+[13:40:49] 
+[13:40:49]  ===============================
+[13:40:49] 
+[13:40:49]       sscanf plugin loaded.     
+[13:40:49] 
+[13:40:49]          Version: 2.13.8
+[13:40:49] 
+[13:40:49]    (c) 2022 Alex "Y_Less" Cole  
+[13:40:49] 
+[13:40:49]  ===============================
+[13:40:49] 
+[13:40:49]   Loaded.
+[13:40:49]  Loading plugin: streamer
+[13:40:49] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[13:40:49]   Loaded.
+[13:40:49]  Loading plugin: mysql
+[13:40:49]  >> plugin.mysql: R41-4 successfully loaded.
+[13:40:49]   Loaded.
+[13:40:49]  Loading plugin: pawncmd
+[13:40:49] [Pawn.CMD] plugin v3.4.0 loading...
+[13:40:49] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:40:49]   Loaded.
+[13:40:49]  Loaded 5 plugins.
+
+[13:40:49] 
+[13:40:49] Filterscripts
+[13:40:49] ---------------
+[13:40:49]   Loaded 0 filterscripts.
+
+[13:40:49] [MySQL] Подключение к основной базе данных прошло успешно
+[13:40:49] 
+----------------------------------
+[13:40:49]  Blank Gamemode by your name here
+[13:40:49] ----------------------------------
+
+[13:40:49] Number of vehicle models: 0
+[13:41:01] [connection] 127.0.0.1:60124 requests connection cookie.
+[13:41:02] [connection] incoming connection: 127.0.0.1:60124 id: 0
+[13:41:02] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:43:40] 
+[13:43:40] Server Plugins
+[13:43:40] --------------
+[13:43:40]  Loading plugin: crashdetect
+[13:43:40]   CrashDetect plugin 4.21
+[13:43:40]   Loaded.
+[13:43:40]  Loading plugin: sscanf
+[13:43:40] 
+[13:43:40]  ===============================
+[13:43:40] 
+[13:43:40]       sscanf plugin loaded.     
+[13:43:40] 
+[13:43:40]          Version: 2.13.8
+[13:43:40] 
+[13:43:40]    (c) 2022 Alex "Y_Less" Cole  
+[13:43:40] 
+[13:43:40]  ===============================
+[13:43:40] 
+[13:43:40]   Loaded.
+[13:43:40]  Loading plugin: streamer
+[13:43:40] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[13:43:40]   Loaded.
+[13:43:40]  Loading plugin: mysql
+[13:43:41]  >> plugin.mysql: R41-4 successfully loaded.
+[13:43:41]   Loaded.
+[13:43:41]  Loading plugin: pawncmd
+[13:43:41] [Pawn.CMD] plugin v3.4.0 loading...
+[13:43:41] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:43:41]   Loaded.
+[13:43:41]  Loaded 5 plugins.
+
+[13:43:41] 
+[13:43:41] Filterscripts
+[13:43:41] ---------------
+[13:43:41]   Loaded 0 filterscripts.
+
+[13:43:41] [MySQL] Подключение к основной базе данных прошло успешно
+[13:43:41] 
+----------------------------------
+[13:43:41]  Blank Gamemode by your name here
+[13:43:41] ----------------------------------
+
+[13:43:41] Number of vehicle models: 0
+[13:43:41] [debug] Server crashed due to an unknown error
+[13:43:41] [debug] Native backtrace:
+[13:43:41] [debug] #0 004016eb in ?? () in samp-server.exe
+[13:43:41] [debug] #1 6f0535e9 in ?? () in plugins\mysql.DLL
+[13:43:41] [debug] #2 6f056688 in ?? () in plugins\mysql.DLL
+[13:43:41] [debug] #3 6f03c52e in ?? () in plugins\mysql.DLL
+[13:43:41] [debug] #4 6f03dc7f in ?? () in plugins\mysql.DLL
+[13:43:41] [debug] #5 6f03e3d3 in ?? () in plugins\mysql.DLL
+[13:43:41] [debug] #6 00469a66 in ?? () in samp-server.exe
+[13:43:41] [debug] #7 0048d4db in ?? () in samp-server.exe
+[13:43:41] [debug] #8 0049b4a1 in ?? () in samp-server.exe
+[13:43:41] [debug] #9 0049b4b1 in ?? () in samp-server.exe
+[13:43:41] [debug] Registers:
+[13:43:41] [debug] EAX: 03954660 EBX: 00000000 ECX: 03968020 EDX: 00000008
+[13:43:41] [debug] ESI: 00000038 EDI: ffffd8c1 EBP: 0019fd0c ESP: 0019fb90
+[13:43:41] [debug] EIP: 004016eb EFLAGS: 00010246
+[13:43:41] [debug] Stack:
+[13:43:41] [debug] ESP+00000000: 02b28170 00793e40 6f037f86 02b28170
+[13:43:41] [debug] ESP+00000020: 00752efc 00000000 0019fce4 6f036e58
+[13:43:41] [debug] ESP+00000040: 00000000 00758a73 00000000 0074eac0
+[13:43:41] [debug] ESP+00000060: 00000001 00000063 02b28170 00150004
+[13:43:41] [debug] ESP+00000080: 73000068 007f5380 00000000 0019fd0c
+[13:43:41] [debug] ESP+000000a0: 007878c8 00000000 00000020 7ffe7000
+[13:43:41] [debug] ESP+000000c0: 00000006 0078fd8c 00000005 0019fc64
+[13:43:41] [debug] ESP+000000e0: 0000007f 02461ae0 5cd8158f 0019fcf0
+[13:43:41] [debug] ESP+00000100: 00ba6794 006024c2 00000000 0000000f
+[13:43:41] [debug] ESP+00000120: 006024c2 00000000 0000000f 0019000a
+[13:43:41] [debug] ESP+00000140: 0000003e 47de4eac 0019fd48 6f0633ad
+[13:43:41] [debug] ESP+00000160: 0019fd28 02b28170 6f06a888 47de4f44
+[13:43:41] [debug] ESP+00000180: 6f0535e9 47de4f1c 6f03c4c0 0079f668
+[13:43:41] [debug] ESP+000001a0: 00000007 005a0000 00000030 00000000
+[13:43:41] [debug] ESP+000001c0: 00000002 0019fd7c 6f056688 0000047a
+[13:43:41] [debug] ESP+000001e0: 0000002e 0000002f 00752ef8 0019fdb8
+[13:43:41] [debug] ESP+00000200: 0079f700 00000000 00736e18 45692fa8
+[13:43:41] [debug] ESP+00000220: 6f063a30 00000001 0019fde8 6f03dc7f
+[13:43:41] [debug] ESP+00000240: 45692fa8 00000000 0000000f 0078e770
+[13:43:41] [debug] ESP+00000260: 47de4c58 02469670 02469c3c 00000000
+[13:43:41] [debug] ESP+00000280: 766ad7a0 00469a66 766aea00 766ae9b0
+[13:43:41] [debug] ESP+000002a0: 0029e000 00007d2f 00010101 00000032
+[13:43:41] [debug] ESP+000002c0: 656d6167 65646f6d 00003531 004c4020
+[13:43:41] [debug] ESP+000002e0: 0019ff64 0019ff64 0049d208 004ba2f8
+[13:43:41] [debug] ESP+00000300: 0019ff64 004ab0e1 ffffffff 0049cca6
+[13:43:41] [debug] ESP+00000320: 00000006 00000002 000023f0 00000002
+[13:43:41] [debug] ESP+00000340: 00000000 00000000 00000000 00000000
+[13:43:41] [debug] ESP+00000360: 00000000 00000000 00000000 00000000
+[13:43:41] [debug] ESP+00000380: 00000000 00000000 00000000 00000000
+[13:43:41] [debug] ESP+000003a0: 00000000 00000000 00000000 0049cb52
+[13:43:41] [debug] ESP+000003c0: 00000000 c0000005 00000000 0019feac
+[13:43:41] [debug] ESP+000003e0: 00000000 0019ff84 766a7ba9 0029e000
+[13:43:41] [debug] Loaded modules:
+[13:43:41] [debug] 00400000 - 00519000 samp-server.exe
+[13:43:41] [debug] 771d0000 - 77381000 ntdll.dll
+[13:43:41] [debug] 76690000 - 76780000 KERNEL32.DLL
+[13:43:41] [debug] 74e30000 - 750a5000 KERNELBASE.dll
+[13:43:41] [debug] 769a0000 - 77039000 SHELL32.dll
+[13:43:41] [debug] 765c0000 - 76639000 msvcp_win.dll
+[13:43:41] [debug] 76000000 - 76112000 ucrtbase.dll
+[13:43:41] [debug] 767f0000 - 76999000 USER32.dll
+[13:43:41] [debug] 75240000 - 7525a000 win32u.dll
+[13:43:41] [debug] 750b0000 - 750d3000 GDI32.dll
+[13:43:41] [debug] 76470000 - 76552000 gdi32full.dll
+[13:43:41] [debug] 70ff0000 - 70ff8000 WSOCK32.dll
+[13:43:41] [debug] 6f160000 - 6f191000 WINMM.dll
+[13:43:41] [debug] 75b80000 - 75c44000 msvcrt.dll
+[13:43:41] [debug] 75310000 - 7536f000 ws2_32.DLL
+[13:43:41] [debug] 75ac0000 - 75b7a000 RPCRT4.dll
+[13:43:41] [debug] 77190000 - 771b5000 IMM32.DLL
+[13:43:41] [debug] 6f3c0000 - 6f449000 crashdetect.DLL
+[13:43:41] [debug] 6f340000 - 6f3b1000 MSVCP120.dll
+[13:43:41] [debug] 6f250000 - 6f33e000 MSVCR120.dll
+[13:43:41] [debug] 6f220000 - 6f24a000 sscanf.DLL
+[13:43:41] [debug] 6daa0000 - 6db0d000 MSVCP140.dll
+[13:43:41] [debug] 6db10000 - 6db25000 VCRUNTIME140.dll
+[13:43:41] [debug] 6f1b0000 - 6f216000 streamer.DLL
+[13:43:41] [debug] 6f030000 - 6f07e000 mysql.DLL
+[13:43:41] [debug] 70fd0000 - 70fea000 log-core.dll
+[13:43:41] [debug] 6ef60000 - 6f02d000 libmariadb.dll
+[13:43:41] [debug] 76640000 - 7668b000 SHLWAPI.dll
+[13:43:41] [debug] 75ee0000 - 75fe3000 CRYPT32.dll
+[13:43:41] [debug] 77110000 - 7718f000 ADVAPI32.dll
+[13:43:41] [debug] 751a0000 - 75225000 sechost.dll
+[13:43:41] [debug] 752f0000 - 7530a000 bcrypt.dll
+[13:43:41] [debug] 73930000 - 7393a000 Secur32.dll
+[13:43:41] [debug] 738c0000 - 738eb000 SSPICLI.DLL
+[13:43:41] [debug] 72810000 - 7281b000 CRYPTBASE.DLL
+[13:43:41] [debug] 73810000 - 73823000 kernel.appcore.dll
+[13:43:41] [debug] 6a9d0000 - 6a9e2000 napinsp.dll
+[13:43:41] [debug] 6a9b0000 - 6a9c6000 pnrpnsp.dll
+[13:43:41] [debug] 74d60000 - 74db1000 mswsock.dll
+[13:43:41] [debug] 6f090000 - 6f14d000 DNSAPI.dll
+[13:43:41] [debug] 71030000 - 71054000 IPHLPAPI.DLL
+[13:43:41] [debug] 75ff0000 - 75ff7000 NSI.dll
+[13:43:41] [debug] 6f1a0000 - 6f1ae000 winrnr.dll
+[13:43:41] [debug] 6a990000 - 6a9a1000 wshbth.dll
+[13:43:41] [debug] 6a970000 - 6a988000 nlansp_c.dll
+[13:43:41] [debug] 6ecf0000 - 6ed11000 mdnsNSP.dll
+[13:43:41] [debug] 6f080000 - 6f088000 rasadhlp.dll
+[13:43:41] [debug] 6a8e0000 - 6a969000 pawncmd.DLL
+[13:43:41] [debug] 6ec90000 - 6eced000 fwpuclnt.dll
+[13:43:41] [debug] 75db0000 - 75e12000 bcryptPrimitives.dll
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:44:48] 
+[13:44:48] Server Plugins
+[13:44:48] --------------
+[13:44:48]  Loading plugin: crashdetect
+[13:44:48]   CrashDetect plugin 4.21
+[13:44:48]   Loaded.
+[13:44:48]  Loading plugin: sscanf
+[13:44:48] 
+[13:44:48]  ===============================
+[13:44:48] 
+[13:44:48]       sscanf plugin loaded.     
+[13:44:48] 
+[13:44:48]          Version: 2.13.8
+[13:44:48] 
+[13:44:48]    (c) 2022 Alex "Y_Less" Cole  
+[13:44:48] 
+[13:44:48]  ===============================
+[13:44:48] 
+[13:44:48]   Loaded.
+[13:44:48]  Loading plugin: streamer
+[13:44:48] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[13:44:48]   Loaded.
+[13:44:48]  Loading plugin: mysql
+[13:44:48]  >> plugin.mysql: R41-4 successfully loaded.
+[13:44:48]   Loaded.
+[13:44:48]  Loading plugin: pawncmd
+[13:44:48] [Pawn.CMD] plugin v3.4.0 loading...
+[13:44:48] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:44:48]   Loaded.
+[13:44:48]  Loaded 5 plugins.
+
+[13:44:48] 
+[13:44:48] Filterscripts
+[13:44:48] ---------------
+[13:44:48]   Loaded 0 filterscripts.
+
+[13:44:48] [MySQL] Подключение к основной базе данных прошло успешно
+[13:44:48] 
+----------------------------------
+[13:44:48]  Blank Gamemode by your name here
+[13:44:48] ----------------------------------
+
+[13:44:48] Number of vehicle models: 0
+[13:45:00] [connection] 127.0.0.1:55309 requests connection cookie.
+[13:45:01] [connection] incoming connection: 127.0.0.1:55309 id: 0
+[13:45:01] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:49:20] 
+[13:49:20] Server Plugins
+[13:49:20] --------------
+[13:49:20]  Loading plugin: crashdetect
+[13:49:20]   CrashDetect plugin 4.21
+[13:49:20]   Loaded.
+[13:49:20]  Loading plugin: sscanf
+[13:49:20] 
+[13:49:20]  ===============================
+[13:49:20] 
+[13:49:20]       sscanf plugin loaded.     
+[13:49:20] 
+[13:49:20]          Version: 2.13.8
+[13:49:20] 
+[13:49:20]    (c) 2022 Alex "Y_Less" Cole  
+[13:49:20] 
+[13:49:20]  ===============================
+[13:49:20] 
+[13:49:20]   Loaded.
+[13:49:20]  Loading plugin: streamer
+[13:49:20] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[13:49:20]   Loaded.
+[13:49:20]  Loading plugin: mysql
+[13:49:20]  >> plugin.mysql: R41-4 successfully loaded.
+[13:49:20]   Loaded.
+[13:49:20]  Loading plugin: pawncmd
+[13:49:20] [Pawn.CMD] plugin v3.4.0 loading...
+[13:49:20] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:49:20]   Loaded.
+[13:49:20]  Loaded 5 plugins.
+
+[13:49:20] 
+[13:49:20] Filterscripts
+[13:49:20] ---------------
+[13:49:20]   Loaded 0 filterscripts.
+
+[13:49:20] [MySQL] Подключение к основной базе данных прошло успешно
+[13:49:20] 
+----------------------------------
+[13:49:20]  Blank Gamemode by your name here
+[13:49:20] ----------------------------------
+
+[13:49:20] Number of vehicle models: 0
+[13:49:20] [debug] Server crashed due to an unknown error
+[13:49:20] [debug] Native backtrace:
+[13:49:20] [debug] #0 004016eb in ?? () in samp-server.exe
+[13:49:20] [debug] #1 6f0535e9 in ?? () in plugins\mysql.DLL
+[13:49:20] [debug] #2 6f056688 in ?? () in plugins\mysql.DLL
+[13:49:20] [debug] #3 6f03c52e in ?? () in plugins\mysql.DLL
+[13:49:20] [debug] #4 6f03dc7f in ?? () in plugins\mysql.DLL
+[13:49:20] [debug] #5 6f03e3d3 in ?? () in plugins\mysql.DLL
+[13:49:20] [debug] #6 00469a66 in ?? () in samp-server.exe
+[13:49:20] [debug] #7 0048d4db in ?? () in samp-server.exe
+[13:49:20] [debug] #8 0049b4a1 in ?? () in samp-server.exe
+[13:49:20] [debug] #9 0049b4b1 in ?? () in samp-server.exe
+[13:49:20] [debug] Registers:
+[13:49:20] [debug] EAX: 03948660 EBX: 00000000 ECX: 0395c020 EDX: 00000008
+[13:49:20] [debug] ESI: 00000038 EDI: ffffd8c1 EBP: 0019fd0c ESP: 0019fb90
+[13:49:20] [debug] EIP: 004016eb EFLAGS: 00010246
+[13:49:20] [debug] Stack:
+[13:49:20] [debug] ESP+00000000: 02ae8170 006c2dd8 6f037f86 02ae8170
+[13:49:20] [debug] ESP+00000020: 00681d2c 00000000 0019fce4 6f036e58
+[13:49:20] [debug] ESP+00000040: 00000000 00686a73 00000000 0067db30
+[13:49:20] [debug] ESP+00000060: 00000001 00000063 02ae8170 00120004
+[13:49:20] [debug] ESP+00000080: 7300006f 006d1530 00000000 0019fd0c
+[13:49:20] [debug] ESP+000000a0: 006b87a0 00000000 00000020 7ffe7000
+[13:49:20] [debug] ESP+000000c0: 00000002 006c4c2c 00000005 0019fc64
+[13:49:20] [debug] ESP+000000e0: 0000007f 026e1ae0 cb335bce 0019fcf0
+[13:49:20] [debug] ESP+00000100: 00ba6794 005ccafd 00000000 0000000f
+[13:49:20] [debug] ESP+00000120: 005ccafd 00000000 0000000f 000f000a
+[13:49:20] [debug] ESP+00000140: 0000000e d3121a2e 0019fd48 6f0633ad
+[13:49:20] [debug] ESP+00000160: 0019fd28 02ae8170 6f06a888 d3121bc6
+[13:49:20] [debug] ESP+00000180: 6f0535e9 d3121b9e 6f03c4c0 006caff8
+[13:49:20] [debug] ESP+000001a0: 00000007 005a0000 00000030 00000000
+[13:49:20] [debug] ESP+000001c0: 00000002 0019fd7c 6f056688 0000047a
+[13:49:20] [debug] ESP+000001e0: 0000002e 0000002f 00681d28 0019fdb8
+[13:49:20] [debug] ESP+00000200: 006cb000 00000000 00665520 d1a7564e
+[13:49:20] [debug] ESP+00000220: 6f063a30 00000001 0019fde8 6f03dc7f
+[13:49:20] [debug] ESP+00000240: d1a7564e 00000000 0000000f 006b9228
+[13:49:20] [debug] ESP+00000260: d31218da 026e9670 026e9c3c 00000000
+[13:49:20] [debug] ESP+00000280: 766ad7a0 00469a66 766aea00 766ae9b0
+[13:49:20] [debug] ESP+000002a0: 002d2000 00007d2f 00010101 00000032
+[13:49:20] [debug] ESP+000002c0: 656d6167 65646f6d 00003531 004c4020
+[13:49:20] [debug] ESP+000002e0: 0019ff64 0019ff64 0049d208 004ba2f8
+[13:49:20] [debug] ESP+00000300: 0019ff64 004ab0e1 ffffffff 0049cca6
+[13:49:20] [debug] ESP+00000320: 00000006 00000002 000023f0 00000002
+[13:49:20] [debug] ESP+00000340: 00000000 00000000 00000000 00000000
+[13:49:20] [debug] ESP+00000360: 00000000 00000000 00000000 00000000
+[13:49:20] [debug] ESP+00000380: 00000000 00000000 00000000 00000000
+[13:49:20] [debug] ESP+000003a0: 00000000 00000000 00000000 0049cb52
+[13:49:20] [debug] ESP+000003c0: 00000000 c0000005 00000000 0019feac
+[13:49:20] [debug] ESP+000003e0: 00000000 0019ff84 766a7ba9 002d2000
+[13:49:20] [debug] Loaded modules:
+[13:49:20] [debug] 00400000 - 00519000 samp-server.exe
+[13:49:20] [debug] 771d0000 - 77381000 ntdll.dll
+[13:49:20] [debug] 76690000 - 76780000 KERNEL32.DLL
+[13:49:20] [debug] 74e30000 - 750a5000 KERNELBASE.dll
+[13:49:20] [debug] 769a0000 - 77039000 SHELL32.dll
+[13:49:20] [debug] 765c0000 - 76639000 msvcp_win.dll
+[13:49:20] [debug] 76000000 - 76112000 ucrtbase.dll
+[13:49:20] [debug] 767f0000 - 76999000 USER32.dll
+[13:49:20] [debug] 75240000 - 7525a000 win32u.dll
+[13:49:20] [debug] 750b0000 - 750d3000 GDI32.dll
+[13:49:20] [debug] 76470000 - 76552000 gdi32full.dll
+[13:49:20] [debug] 6f160000 - 6f191000 WINMM.dll
+[13:49:20] [debug] 70ff0000 - 70ff8000 WSOCK32.dll
+[13:49:20] [debug] 75b80000 - 75c44000 msvcrt.dll
+[13:49:20] [debug] 75310000 - 7536f000 WS2_32.dll
+[13:49:20] [debug] 75ac0000 - 75b7a000 RPCRT4.dll
+[13:49:20] [debug] 77190000 - 771b5000 IMM32.DLL
+[13:49:20] [debug] 6f3c0000 - 6f449000 crashdetect.DLL
+[13:49:20] [debug] 6f250000 - 6f33e000 MSVCR120.dll
+[13:49:20] [debug] 6f340000 - 6f3b1000 MSVCP120.dll
+[13:49:20] [debug] 6f220000 - 6f24a000 sscanf.DLL
+[13:49:20] [debug] 6daa0000 - 6db0d000 MSVCP140.dll
+[13:49:20] [debug] 6db10000 - 6db25000 VCRUNTIME140.dll
+[13:49:20] [debug] 6f1b0000 - 6f216000 streamer.DLL
+[13:49:20] [debug] 6f030000 - 6f07e000 mysql.DLL
+[13:49:20] [debug] 6ef60000 - 6f02d000 libmariadb.dll
+[13:49:20] [debug] 70fd0000 - 70fea000 log-core.dll
+[13:49:20] [debug] 76640000 - 7668b000 SHLWAPI.dll
+[13:49:20] [debug] 75ee0000 - 75fe3000 CRYPT32.dll
+[13:49:20] [debug] 77110000 - 7718f000 ADVAPI32.dll
+[13:49:20] [debug] 73930000 - 7393a000 Secur32.dll
+[13:49:20] [debug] 751a0000 - 75225000 sechost.dll
+[13:49:20] [debug] 752f0000 - 7530a000 bcrypt.dll
+[13:49:20] [debug] 738c0000 - 738eb000 SSPICLI.DLL
+[13:49:20] [debug] 72810000 - 7281b000 CRYPTBASE.DLL
+[13:49:20] [debug] 73810000 - 73823000 kernel.appcore.dll
+[13:49:20] [debug] 6a9d0000 - 6a9e2000 napinsp.dll
+[13:49:20] [debug] 6a9b0000 - 6a9c6000 pnrpnsp.dll
+[13:49:20] [debug] 74d60000 - 74db1000 mswsock.dll
+[13:49:20] [debug] 6f090000 - 6f14d000 DNSAPI.dll
+[13:49:20] [debug] 71030000 - 71054000 IPHLPAPI.DLL
+[13:49:20] [debug] 75ff0000 - 75ff7000 NSI.dll
+[13:49:20] [debug] 6f1a0000 - 6f1ae000 winrnr.dll
+[13:49:20] [debug] 6a990000 - 6a9a1000 wshbth.dll
+[13:49:20] [debug] 6a970000 - 6a988000 nlansp_c.dll
+[13:49:20] [debug] 6ecf0000 - 6ed11000 mdnsNSP.dll
+[13:49:20] [debug] 6f080000 - 6f088000 rasadhlp.dll
+[13:49:20] [debug] 6a8e0000 - 6a969000 pawncmd.DLL
+[13:49:20] [debug] 6ec90000 - 6eced000 fwpuclnt.dll
+[13:49:20] [debug] 75db0000 - 75e12000 bcryptPrimitives.dll
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:49:24] 
+[13:49:24] Server Plugins
+[13:49:24] --------------
+[13:49:24]  Loading plugin: crashdetect
+[13:49:24]   CrashDetect plugin 4.21
+[13:49:24]   Loaded.
+[13:49:24]  Loading plugin: sscanf
+[13:49:24] 
+[13:49:24]  ===============================
+[13:49:24] 
+[13:49:24]       sscanf plugin loaded.     
+[13:49:24] 
+[13:49:24]          Version: 2.13.8
+[13:49:24] 
+[13:49:24]    (c) 2022 Alex "Y_Less" Cole  
+[13:49:24] 
+[13:49:24]  ===============================
+[13:49:24] 
+[13:49:24]   Loaded.
+[13:49:24]  Loading plugin: streamer
+[13:49:24] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[13:49:24]   Loaded.
+[13:49:24]  Loading plugin: mysql
+[13:49:24]  >> plugin.mysql: R41-4 successfully loaded.
+[13:49:24]   Loaded.
+[13:49:24]  Loading plugin: pawncmd
+[13:49:24] [Pawn.CMD] plugin v3.4.0 loading...
+[13:49:24] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:49:24]   Loaded.
+[13:49:24]  Loaded 5 plugins.
+
+[13:49:24] 
+[13:49:24] Filterscripts
+[13:49:24] ---------------
+[13:49:24]   Loaded 0 filterscripts.
+
+[13:49:24] [MySQL] Подключение к основной базе данных прошло успешно
+[13:49:24] 
+----------------------------------
+[13:49:24]  Blank Gamemode by your name here
+[13:49:24] ----------------------------------
+
+[13:49:24] Number of vehicle models: 0
+[13:49:24] [debug] Server crashed due to an unknown error
+[13:49:24] [debug] Native backtrace:
+[13:49:24] [debug] #0 004016eb in ?? () in samp-server.exe
+[13:49:24] [debug] #1 6f0535e9 in ?? () in plugins\mysql.DLL
+[13:49:24] [debug] #2 6f056688 in ?? () in plugins\mysql.DLL
+[13:49:24] [debug] #3 6f03c52e in ?? () in plugins\mysql.DLL
+[13:49:24] [debug] #4 6f03dc7f in ?? () in plugins\mysql.DLL
+[13:49:24] [debug] #5 6f03e3d3 in ?? () in plugins\mysql.DLL
+[13:49:24] [debug] #6 00469a66 in ?? () in samp-server.exe
+[13:49:24] [debug] #7 0048d4db in ?? () in samp-server.exe
+[13:49:24] [debug] #8 0049b4a1 in ?? () in samp-server.exe
+[13:49:24] [debug] #9 0049b4b1 in ?? () in samp-server.exe
+[13:49:24] [debug] Registers:
+[13:49:24] [debug] EAX: 03977660 EBX: 00000000 ECX: 0398b020 EDX: 00000008
+[13:49:24] [debug] ESI: 00000038 EDI: ffffd8c1 EBP: 0019fd0c ESP: 0019fb90
+[13:49:24] [debug] EIP: 004016eb EFLAGS: 00010246
+[13:49:24] [debug] Stack:
+[13:49:24] [debug] ESP+00000000: 02ad8170 007f1e80 6f037f86 02ad8170
+[13:49:24] [debug] ESP+00000020: 007b133c 00000000 0019fce4 6f036e58
+[13:49:24] [debug] ESP+00000040: 00000000 007b6073 00000000 007ad978
+[13:49:24] [debug] ESP+00000060: 00000001 00000063 02ad8170 00360004
+[13:49:24] [debug] ESP+00000080: 73000046 008002e0 00000000 0019fd0c
+[13:49:24] [debug] ESP+000000a0: 007e85e0 00000000 00000020 7ffe7000
+[13:49:24] [debug] ESP+000000c0: 00000005 007f2894 00000005 0019fc64
+[13:49:24] [debug] ESP+000000e0: 0000007f 024e1ae0 73247e33 0019fcf0
+[13:49:24] [debug] ESP+00000100: 00ba6794 0043cc46 00000000 0000000f
+[13:49:24] [debug] ESP+00000120: 0043cc46 00000000 0000000f 000e000a
+[13:49:24] [debug] ESP+00000140: 0000004c 6a2a1c9b 0019fd48 6f0633ad
+[13:49:24] [debug] ESP+00000160: 0019fd28 02ad8170 6f06a888 6a2a1d73
+[13:49:24] [debug] ESP+00000180: 6f0535e9 6a2a1d2b 6f03c4c0 007fa0b0
+[13:49:24] [debug] ESP+000001a0: 00000007 005b0000 00000030 00000000
+[13:49:24] [debug] ESP+000001c0: 00000002 0019fd7c 6f056688 0000047a
+[13:49:24] [debug] ESP+000001e0: 0000002e 0000002f 007b1338 0019fdb8
+[13:49:24] [debug] ESP+00000200: 007fa200 00000000 00795bd0 689d7dcf
+[13:49:24] [debug] ESP+00000220: 6f063a30 00000001 0019fde8 6f03dc7f
+[13:49:24] [debug] ESP+00000240: 689d7dcf 00000000 0000000f 007e8e88
+[13:49:24] [debug] ESP+00000260: 6a2a1e6f 024e9670 024e9c3c 00000000
+[13:49:24] [debug] ESP+00000280: 766ad7a0 00469a66 766aea00 766ae9b0
+[13:49:24] [debug] ESP+000002a0: 003d1000 00007d2f 00010101 00000032
+[13:49:24] [debug] ESP+000002c0: 656d6167 65646f6d 00003531 004c4020
+[13:49:24] [debug] ESP+000002e0: 0019ff64 0019ff64 0049d208 004ba2f8
+[13:49:24] [debug] ESP+00000300: 0019ff64 004ab0e1 ffffffff 0049cca6
+[13:49:24] [debug] ESP+00000320: 00000006 00000002 000023f0 00000002
+[13:49:24] [debug] ESP+00000340: 00000000 00000000 00000000 00000000
+[13:49:24] [debug] ESP+00000360: 00000000 00000000 00000000 00000000
+[13:49:24] [debug] ESP+00000380: 00000000 00000000 00000000 00000000
+[13:49:24] [debug] ESP+000003a0: 00000000 00000000 00000000 0049cb52
+[13:49:24] [debug] ESP+000003c0: 00000000 c0000005 00000000 0019feac
+[13:49:24] [debug] ESP+000003e0: 00000000 0019ff84 766a7ba9 003d1000
+[13:49:24] [debug] Loaded modules:
+[13:49:24] [debug] 00400000 - 00519000 samp-server.exe
+[13:49:24] [debug] 771d0000 - 77381000 ntdll.dll
+[13:49:24] [debug] 76690000 - 76780000 KERNEL32.DLL
+[13:49:24] [debug] 74e30000 - 750a5000 KERNELBASE.dll
+[13:49:24] [debug] 769a0000 - 77039000 SHELL32.dll
+[13:49:24] [debug] 765c0000 - 76639000 msvcp_win.dll
+[13:49:24] [debug] 76000000 - 76112000 ucrtbase.dll
+[13:49:24] [debug] 767f0000 - 76999000 USER32.dll
+[13:49:24] [debug] 75240000 - 7525a000 win32u.dll
+[13:49:24] [debug] 750b0000 - 750d3000 GDI32.dll
+[13:49:24] [debug] 76470000 - 76552000 gdi32full.dll
+[13:49:24] [debug] 70ff0000 - 70ff8000 WSOCK32.dll
+[13:49:24] [debug] 75b80000 - 75c44000 msvcrt.dll
+[13:49:24] [debug] 75310000 - 7536f000 WS2_32.dll
+[13:49:24] [debug] 75ac0000 - 75b7a000 RPCRT4.dll
+[13:49:24] [debug] 6f160000 - 6f191000 WINMM.dll
+[13:49:24] [debug] 77190000 - 771b5000 IMM32.DLL
+[13:49:24] [debug] 6f3c0000 - 6f449000 crashdetect.DLL
+[13:49:24] [debug] 6f2d0000 - 6f3be000 MSVCR120.dll
+[13:49:24] [debug] 6f250000 - 6f2c1000 MSVCP120.dll
+[13:49:24] [debug] 6f220000 - 6f24a000 sscanf.DLL
+[13:49:24] [debug] 6daa0000 - 6db0d000 MSVCP140.dll
+[13:49:24] [debug] 6db10000 - 6db25000 VCRUNTIME140.dll
+[13:49:24] [debug] 6f1b0000 - 6f216000 streamer.DLL
+[13:49:24] [debug] 6f030000 - 6f07e000 mysql.DLL
+[13:49:24] [debug] 70fd0000 - 70fea000 log-core.dll
+[13:49:24] [debug] 6ef60000 - 6f02d000 libmariadb.dll
+[13:49:24] [debug] 76640000 - 7668b000 SHLWAPI.dll
+[13:49:24] [debug] 75ee0000 - 75fe3000 CRYPT32.dll
+[13:49:24] [debug] 77110000 - 7718f000 ADVAPI32.dll
+[13:49:24] [debug] 751a0000 - 75225000 sechost.dll
+[13:49:24] [debug] 752f0000 - 7530a000 bcrypt.dll
+[13:49:24] [debug] 73930000 - 7393a000 Secur32.dll
+[13:49:24] [debug] 738c0000 - 738eb000 SSPICLI.DLL
+[13:49:24] [debug] 72810000 - 7281b000 CRYPTBASE.DLL
+[13:49:24] [debug] 73810000 - 73823000 kernel.appcore.dll
+[13:49:24] [debug] 6a9d0000 - 6a9e2000 napinsp.dll
+[13:49:24] [debug] 6a9b0000 - 6a9c6000 pnrpnsp.dll
+[13:49:24] [debug] 74d60000 - 74db1000 mswsock.dll
+[13:49:24] [debug] 6f090000 - 6f14d000 DNSAPI.dll
+[13:49:24] [debug] 71030000 - 71054000 IPHLPAPI.DLL
+[13:49:24] [debug] 75ff0000 - 75ff7000 NSI.dll
+[13:49:24] [debug] 6f1a0000 - 6f1ae000 winrnr.dll
+[13:49:24] [debug] 6a990000 - 6a9a1000 wshbth.dll
+[13:49:24] [debug] 6a970000 - 6a988000 nlansp_c.dll
+[13:49:24] [debug] 6ecf0000 - 6ed11000 mdnsNSP.dll
+[13:49:24] [debug] 6f080000 - 6f088000 rasadhlp.dll
+[13:49:24] [debug] 6a8e0000 - 6a969000 pawncmd.DLL
+[13:49:24] [debug] 6ec90000 - 6eced000 fwpuclnt.dll
+[13:49:24] [debug] 75db0000 - 75e12000 bcryptPrimitives.dll
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:49:26] 
+[13:49:26] Server Plugins
+[13:49:26] --------------
+[13:49:26]  Loading plugin: crashdetect
+[13:49:26]   CrashDetect plugin 4.21
+[13:49:26]   Loaded.
+[13:49:26]  Loading plugin: sscanf
+[13:49:26] 
+[13:49:26]  ===============================
+[13:49:26] 
+[13:49:26]       sscanf plugin loaded.     
+[13:49:26] 
+[13:49:26]          Version: 2.13.8
+[13:49:26] 
+[13:49:26]    (c) 2022 Alex "Y_Less" Cole  
+[13:49:26] 
+[13:49:26]  ===============================
+[13:49:26] 
+[13:49:26]   Loaded.
+[13:49:26]  Loading plugin: streamer
+[13:49:26] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[13:49:26]   Loaded.
+[13:49:26]  Loading plugin: mysql
+[13:49:26]  >> plugin.mysql: R41-4 successfully loaded.
+[13:49:26]   Loaded.
+[13:49:26]  Loading plugin: pawncmd
+[13:49:26] [Pawn.CMD] plugin v3.4.0 loading...
+[13:49:26] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:49:26]   Loaded.
+[13:49:26]  Loaded 5 plugins.
+
+[13:49:26] 
+[13:49:26] Filterscripts
+[13:49:26] ---------------
+[13:49:26]   Loaded 0 filterscripts.
+
+[13:49:26] [MySQL] Подключение к основной базе данных прошло успешно
+[13:49:26] 
+----------------------------------
+[13:49:26]  Blank Gamemode by your name here
+[13:49:26] ----------------------------------
+
+[13:49:26] Number of vehicle models: 0
+[13:49:39] [connection] 127.0.0.1:54541 requests connection cookie.
+[13:49:40] [connection] incoming connection: 127.0.0.1:54541 id: 0
+[13:49:40] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+[13:50:23] [part] Stas_Wilson has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:53:25] 
+[13:53:25] Server Plugins
+[13:53:25] --------------
+[13:53:25]  Loading plugin: crashdetect
+[13:53:25]   CrashDetect plugin 4.21
+[13:53:25]   Loaded.
+[13:53:25]  Loading plugin: sscanf
+[13:53:25] 
+[13:53:25]  ===============================
+[13:53:25] 
+[13:53:25]       sscanf plugin loaded.     
+[13:53:25] 
+[13:53:25]          Version: 2.13.8
+[13:53:25] 
+[13:53:25]    (c) 2022 Alex "Y_Less" Cole  
+[13:53:25] 
+[13:53:25]  ===============================
+[13:53:25] 
+[13:53:25]   Loaded.
+[13:53:25]  Loading plugin: streamer
+[13:53:25] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[13:53:25]   Loaded.
+[13:53:25]  Loading plugin: mysql
+[13:53:25]  >> plugin.mysql: R41-4 successfully loaded.
+[13:53:25]   Loaded.
+[13:53:25]  Loading plugin: pawncmd
+[13:53:25] [Pawn.CMD] plugin v3.4.0 loading...
+[13:53:25] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:53:25]   Loaded.
+[13:53:25]  Loaded 5 plugins.
+
+[13:53:25] 
+[13:53:25] Filterscripts
+[13:53:25] ---------------
+[13:53:25]   Loaded 0 filterscripts.
+
+[13:53:25] [MySQL] Подключение к основной базе данных прошло успешно
+[13:53:25] 
+----------------------------------
+[13:53:25]  Blank Gamemode by your name here
+[13:53:25] ----------------------------------
+
+[13:53:25] Number of vehicle models: 0
+[13:53:37] [connection] 127.0.0.1:55705 requests connection cookie.
+[13:53:38] [connection] incoming connection: 127.0.0.1:55705 id: 0
+[13:53:38] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:55:57] 
+[13:55:57] Server Plugins
+[13:55:57] --------------
+[13:55:57]  Loading plugin: crashdetect
+[13:55:57]   CrashDetect plugin 4.21
+[13:55:57]   Loaded.
+[13:55:57]  Loading plugin: sscanf
+[13:55:57] 
+[13:55:57]  ===============================
+[13:55:57] 
+[13:55:57]       sscanf plugin loaded.     
+[13:55:57] 
+[13:55:57]          Version: 2.13.8
+[13:55:57] 
+[13:55:57]    (c) 2022 Alex "Y_Less" Cole  
+[13:55:57] 
+[13:55:57]  ===============================
+[13:55:57] 
+[13:55:57]   Loaded.
+[13:55:57]  Loading plugin: streamer
+[13:55:57] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[13:55:57]   Loaded.
+[13:55:57]  Loading plugin: mysql
+[13:55:57]  >> plugin.mysql: R41-4 successfully loaded.
+[13:55:57]   Loaded.
+[13:55:57]  Loading plugin: pawncmd
+[13:55:57] [Pawn.CMD] plugin v3.4.0 loading...
+[13:55:57] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[13:55:57]   Loaded.
+[13:55:57]  Loaded 5 plugins.
+
+[13:55:57] 
+[13:55:57] Filterscripts
+[13:55:57] ---------------
+[13:55:57]   Loaded 0 filterscripts.
+
+[13:55:57] [MySQL] Подключение к основной базе данных прошло успешно
+[13:55:57] 
+----------------------------------
+[13:55:57]  Blank Gamemode by your name here
+[13:55:57] ----------------------------------
+
+[13:55:57] Number of vehicle models: 0
+[13:56:08] [connection] 127.0.0.1:59224 requests connection cookie.
+[13:56:09] [connection] incoming connection: 127.0.0.1:59224 id: 0
+[13:56:09] [join] Stas_Wilson has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:06:54] 
+[14:06:54] Server Plugins
+[14:06:54] --------------
+[14:06:54]  Loading plugin: crashdetect
+[14:06:54]   CrashDetect plugin 4.21
+[14:06:54]   Loaded.
+[14:06:54]  Loading plugin: sscanf
+[14:06:54] 
+[14:06:54]  ===============================
+[14:06:54] 
+[14:06:54]       sscanf plugin loaded.     
+[14:06:54] 
+[14:06:54]          Version: 2.13.8
+[14:06:54] 
+[14:06:54]    (c) 2022 Alex "Y_Less" Cole  
+[14:06:54] 
+[14:06:54]  ===============================
+[14:06:54] 
+[14:06:54]   Loaded.
+[14:06:54]  Loading plugin: streamer
+[14:06:54] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[14:06:54]   Loaded.
+[14:06:54]  Loading plugin: mysql
+[14:06:54]  >> plugin.mysql: R41-4 successfully loaded.
+[14:06:54]   Loaded.
+[14:06:54]  Loading plugin: pawncmd
+[14:06:54] [Pawn.CMD] plugin v3.4.0 loading...
+[14:06:54] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[14:06:54]   Loaded.
+[14:06:54]  Loaded 5 plugins.
+
+[14:06:54] 
+[14:06:54] Filterscripts
+[14:06:54] ---------------
+[14:06:54]   Loaded 0 filterscripts.
+
+[14:06:54] [MySQL] Подключение к основной базе данных прошло успешно
+[14:06:54] 
+----------------------------------
+[14:06:54]  Blank Gamemode by your name here
+[14:06:54] ----------------------------------
+
+[14:06:54] Number of vehicle models: 0
+[14:06:55] [connection] 127.0.0.1:59409 requests connection cookie.
+[14:06:56] [connection] incoming connection: 127.0.0.1:59409 id: 0
+[14:06:56] [join] Stas_Wilson has joined the server (0:127.0.0.1)

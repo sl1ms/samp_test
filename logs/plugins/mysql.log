@@ -199,3 +199,178 @@
 [06:47:56] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.975 milliseconds
 [06:47:56] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
 [06:47:56] [INFO] Callback successfully executed.
+[12:52:30] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[12:52:30] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[12:52:30] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[12:52:30] [ERROR] error #1146 while executing query "SELECT * FROM `accessories_data` WHERE 1": Table 'u876435.accessories_data' doesn't exist (../src/systems/accessories/accessories.pwn:4 -> new.pwn:23 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[12:52:30] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[12:52:30] [INFO] Executing callback ' n' with 5 parameters...
+[12:52:30] [INFO] Callback successfully executed.
+[12:53:10] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[12:53:10] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 63.385 milliseconds
+[12:53:10] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[12:53:10] [INFO] Callback successfully executed.
+[12:53:11] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[12:53:11] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.434 milliseconds
+[12:53:11] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[12:53:11] [INFO] Callback successfully executed.
+[13:18:40] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:18:40] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[13:18:40] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[13:18:40] [ERROR] error #1146 while executing query "SELECT * FROM `accessories_data` WHERE 1": Table 'u876435.accessories_data' doesn't exist (../src/systems/accessories/accessories.pwn:4 -> new.pwn:23 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:18:40] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[13:18:40] [INFO] Executing callback '+s' with 5 parameters...
+[13:18:40] [INFO] Callback successfully executed.
+[13:18:54] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[13:18:54] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.459 milliseconds
+[13:18:54] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[13:18:54] [INFO] Callback successfully executed.
+[13:18:56] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[13:18:56] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.387 milliseconds
+[13:18:56] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[13:18:56] [INFO] Callback successfully executed.
+[13:20:54] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:20:54] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[13:20:54] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[13:20:54] [ERROR] error #1146 while executing query "SELECT * FROM `accessories_data` WHERE 1": Table 'u876435.accessories_data' doesn't exist (../src/systems/accessories/accessories.pwn:4 -> new.pwn:23 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:20:54] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[13:20:54] [INFO] Executing callback 'rs' with 5 parameters...
+[13:20:54] [INFO] Callback successfully executed.
+[13:21:35] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[13:21:35] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.466 milliseconds
+[13:21:35] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[13:21:35] [INFO] Callback successfully executed.
+[13:21:39] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[13:21:39] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.402 milliseconds
+[13:21:39] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[13:21:39] [INFO] Callback successfully executed.
+[13:38:05] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:38:05] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[13:38:05] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[13:38:05] [ERROR] error #1146 while executing query "SELECT * FROM `accessories_data` WHERE 1": Table 'u876435.accessories_data' doesn't exist (../src/systems/accessories/accessories.pwn:4 -> new.pwn:23 -> ../src/systems/barrier/barrier_data.pwn:389 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:38:05] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[13:38:08] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:38:08] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[13:38:08] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[13:38:08] [ERROR] error #1146 while executing query "SELECT * FROM `accessories_data` WHERE 1": Table 'u876435.accessories_data' doesn't exist (../src/systems/accessories/accessories.pwn:4 -> new.pwn:23 -> ../src/systems/barrier/barrier_data.pwn:389 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:38:08] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[13:38:08] [INFO] Executing callback 'èw' with 5 parameters...
+[13:38:08] [INFO] Callback successfully executed.
+[13:38:38] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[13:38:38] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.431 milliseconds
+[13:38:38] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[13:38:38] [INFO] Callback successfully executed.
+[13:38:42] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[13:38:42] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.431 milliseconds
+[13:38:42] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[13:38:42] [INFO] Callback successfully executed.
+[13:39:41] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:39:41] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[13:39:41] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[13:39:41] [ERROR] error #1146 while executing query "SELECT * FROM `accessories_data` WHERE 1": Table 'u876435.accessories_data' doesn't exist (../src/systems/accessories/accessories.pwn:4 -> new.pwn:23 -> ../src/systems/barrier/barrier_data.pwn:389 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:39:41] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[13:40:49] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:40:49] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[13:40:49] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[13:40:49] [ERROR] error #1146 while executing query "SELECT * FROM `accessories_data` WHERE 1": Table 'u876435.accessories_data' doesn't exist (../src/systems/accessories/accessories.pwn:4 -> new.pwn:23 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:40:49] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[13:40:49] [INFO] Executing callback '¼w' with 5 parameters...
+[13:40:49] [INFO] Callback successfully executed.
+[13:41:04] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[13:41:04] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.467 milliseconds
+[13:41:04] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[13:41:04] [INFO] Callback successfully executed.
+[13:41:08] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[13:41:08] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.418 milliseconds
+[13:41:08] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[13:41:08] [INFO] Callback successfully executed.
+[13:43:41] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:43:41] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[13:43:41] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[13:43:41] [ERROR] error #1146 while executing query "SELECT * FROM `accessories_data` WHERE 1": Table 'u876435.accessories_data' doesn't exist (../src/systems/accessories/accessories.pwn:4 -> new.pwn:23 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:43:41] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[13:44:48] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:44:48] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[13:44:48] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[13:44:48] [ERROR] error #1146 while executing query "SELECT * FROM `accessories_data` WHERE 1": Table 'u876435.accessories_data' doesn't exist (../src/systems/accessories/accessories.pwn:4 -> new.pwn:23 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:44:48] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[13:44:48] [INFO] Executing callback 'àw' with 5 parameters...
+[13:44:48] [INFO] Callback successfully executed.
+[13:45:03] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[13:45:03] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.421 milliseconds
+[13:45:03] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[13:45:03] [INFO] Callback successfully executed.
+[13:45:11] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[13:45:11] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.449 milliseconds
+[13:45:11] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[13:45:11] [INFO] Callback successfully executed.
+[13:49:20] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:49:20] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[13:49:20] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[13:49:20] [ERROR] error #1146 while executing query "SELECT * FROM `accessories_data` WHERE 1": Table 'u876435.accessories_data' doesn't exist (../src/systems/accessories/accessories.pwn:4 -> new.pwn:23 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:49:20] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[13:49:24] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:49:24] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[13:49:24] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[13:49:24] [ERROR] error #1146 while executing query "SELECT * FROM `accessories_data` WHERE 1": Table 'u876435.accessories_data' doesn't exist (../src/systems/accessories/accessories.pwn:4 -> new.pwn:23 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:49:24] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[13:49:26] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:49:26] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[13:49:26] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[13:49:26] [ERROR] error #1146 while executing query "SELECT * FROM `accessories_data` WHERE 1": Table 'u876435.accessories_data' doesn't exist (../src/systems/accessories/accessories.pwn:4 -> new.pwn:23 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:49:26] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[13:49:26] [INFO] Executing callback 'Ñw' with 5 parameters...
+[13:49:26] [INFO] Callback successfully executed.
+[13:49:42] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[13:49:42] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.460 milliseconds
+[13:49:42] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[13:49:42] [INFO] Callback successfully executed.
+[13:49:45] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[13:49:45] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.435 milliseconds
+[13:49:45] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[13:49:45] [INFO] Callback successfully executed.
+[13:53:25] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:53:25] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[13:53:25] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[13:53:25] [ERROR] error #1146 while executing query "SELECT * FROM `accessories_data` WHERE 1": Table 'u876435.accessories_data' doesn't exist (../src/systems/accessories/accessories.pwn:4 -> new.pwn:23 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:53:25] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[13:53:25] [INFO] Executing callback 'x' with 5 parameters...
+[13:53:25] [INFO] Callback successfully executed.
+[13:53:40] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[13:53:40] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.461 milliseconds
+[13:53:40] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[13:53:40] [INFO] Callback successfully executed.
+[13:53:45] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[13:53:45] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.418 milliseconds
+[13:53:45] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[13:53:45] [INFO] Callback successfully executed.
+[13:55:57] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:55:57] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[13:55:57] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[13:55:57] [ERROR] error #1146 while executing query "SELECT * FROM `accessories_data` WHERE 1": Table 'u876435.accessories_data' doesn't exist (../src/systems/accessories/accessories.pwn:4 -> new.pwn:23 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[13:55:57] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[13:55:57] [INFO] Executing callback 'ìw' with 5 parameters...
+[13:55:57] [INFO] Callback successfully executed.
+[13:56:11] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[13:56:11] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.410 milliseconds
+[13:56:11] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[13:56:11] [INFO] Callback successfully executed.
+[13:56:17] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[13:56:17] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.417 milliseconds
+[13:56:17] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[13:56:17] [INFO] Callback successfully executed.
+[14:06:54] [WARNING] mysql_connect_file: no password specified (../src/core/database/database.pwn:4 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[14:06:54] [INFO] changed log level from 'warning, error' to 'info, warning, error'
+[14:06:54] [INFO] Callback 'DB__LoadAccessoryData' set up for delayed execution.
+[14:06:54] [ERROR] error #1146 while executing query "SELECT * FROM `accessories_data` WHERE 1": Table 'u876435.accessories_data' doesn't exist (../src/systems/accessories/accessories.pwn:4 -> new.pwn:23 -> ../src/core/database/database.pwn:23 -> F:\samp\84323\samp_test\pawno\include\mdialog.inc:380 -> F:\samp\84323\samp_test\pawno\include\Pawn.CMD.inc:131 -> F:\samp\84323\samp_test\pawno\include\sscanf2.inc:1065)
+[14:06:54] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[14:06:54] [INFO] Executing callback '`„' with 5 parameters...
+[14:06:54] [INFO] Callback successfully executed.
+[14:06:58] [INFO] Callback 'DB__IsCheckAccount' set up for delayed execution.
+[14:06:58] [INFO] query "SELECT `id` FROM `accounts` WHERE `name` = 'Stas_Wilson'" successfully executed within 0.450 milliseconds
+[14:06:58] [INFO] Executing callback 'DB__IsCheckAccount' with 1 parameter...
+[14:06:58] [INFO] Callback successfully executed.
+[14:07:00] [INFO] Callback 'DB__LoadPlayerData' set up for delayed execution.
+[14:07:00] [INFO] query "SELECT * FROM `accounts` WHERE `name` = 'Stas_Wilson' AND `password` = 'qwerty'" successfully executed within 0.434 milliseconds
+[14:07:00] [INFO] Executing callback 'DB__LoadPlayerData' with 1 parameter...
+[14:07:00] [INFO] Callback successfully executed.

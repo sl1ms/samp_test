@@ -2,12 +2,17 @@
 
 #define c_white             "{FFFFFF}"
 
-new FormatData_2048[2048];
+new 
+    FormatData_144[144],
+    FormatData_2048[2048]
+;
 
 #define MAX_ELEMENTS_ON_PAGE 			16
 #define MAX_PLAYER_LISTITEMS			25
 
 new g_player_listitem[MAX_PLAYERS][MAX_PLAYER_LISTITEMS];
+
+#define SendFormattedMessage(%0,%1,%2,%3) 		format(FormatData_144, sizeof(FormatData_144),%2,%3) && SendClientMessage(%0, %1, FormatData_144)
 
 #define SetPlayerListItem(%0,%1,%2)			    g_player_listitem[%0][%1] = %2
 #define GetPlayerListItem(%0,%1)			    g_player_listitem[%0][%1]

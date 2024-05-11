@@ -4,7 +4,7 @@
 #include <sscanf2>
 #include <Pawn.CMD>
 #include <mdialog>
-
+#include <streamer>
 
 #include  "../src/core/load_modules.pwn"
 
@@ -19,6 +19,11 @@ main()
 public OnGameModeInit()
 {
 	Accessories:LoadData();
+
+	for(new bort_id; bort_id < MAX_CREATE_BORTS; bort_id++)
+    {
+        g_bort_data[bort_id] = g_bort_data_default;
+    }
 
 	SetGameModeText("Blank Script");
     AddPlayerClass(0, 0.0, 0.0, 0.0, 0.0, 0, 0, 0, 0, 0, 0);
